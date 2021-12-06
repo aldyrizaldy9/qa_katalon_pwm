@@ -1,0 +1,1184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="home" time="53.37" tests="2" failures="2" skips="0" errors="0">
+   <testsuite name="home" tests="2" failures="2" errors="0" time="53.37" skips="0" timestamp="2021-11-29 11:25:13" hostname="Owner - aldy-tft" id="Test Suites/home">
+      <properties>
+         <property name="deviceName" value="samsung SM-A205F (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Owner\\Documents\\kerjaan\\KatalonProject\\qa-katalon-maxfund2\\Reports\\20211129_112506\\home\\20211129_112506"/>
+         <property name="logFiles" value="C:\\Users\\Owner\\Documents\\kerjaan\\KatalonProject\\qa-katalon-maxfund2\\Reports\\20211129_112506\\home\\20211129_112506\\appium.log, C:\\Users\\Owner\\Documents\\kerjaan\\KatalonProject\\qa-katalon-maxfund2\\Reports\\20211129_112506\\home\\20211129_112506\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Owner - aldy-tft"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.0&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.0"/>
+         <property name="deviceModel" value="SM-A205F"/>
+         <property name="hostAddress" value="192.168.100.35"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="RR8M40C9AXE"/>
+         <property name="deviceName" value="samsung SM-A205F (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/Mobile/Scenario/Home/001 - Melihat performance portfolio (highlight)" time="28.659" classname="Test Cases/Mobile/Scenario/Home/001 - Melihat performance portfolio (highlight)" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Mobile/Scenario/Home/001 - Melihat performance portfolio (highlight) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to call Test Case 'Test Cases/Mobile/Page/Home/Home' (Root cause: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Mobile/Page/Home/Home' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 001 - Melihat performance portfolio (highlight).run(001 - Melihat performance portfolio (highlight):22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1638159906104.run(TempTestSuite1638159906104.groovy:39)
+Caused by: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 65: The current scope already contains a variable of the name x
+ @ line 65, column 7.
+   		int x = Mobile.getElementLeftPosition(search, 0) + Mobile.getElementWidth(search, 0)/2
+         ^
+
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 66: The current scope already contains a variable of the name y
+ @ line 66, column 7.
+   		int y = Mobile.getElementTopPosition(search, 0) + Mobile.getElementHeight(search, 0)/2
+         ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 001 - Melihat performance portfolio (highlight).run(001 - Melihat performance portfolio (highlight):22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1638159906104.run(TempTestSuite1638159906104.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Mobile/Page/Home/Home' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 18 more
+Caused by: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 65: The current scope already contains a variable of the name x
+ @ line 65, column 7.
+   		int x = Mobile.getElementLeftPosition(search, 0) + Mobile.getElementWidth(search, 0)/2
+         ^
+
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 66: The current scope already contains a variable of the name y
+ @ line 66, column 7.
+   		int y = Mobile.getElementTopPosition(search, 0) + Mobile.getElementHeight(search, 0)/2
+         ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+"/>
+         <system-out><![CDATA[2021-11-29 11:25:13 - [TEST_CASE][FAILED] - Test Cases/Mobile/Scenario/Home/001 - Melihat performance portfolio (highlight): Test Cases/Mobile/Scenario/Home/001 - Melihat performance portfolio (highlight) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to call Test Case 'Test Cases/Mobile/Page/Home/Home' (Root cause: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Mobile/Page/Home/Home' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 001 - Melihat performance portfolio (highlight).run(001 - Melihat performance portfolio (highlight):22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1638159906104.run(TempTestSuite1638159906104.groovy:39)
+Caused by: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 65: The current scope already contains a variable of the name x
+ @ line 65, column 7.
+   		int x = Mobile.getElementLeftPosition(search, 0) + Mobile.getElementWidth(search, 0)/2
+         ^
+
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 66: The current scope already contains a variable of the name y
+ @ line 66, column 7.
+   		int y = Mobile.getElementTopPosition(search, 0) + Mobile.getElementHeight(search, 0)/2
+         ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 001 - Melihat performance portfolio (highlight).run(001 - Melihat performance portfolio (highlight):22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1638159906104.run(TempTestSuite1638159906104.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Mobile/Page/Home/Home' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 18 more
+Caused by: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 65: The current scope already contains a variable of the name x
+ @ line 65, column 7.
+   		int x = Mobile.getElementLeftPosition(search, 0) + Mobile.getElementWidth(search, 0)/2
+         ^
+
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 66: The current scope already contains a variable of the name y
+ @ line 66, column 7.
+   		int y = Mobile.getElementTopPosition(search, 0) + Mobile.getElementHeight(search, 0)/2
+         ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+
+
+2021-11-29 11:25:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Run App/Run App byID"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Run App/Run App byID' successfully
+
+2021-11-29 11:25:14 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Run App/Run App byID: Test Cases/Mobile/Page/Run App/Run App byID
+
+2021-11-29 11:25:14 - [TEST_STEP][PASSED] - startApp.OpenApp.startApplication("id.co.miraeasset.sageclub"): startApp.OpenApp.startApplication is PASSED
+
+2021-11-29 11:25:16 - [MESSAGE][INFO] - Appium server started on port 63,780
+
+2021-11-29 11:25:30 - [MESSAGE][PASSED] - Starting app with application ID: 'id.co.miraeasset.sageclub'
+
+2021-11-29 11:25:30 - [MESSAGE][PASSED] - startApp.OpenApp.startApplication is PASSED
+
+2021-11-29 11:25:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Run App/Run App byID' successfully
+
+2021-11-29 11:25:30 - [TEST_STEP][FAILED] - callTestCase(findTestCase("Mobile/Page/Home/Home"), ["page":"none", "action":"seeperformance"], CONTINUE_ON_FAILURE): Unable to call Test Case 'Test Cases/Mobile/Page/Home/Home' (Root cause: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Mobile/Page/Home/Home' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 001 - Melihat performance portfolio (highlight).run(001 - Melihat performance portfolio (highlight):22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1638159906104.run(TempTestSuite1638159906104.groovy:39)
+Caused by: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 65: The current scope already contains a variable of the name x
+ @ line 65, column 7.
+   		int x = Mobile.getElementLeftPosition(search, 0) + Mobile.getElementWidth(search, 0)/2
+         ^
+
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 66: The current scope already contains a variable of the name y
+ @ line 66, column 7.
+   		int y = Mobile.getElementTopPosition(search, 0) + Mobile.getElementHeight(search, 0)/2
+         ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+
+2021-11-29 11:25:30 - [TEST_CASE][ERROR] - Test Cases/Mobile/Page/Home/Home: Test Cases/Mobile/Page/Home/Home FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 65: The current scope already contains a variable of the name x
+ @ line 65, column 7.
+   		int x = Mobile.getElementLeftPosition(search, 0) + Mobile.getElementWidth(search, 0)/2
+         ^
+
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 66: The current scope already contains a variable of the name y
+ @ line 66, column 7.
+   		int y = Mobile.getElementTopPosition(search, 0) + Mobile.getElementHeight(search, 0)/2
+         ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 001 - Melihat performance portfolio (highlight).run(001 - Melihat performance portfolio (highlight):22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1638159906104.run(TempTestSuite1638159906104.groovy:39)
+
+
+2021-11-29 11:25:30 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/Mobile/Page/Home/Home' (Root cause: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Mobile/Page/Home/Home' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 001 - Melihat performance portfolio (highlight).run(001 - Melihat performance portfolio (highlight):22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1638159906104.run(TempTestSuite1638159906104.groovy:39)
+Caused by: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 65: The current scope already contains a variable of the name x
+ @ line 65, column 7.
+   		int x = Mobile.getElementLeftPosition(search, 0) + Mobile.getElementWidth(search, 0)/2
+         ^
+
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 66: The current scope already contains a variable of the name y
+ @ line 66, column 7.
+   		int y = Mobile.getElementTopPosition(search, 0) + Mobile.getElementHeight(search, 0)/2
+         ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+
+2021-11-29 11:25:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Run App/Terminate App"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Run App/Terminate App' successfully
+
+2021-11-29 11:25:30 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Run App/Terminate App: Test Cases/Mobile/Page/Run App/Terminate App
+
+2021-11-29 11:25:31 - [TEST_STEP][PASSED] - startApp.OpenApp.terminateApplication(): startApp.OpenApp.terminateApplication is PASSED
+
+2021-11-29 11:25:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-11-29 11:25:35 - [MESSAGE][PASSED] - Current device physical width is 720
+
+2021-11-29 11:25:35 - [MESSAGE][PASSED] - Current device physical height is 1423
+
+2021-11-29 11:25:37 - [MESSAGE][PASSED] - Swiped from 360,853 to 360,142
+
+2021-11-29 11:25:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-11-29 11:25:39 - [MESSAGE][PASSED] - Swiped from 360,853 to 360,142
+
+2021-11-29 11:25:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-11-29 11:25:42 - [MESSAGE][PASSED] - startApp.OpenApp.terminateApplication is PASSED
+
+2021-11-29 11:25:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Run App/Terminate App' successfully]]></system-out>
+         <system-err><![CDATA[2021-11-29 11:25:13 - [TEST_CASE][FAILED] - Test Cases/Mobile/Scenario/Home/001 - Melihat performance portfolio (highlight): Test Cases/Mobile/Scenario/Home/001 - Melihat performance portfolio (highlight) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to call Test Case 'Test Cases/Mobile/Page/Home/Home' (Root cause: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Mobile/Page/Home/Home' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 001 - Melihat performance portfolio (highlight).run(001 - Melihat performance portfolio (highlight):22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1638159906104.run(TempTestSuite1638159906104.groovy:39)
+Caused by: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 65: The current scope already contains a variable of the name x
+ @ line 65, column 7.
+   		int x = Mobile.getElementLeftPosition(search, 0) + Mobile.getElementWidth(search, 0)/2
+         ^
+
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 66: The current scope already contains a variable of the name y
+ @ line 66, column 7.
+   		int y = Mobile.getElementTopPosition(search, 0) + Mobile.getElementHeight(search, 0)/2
+         ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 001 - Melihat performance portfolio (highlight).run(001 - Melihat performance portfolio (highlight):22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1638159906104.run(TempTestSuite1638159906104.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Mobile/Page/Home/Home' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 18 more
+Caused by: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 65: The current scope already contains a variable of the name x
+ @ line 65, column 7.
+   		int x = Mobile.getElementLeftPosition(search, 0) + Mobile.getElementWidth(search, 0)/2
+         ^
+
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 66: The current scope already contains a variable of the name y
+ @ line 66, column 7.
+   		int y = Mobile.getElementTopPosition(search, 0) + Mobile.getElementHeight(search, 0)/2
+         ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mobile/Scenario/Home/002 - Melihat ad-hoc statement" time="23.873" classname="Test Cases/Mobile/Scenario/Home/002 - Melihat ad-hoc statement" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Mobile/Scenario/Home/002 - Melihat ad-hoc statement FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to call Test Case 'Test Cases/Mobile/Page/Home/Home' (Root cause: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Mobile/Page/Home/Home' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 002 - Melihat ad-hoc statement.run(002 - Melihat ad-hoc statement:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1638159906104.run(TempTestSuite1638159906104.groovy:39)
+Caused by: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 65: The current scope already contains a variable of the name x
+ @ line 65, column 7.
+   		int x = Mobile.getElementLeftPosition(search, 0) + Mobile.getElementWidth(search, 0)/2
+         ^
+
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 66: The current scope already contains a variable of the name y
+ @ line 66, column 7.
+   		int y = Mobile.getElementTopPosition(search, 0) + Mobile.getElementHeight(search, 0)/2
+         ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 002 - Melihat ad-hoc statement.run(002 - Melihat ad-hoc statement:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1638159906104.run(TempTestSuite1638159906104.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Mobile/Page/Home/Home' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 18 more
+Caused by: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 65: The current scope already contains a variable of the name x
+ @ line 65, column 7.
+   		int x = Mobile.getElementLeftPosition(search, 0) + Mobile.getElementWidth(search, 0)/2
+         ^
+
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 66: The current scope already contains a variable of the name y
+ @ line 66, column 7.
+   		int y = Mobile.getElementTopPosition(search, 0) + Mobile.getElementHeight(search, 0)/2
+         ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+"/>
+         <system-out><![CDATA[2021-11-29 11:25:42 - [TEST_CASE][FAILED] - Test Cases/Mobile/Scenario/Home/002 - Melihat ad-hoc statement: Test Cases/Mobile/Scenario/Home/002 - Melihat ad-hoc statement FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to call Test Case 'Test Cases/Mobile/Page/Home/Home' (Root cause: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Mobile/Page/Home/Home' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 002 - Melihat ad-hoc statement.run(002 - Melihat ad-hoc statement:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1638159906104.run(TempTestSuite1638159906104.groovy:39)
+Caused by: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 65: The current scope already contains a variable of the name x
+ @ line 65, column 7.
+   		int x = Mobile.getElementLeftPosition(search, 0) + Mobile.getElementWidth(search, 0)/2
+         ^
+
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 66: The current scope already contains a variable of the name y
+ @ line 66, column 7.
+   		int y = Mobile.getElementTopPosition(search, 0) + Mobile.getElementHeight(search, 0)/2
+         ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 002 - Melihat ad-hoc statement.run(002 - Melihat ad-hoc statement:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1638159906104.run(TempTestSuite1638159906104.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Mobile/Page/Home/Home' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 18 more
+Caused by: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 65: The current scope already contains a variable of the name x
+ @ line 65, column 7.
+   		int x = Mobile.getElementLeftPosition(search, 0) + Mobile.getElementWidth(search, 0)/2
+         ^
+
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 66: The current scope already contains a variable of the name y
+ @ line 66, column 7.
+   		int y = Mobile.getElementTopPosition(search, 0) + Mobile.getElementHeight(search, 0)/2
+         ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+
+
+2021-11-29 11:25:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Run App/Run App byID"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Run App/Run App byID' successfully
+
+2021-11-29 11:25:42 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Run App/Run App byID: Test Cases/Mobile/Page/Run App/Run App byID
+
+2021-11-29 11:25:42 - [TEST_STEP][PASSED] - startApp.OpenApp.startApplication("id.co.miraeasset.sageclub"): startApp.OpenApp.startApplication is PASSED
+
+2021-11-29 11:25:54 - [MESSAGE][PASSED] - Starting app with application ID: 'id.co.miraeasset.sageclub'
+
+2021-11-29 11:25:54 - [MESSAGE][PASSED] - startApp.OpenApp.startApplication is PASSED
+
+2021-11-29 11:25:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Run App/Run App byID' successfully
+
+2021-11-29 11:25:54 - [TEST_STEP][FAILED] - callTestCase(findTestCase("Mobile/Page/Home/Home"), ["page":"none", "action":"requestadhoc"], CONTINUE_ON_FAILURE): Unable to call Test Case 'Test Cases/Mobile/Page/Home/Home' (Root cause: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Mobile/Page/Home/Home' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 002 - Melihat ad-hoc statement.run(002 - Melihat ad-hoc statement:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1638159906104.run(TempTestSuite1638159906104.groovy:39)
+Caused by: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 65: The current scope already contains a variable of the name x
+ @ line 65, column 7.
+   		int x = Mobile.getElementLeftPosition(search, 0) + Mobile.getElementWidth(search, 0)/2
+         ^
+
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 66: The current scope already contains a variable of the name y
+ @ line 66, column 7.
+   		int y = Mobile.getElementTopPosition(search, 0) + Mobile.getElementHeight(search, 0)/2
+         ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+
+2021-11-29 11:25:54 - [TEST_CASE][ERROR] - Test Cases/Mobile/Page/Home/Home: Test Cases/Mobile/Page/Home/Home FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 65: The current scope already contains a variable of the name x
+ @ line 65, column 7.
+   		int x = Mobile.getElementLeftPosition(search, 0) + Mobile.getElementWidth(search, 0)/2
+         ^
+
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 66: The current scope already contains a variable of the name y
+ @ line 66, column 7.
+   		int y = Mobile.getElementTopPosition(search, 0) + Mobile.getElementHeight(search, 0)/2
+         ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 002 - Melihat ad-hoc statement.run(002 - Melihat ad-hoc statement:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1638159906104.run(TempTestSuite1638159906104.groovy:39)
+
+
+2021-11-29 11:25:54 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/Mobile/Page/Home/Home' (Root cause: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Mobile/Page/Home/Home' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 002 - Melihat ad-hoc statement.run(002 - Melihat ad-hoc statement:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1638159906104.run(TempTestSuite1638159906104.groovy:39)
+Caused by: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 65: The current scope already contains a variable of the name x
+ @ line 65, column 7.
+   		int x = Mobile.getElementLeftPosition(search, 0) + Mobile.getElementWidth(search, 0)/2
+         ^
+
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 66: The current scope already contains a variable of the name y
+ @ line 66, column 7.
+   		int y = Mobile.getElementTopPosition(search, 0) + Mobile.getElementHeight(search, 0)/2
+         ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+
+2021-11-29 11:25:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Run App/Terminate App"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Run App/Terminate App' successfully
+
+2021-11-29 11:25:54 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Run App/Terminate App: Test Cases/Mobile/Page/Run App/Terminate App
+
+2021-11-29 11:25:54 - [TEST_STEP][PASSED] - startApp.OpenApp.terminateApplication(): startApp.OpenApp.terminateApplication is PASSED
+
+2021-11-29 11:25:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-11-29 11:25:59 - [MESSAGE][PASSED] - Current device physical width is 720
+
+2021-11-29 11:25:59 - [MESSAGE][PASSED] - Current device physical height is 1423
+
+2021-11-29 11:26:01 - [MESSAGE][PASSED] - Swiped from 360,853 to 360,142
+
+2021-11-29 11:26:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-11-29 11:26:03 - [MESSAGE][PASSED] - Swiped from 360,853 to 360,142
+
+2021-11-29 11:26:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-11-29 11:26:06 - [MESSAGE][PASSED] - startApp.OpenApp.terminateApplication is PASSED
+
+2021-11-29 11:26:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Run App/Terminate App' successfully]]></system-out>
+         <system-err><![CDATA[2021-11-29 11:25:42 - [TEST_CASE][FAILED] - Test Cases/Mobile/Scenario/Home/002 - Melihat ad-hoc statement: Test Cases/Mobile/Scenario/Home/002 - Melihat ad-hoc statement FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to call Test Case 'Test Cases/Mobile/Page/Home/Home' (Root cause: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Mobile/Page/Home/Home' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 002 - Melihat ad-hoc statement.run(002 - Melihat ad-hoc statement:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1638159906104.run(TempTestSuite1638159906104.groovy:39)
+Caused by: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 65: The current scope already contains a variable of the name x
+ @ line 65, column 7.
+   		int x = Mobile.getElementLeftPosition(search, 0) + Mobile.getElementWidth(search, 0)/2
+         ^
+
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 66: The current scope already contains a variable of the name y
+ @ line 66, column 7.
+   		int y = Mobile.getElementTopPosition(search, 0) + Mobile.getElementHeight(search, 0)/2
+         ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 002 - Melihat ad-hoc statement.run(002 - Melihat ad-hoc statement:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1638159906104.run(TempTestSuite1638159906104.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Mobile/Page/Home/Home' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 18 more
+Caused by: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 65: The current scope already contains a variable of the name x
+ @ line 65, column 7.
+   		int x = Mobile.getElementLeftPosition(search, 0) + Mobile.getElementWidth(search, 0)/2
+         ^
+
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 66: The current scope already contains a variable of the name y
+ @ line 66, column 7.
+   		int y = Mobile.getElementTopPosition(search, 0) + Mobile.getElementHeight(search, 0)/2
+         ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-11-29 11:25:13 - [TEST_SUITE][FAILED] - home: Test Cases/Mobile/Scenario/Home/001 - Melihat performance portfolio (highlight) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to call Test Case 'Test Cases/Mobile/Page/Home/Home' (Root cause: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Mobile/Page/Home/Home' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 001 - Melihat performance portfolio (highlight).run(001 - Melihat performance portfolio (highlight):22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1638159906104.run(TempTestSuite1638159906104.groovy:39)
+Caused by: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 65: The current scope already contains a variable of the name x
+ @ line 65, column 7.
+   		int x = Mobile.getElementLeftPosition(search, 0) + Mobile.getElementWidth(search, 0)/2
+         ^
+
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 66: The current scope already contains a variable of the name y
+ @ line 66, column 7.
+   		int y = Mobile.getElementTopPosition(search, 0) + Mobile.getElementHeight(search, 0)/2
+         ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 001 - Melihat performance portfolio (highlight).run(001 - Melihat performance portfolio (highlight):22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1638159906104.run(TempTestSuite1638159906104.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Mobile/Page/Home/Home' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 18 more
+Caused by: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 65: The current scope already contains a variable of the name x
+ @ line 65, column 7.
+   		int x = Mobile.getElementLeftPosition(search, 0) + Mobile.getElementWidth(search, 0)/2
+         ^
+
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 66: The current scope already contains a variable of the name y
+ @ line 66, column 7.
+   		int y = Mobile.getElementTopPosition(search, 0) + Mobile.getElementHeight(search, 0)/2
+         ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[2021-11-29 11:25:13 - [TEST_SUITE][FAILED] - home: Test Cases/Mobile/Scenario/Home/001 - Melihat performance portfolio (highlight) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to call Test Case 'Test Cases/Mobile/Page/Home/Home' (Root cause: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Mobile/Page/Home/Home' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 001 - Melihat performance portfolio (highlight).run(001 - Melihat performance portfolio (highlight):22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1638159906104.run(TempTestSuite1638159906104.groovy:39)
+Caused by: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 65: The current scope already contains a variable of the name x
+ @ line 65, column 7.
+   		int x = Mobile.getElementLeftPosition(search, 0) + Mobile.getElementWidth(search, 0)/2
+         ^
+
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 66: The current scope already contains a variable of the name y
+ @ line 66, column 7.
+   		int y = Mobile.getElementTopPosition(search, 0) + Mobile.getElementHeight(search, 0)/2
+         ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 001 - Melihat performance portfolio (highlight).run(001 - Melihat performance portfolio (highlight):22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1638159906104.run(TempTestSuite1638159906104.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Mobile/Page/Home/Home' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 18 more
+Caused by: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 65: The current scope already contains a variable of the name x
+ @ line 65, column 7.
+   		int x = Mobile.getElementLeftPosition(search, 0) + Mobile.getElementWidth(search, 0)/2
+         ^
+
+file:/C:/Users/Owner/Documents/kerjaan/KatalonProject/qa-katalon-maxfund2/Scripts/Mobile/Page/Home/Home/Script1637894711634.groovy: 66: The current scope already contains a variable of the name y
+ @ line 66, column 7.
+   		int y = Mobile.getElementTopPosition(search, 0) + Mobile.getElementHeight(search, 0)/2
+         ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

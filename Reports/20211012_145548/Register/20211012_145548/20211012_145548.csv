@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Register,,,,2021-10-12 14:55:56,2021-10-12 15:12:58,17m - 1.231s,FAILED
+,,,,,,,
+Test Cases/Mobile/Scenario/Register/002 - Registrasi akun baru dengan alamat sesuai KTP,,,,2021-10-12 14:55:57,2021-10-12 14:58:54,2m - 57.375s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-10-12 14:55:57,2021-10-12 14:56:14,16.814s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Register/Register""), [""isFromLoginPage"":0, ""isRegistered"":0, ""isBedaAlamat"":0, ""isUseSignature"":1, ""isUseReferralCode"":0], STOP_ON_FAILURE)",,,,2021-10-12 14:56:14,2021-10-12 14:58:54,2m - 40.271s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Register/003 - Registrasi akun baru dengan alamat berbeda dengan KTP,,,,2021-10-12 14:58:54,2021-10-12 15:02:31,3m - 36.808s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-10-12 14:58:55,2021-10-12 14:59:08,13.321s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Register/Register""), [""isFromLoginPage"":0, ""isRegistered"":0, ""isBedaAlamat"":1, ""isUseSignature"":1, ""isUseReferralCode"":0], STOP_ON_FAILURE)",,,,2021-10-12 14:59:08,2021-10-12 15:02:31,3m - 23.268s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Register/004 - Registrasi akun baru dengan alamat sesuai KTP menggunakan Refferal Code,,,,2021-10-12 15:02:31,2021-10-12 15:05:28,2m - 57.206s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-10-12 15:02:31,2021-10-12 15:02:43,11.246s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Register/Register""), [""isFromLoginPage"":0, ""isRegistered"":0, ""isBedaAlamat"":0, ""isUseSignature"":1, ""isUseReferralCode"":1], STOP_ON_FAILURE)",,,,2021-10-12 15:02:43,2021-10-12 15:05:28,2m - 45.750s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Register/005 - Registrasi akun baru dengan alamat berbeda dengan KTP menggunakan Refferal Code,,,,2021-10-12 15:05:28,2021-10-12 15:09:09,3m - 40.756s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-10-12 15:05:29,2021-10-12 15:05:40,11.704s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Register/Register""), [""isFromLoginPage"":0, ""isRegistered"":0, ""isBedaAlamat"":1, ""isUseSignature"":1, ""isUseReferralCode"":1], STOP_ON_FAILURE)",,,,2021-10-12 15:05:40,2021-10-12 15:09:09,3m - 28.822s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Register/006 - Registrasi akun baru dengan alamat sesuai KTP dan tidak mengisi kolom signature,,,,2021-10-12 15:09:09,2021-10-12 15:12:58,3m - 48.424s,FAILED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-10-12 15:09:09,2021-10-12 15:09:22,12.416s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Register/Register""), [""isFromLoginPage"":0, ""isRegistered"":0, ""isBedaAlamat"":0, ""isUseSignature"":0, ""isUseReferralCode"":0], STOP_ON_FAILURE)",,,,2021-10-12 15:09:22,2021-10-12 15:12:58,3m - 35.799s,FAILED

@@ -1,0 +1,66 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Register,,,,2021-10-29 14:55:12,2021-10-29 15:30:27,35m - 15.449s,FAILED
+,,,,,,,
+Test Cases/Mobile/Scenario/Register/001 - Registrasi dengan Akun Terdaftar,,,,2021-10-29 14:55:13,2021-10-29 14:57:15,2m - 1.860s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-10-29 14:55:13,2021-10-29 14:55:31,18.023s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Register/Register""), [""isFromLoginPage"":0, ""isRegistered"":1, ""negativeStatus"":""none""], STOP_ON_FAILURE)",,,,2021-10-29 14:55:31,2021-10-29 14:57:04,1m - 33.025s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2021-10-29 14:57:04,2021-10-29 14:57:15,10.446s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Register/002 - Registrasi akun baru dengan alamat sesuai KTP,,,,2021-10-29 14:57:15,2021-10-29 15:00:55,3m - 40.058s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-10-29 14:57:15,2021-10-29 14:57:27,12.428s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Register/Register""), [""isFromLoginPage"":0, ""isRegistered"":0, ""isBedaAlamat"":0, ""isUseReferralCode"":0, ""negativeStatus"":""none""], STOP_ON_FAILURE)",,,,2021-10-29 14:57:27,2021-10-29 15:00:45,3m - 17.221s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2021-10-29 15:00:45,2021-10-29 15:00:55,10.112s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Register/003 - Registrasi akun baru dengan alamat berbeda dengan KTP,,,,2021-10-29 15:00:55,2021-10-29 15:05:11,4m - 16.536s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-10-29 15:00:55,2021-10-29 15:01:08,12.957s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Register/Register""), [""isFromLoginPage"":0, ""isRegistered"":0, ""isBedaAlamat"":1, ""isUseReferralCode"":0, ""negativeStatus"":""none""], STOP_ON_FAILURE)",,,,2021-10-29 15:01:08,2021-10-29 15:05:01,3m - 53.292s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2021-10-29 15:05:01,2021-10-29 15:05:11,10.001s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Register/004 - Registrasi akun baru dengan alamat sesuai KTP menggunakan Refferal Code,,,,2021-10-29 15:05:11,2021-10-29 15:09:05,3m - 53.793s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-10-29 15:05:12,2021-10-29 15:05:27,15.730s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Register/Register""), [""isFromLoginPage"":0, ""isRegistered"":0, ""isBedaAlamat"":0, ""isUseReferralCode"":1, ""negativeStatus"":""none""], STOP_ON_FAILURE)",,,,2021-10-29 15:05:27,2021-10-29 15:08:55,3m - 27.732s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2021-10-29 15:08:55,2021-10-29 15:09:05,10.048s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Register/005 - Registrasi akun baru dengan alamat berbeda dengan KTP menggunakan Refferal Code,,,,2021-10-29 15:09:05,2021-10-29 15:13:32,4m - 27.313s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-10-29 15:09:05,2021-10-29 15:09:18,12.639s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Register/Register""), [""isFromLoginPage"":0, ""isRegistered"":0, ""isBedaAlamat"":1, ""isUseReferralCode"":1, ""negativeStatus"":""none""], STOP_ON_FAILURE)",,,,2021-10-29 15:09:18,2021-10-29 15:13:22,4m - 4.368s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2021-10-29 15:13:22,2021-10-29 15:13:32,10.043s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Register/006 - Registrasi akun baru dengan alamat sesuai KTP dan tidak mengisi kolom signature,,,,2021-10-29 15:13:32,2021-10-29 15:17:00,3m - 27.932s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-10-29 15:13:33,2021-10-29 15:13:44,11.822s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Register/Register""), [""isFromLoginPage"":0, ""isRegistered"":0, ""isBedaAlamat"":0, ""isUseReferralCode"":0, ""negativeStatus"":""noSignature""], STOP_ON_FAILURE)",,,,2021-10-29 15:13:44,2021-10-29 15:16:50,3m - 5.706s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2021-10-29 15:16:50,2021-10-29 15:17:00,10.145s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Register/007 - Registrasi melalui Link Daftar di sini,,,,2021-10-29 15:17:00,2021-10-29 15:20:40,3m - 40.100s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-10-29 15:17:01,2021-10-29 15:17:15,14.293s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Register/Register""), [""isFromLoginPage"":1, ""isRegistered"":0, ""isBedaAlamat"":0, ""isUseReferralCode"":0, ""negativeStatus"":""none""], STOP_ON_FAILURE)",,,,2021-10-29 15:17:15,2021-10-29 15:20:30,3m - 15.414s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2021-10-29 15:20:30,2021-10-29 15:20:40,10.130s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Register/008 - Registrasi dengan alamat email terdaftar,,,,2021-10-29 15:20:40,2021-10-29 15:22:12,1m - 31.815s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-10-29 15:20:41,2021-10-29 15:20:53,12.030s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Register/Register""), [""isFromLoginPage"":0, ""isRegistered"":0, ""isBedaAlamat"":0, ""isUseReferralCode"":0, ""negativeStatus"":""emailRegistered""], STOP_ON_FAILURE)",,,,2021-10-29 15:20:53,2021-10-29 15:22:02,1m - 9.400s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2021-10-29 15:22:02,2021-10-29 15:22:12,10.134s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Register/009 - Registrasi dengan alamat email berbeda,,,,2021-10-29 15:22:12,2021-10-29 15:23:44,1m - 31.878s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-10-29 15:22:12,2021-10-29 15:22:25,12.814s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Register/Register""), [""isFromLoginPage"":0, ""isRegistered"":0, ""isBedaAlamat"":0, ""isUseReferralCode"":0, ""negativeStatus"":""emailNotMatch""], STOP_ON_FAILURE)",,,,2021-10-29 15:22:25,2021-10-29 15:23:34,1m - 8.723s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2021-10-29 15:23:34,2021-10-29 15:23:44,10.091s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Register/010 - Registrasi dengan umur di bawah 17 tahun,,,,2021-10-29 15:23:44,2021-10-29 15:24:34,50.342s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-10-29 15:23:44,2021-10-29 15:23:56,11.405s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Register/Register""), [""isFromLoginPage"":0, ""isRegistered"":0, ""isBedaAlamat"":0, ""isUseReferralCode"":0, ""negativeStatus"":""less17YearsOld""], STOP_ON_FAILURE)",,,,2021-10-29 15:23:56,2021-10-29 15:24:24,28.643s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2021-10-29 15:24:24,2021-10-29 15:24:34,10.038s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Register/011 - Registrasi dengan password tidak sesuai rules,,,,2021-10-29 15:24:34,2021-10-29 15:26:16,1m - 42.052s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-10-29 15:24:35,2021-10-29 15:24:46,11.052s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Register/Register""), [""isFromLoginPage"":0, ""isRegistered"":0, ""isBedaAlamat"":0, ""isUseReferralCode"":0, ""negativeStatus"":""passwordNotFollowRules""], STOP_ON_FAILURE)",,,,2021-10-29 15:24:46,2021-10-29 15:26:06,1m - 20.652s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2021-10-29 15:26:06,2021-10-29 15:26:16,10.086s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Register/012 - User memasukkan nama di rekening berbeda dengan nama akun,,,,2021-10-29 15:26:16,2021-10-29 15:29:41,3m - 24.831s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-10-29 15:26:17,2021-10-29 15:26:28,11.079s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Register/Register""), [""isFromLoginPage"":0, ""isRegistered"":0, ""isBedaAlamat"":0, ""isUseReferralCode"":0, ""negativeStatus"":""ownerNameNotMatch""], STOP_ON_FAILURE)",,,,2021-10-29 15:26:28,2021-10-29 15:29:31,3m - 3.377s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2021-10-29 15:29:31,2021-10-29 15:29:41,10.111s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Register/014 - Registrasi dengan Akun Terdaftar (Akun Invalid),,,,2021-10-29 15:29:41,2021-10-29 15:30:27,46.138s,FAILED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-10-29 15:29:42,2021-10-29 15:29:55,13.295s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Register/Register""), [""isFromLoginPage"":0, ""isRegistered"":1, ""negativeStatus"":""invalidAccount""], STOP_ON_FAILURE)",,,,2021-10-29 15:29:55,2021-10-29 15:30:27,32.582s,FAILED

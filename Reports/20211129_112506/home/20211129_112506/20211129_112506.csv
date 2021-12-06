@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+home,,,,2021-11-29 11:25:13,2021-11-29 11:26:06,53.226s,FAILED
+,,,,,,,
+Test Cases/Mobile/Scenario/Home/001 - Melihat performance portfolio (highlight),,,,2021-11-29 11:25:13,2021-11-29 11:25:42,28.659s,FAILED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-11-29 11:25:14,2021-11-29 11:25:30,16.256s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Home/Home""), [""page"":""none"", ""action"":""seeperformance""], CONTINUE_ON_FAILURE)",,,,2021-11-29 11:25:30,2021-11-29 11:25:30,0.412s,FAILED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2021-11-29 11:25:30,2021-11-29 11:25:42,11.665s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Home/002 - Melihat ad-hoc statement,,,,2021-11-29 11:25:42,2021-11-29 11:26:06,23.873s,FAILED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-11-29 11:25:42,2021-11-29 11:25:54,11.599s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Home/Home""), [""page"":""none"", ""action"":""requestadhoc""], CONTINUE_ON_FAILURE)",,,,2021-11-29 11:25:54,2021-11-29 11:25:54,0.364s,FAILED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2021-11-29 11:25:54,2021-11-29 11:26:06,11.674s,PASSED

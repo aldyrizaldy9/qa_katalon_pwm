@@ -1,0 +1,101 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Transaction,,,,2021-11-18 08:08:44,2021-11-18 08:32:40,23m - 55.706s,FAILED
+,,,,,,,
+Test Cases/Mobile/Scenario/Transaction/001 - Melihat daftar Transaction,,,,2021-11-18 08:08:45,2021-11-18 08:09:55,1m - 9.527s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-11-18 08:08:45,2021-11-18 08:09:03,17.502s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Transaction/Transaction""), [""page"":""onprocess"", ""tab"":""none"", ""action"":""none""], CONTINUE_ON_FAILURE)",,,,2021-11-18 08:09:03,2021-11-18 08:09:42,39.377s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2021-11-18 08:09:42,2021-11-18 08:09:55,12.213s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Transaction/002 - Melihat Transaction berdasarkan ketegori On Process dan Subcription,,,,2021-11-18 08:09:55,2021-11-18 08:10:32,37.148s,FAILED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-11-18 08:09:55,2021-11-18 08:10:09,13.934s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Transaction/Transaction""), [""page"":""onprocess"", ""tab"":""subscription"", ""action"":""none""], CONTINUE_ON_FAILURE)",,,,2021-11-18 08:10:09,2021-11-18 08:10:21,12.101s,FAILED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2021-11-18 08:10:21,2021-11-18 08:10:32,10.404s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Transaction/003 - Melihat Transaction berdasarkan ketegori On Process dan Redemption,,,,2021-11-18 08:10:32,2021-11-18 08:11:33,1m - 1.118s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-11-18 08:10:32,2021-11-18 08:10:45,13.007s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Transaction/Transaction""), [""page"":""onprocess"", ""tab"":""redemption"", ""action"":""none""], CONTINUE_ON_FAILURE)",,,,2021-11-18 08:10:45,2021-11-18 08:11:22,36.760s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2021-11-18 08:11:22,2021-11-18 08:11:33,10.605s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Transaction/004 - Melihat Transaction berdasarkan ketegori On Process dan Switching,,,,2021-11-18 08:11:33,2021-11-18 08:12:36,1m - 2.816s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-11-18 08:11:33,2021-11-18 08:11:47,13.094s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Transaction/Transaction""), [""page"":""onprocess"", ""tab"":""switching"", ""action"":""none""], STOP_ON_FAILURE)",,,,2021-11-18 08:11:47,2021-11-18 08:12:25,38.309s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2021-11-18 08:12:25,2021-11-18 08:12:36,10.734s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Transaction/005 - Melihat Transaction berdasarkan kategori History,,,,2021-11-18 08:12:36,2021-11-18 08:13:39,1m - 3.271s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-11-18 08:12:36,2021-11-18 08:12:49,13.066s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Transaction/Transaction""), [""page"":""history"", ""tab"":""none"", ""action"":""none""], CONTINUE_ON_FAILURE)",,,,2021-11-18 08:12:49,2021-11-18 08:13:28,38.818s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2021-11-18 08:13:28,2021-11-18 08:13:39,10.653s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Transaction/006 - Melihat detail Transaction,,,,2021-11-18 08:13:39,2021-11-18 08:14:51,1m - 12.171s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-11-18 08:13:40,2021-11-18 08:13:54,14.084s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Transaction/Transaction""), [""page"":""onprocess"", ""tab"":""none"", ""action"":""detail""], CONTINUE_ON_FAILURE)",,,,2021-11-18 08:13:54,2021-11-18 08:14:41,46.893s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2021-11-18 08:14:41,2021-11-18 08:14:51,10.503s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Transaction/007 - Melihat detail Transaction berdasarkan ketegori On Process dan Subcription,,,,2021-11-18 08:14:51,2021-11-18 08:16:04,1m - 12.600s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-11-18 08:14:52,2021-11-18 08:15:06,14.298s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Transaction/Transaction""), [""page"":""onprocess"", ""tab"":""subscription"", ""action"":""detail""], CONTINUE_ON_FAILURE)",,,,2021-11-18 08:15:06,2021-11-18 08:15:53,46.911s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2021-11-18 08:15:53,2021-11-18 08:16:04,10.644s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Transaction/008 - Melihat detail Transaction berdasarkan ketegori On Process dan Redemption,,,,2021-11-18 08:16:04,2021-11-18 08:17:14,1m - 10.166s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-11-18 08:16:04,2021-11-18 08:16:18,13.116s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Transaction/Transaction""), [""page"":""onprocess"", ""tab"":""redemption"", ""action"":""detail""], CONTINUE_ON_FAILURE)",,,,2021-11-18 08:16:18,2021-11-18 08:17:03,45.909s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2021-11-18 08:17:03,2021-11-18 08:17:14,10.462s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Transaction/009 - Melihat detail Transaction berdasarkan ketegori On Process dan Switching,,,,2021-11-18 08:17:14,2021-11-18 08:18:30,1m - 16.312s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-11-18 08:17:15,2021-11-18 08:17:28,13.155s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Transaction/Transaction""), [""page"":""onprocess"", ""tab"":""switching"", ""action"":""detail""], CONTINUE_ON_FAILURE)",,,,2021-11-18 08:17:28,2021-11-18 08:18:20,51.886s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2021-11-18 08:18:20,2021-11-18 08:18:30,10.596s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Transaction/010 - Melihat detail Transaction berdasarkan kategori History,,,,2021-11-18 08:18:30,2021-11-18 08:19:39,1m - 8.963s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-11-18 08:18:31,2021-11-18 08:18:44,13.169s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Transaction/Transaction""), [""page"":""history"", ""tab"":""none"", ""action"":""detail""], CONTINUE_ON_FAILURE)",,,,2021-11-18 08:18:44,2021-11-18 08:19:29,44.517s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2021-11-18 08:19:29,2021-11-18 08:19:39,10.600s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Transaction/011 - Melihat keranjang,,,,2021-11-18 08:19:39,2021-11-18 08:21:02,1m - 22.516s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-11-18 08:19:40,2021-11-18 08:19:53,13.163s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Transaction/Transaction""), [""page"":""cart"", ""tab"":""none"", ""action"":""none""], CONTINUE_ON_FAILURE)",,,,2021-11-18 08:19:53,2021-11-18 08:20:51,58.142s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2021-11-18 08:20:51,2021-11-18 08:21:02,10.398s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Transaction/012 - Melihat notifikasi,,,,2021-11-18 08:21:02,2021-11-18 08:22:06,1m - 4.558s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-11-18 08:21:02,2021-11-18 08:21:15,13.062s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Transaction/Transaction""), [""page"":""notification"", ""tab"":""none"", ""action"":""none""], CONTINUE_ON_FAILURE)",,,,2021-11-18 08:21:15,2021-11-18 08:21:56,40.795s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2021-11-18 08:21:56,2021-11-18 08:22:06,10.393s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Transaction/013 - Menghapus item di keranjang,,,,2021-11-18 08:22:06,2021-11-18 08:23:33,1m - 26.718s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-11-18 08:22:07,2021-11-18 08:22:19,12.962s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Transaction/Transaction""), [""page"":""cart"", ""tab"":""none"", ""action"":""deleteitem""], CONTINUE_ON_FAILURE)",,,,2021-11-18 08:22:19,2021-11-18 08:23:23,1m - 3.092s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2021-11-18 08:23:23,2021-11-18 08:23:33,10.416s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Transaction/014 - Melihat notifikasi berdasarkan kategori Profile,,,,2021-11-18 08:23:33,2021-11-18 08:24:41,1m - 7.729s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-11-18 08:23:33,2021-11-18 08:23:47,13.292s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Transaction/Transaction""), [""page"":""notification"", ""tab"":""profile"", ""action"":""detail""], CONTINUE_ON_FAILURE)",,,,2021-11-18 08:23:47,2021-11-18 08:24:30,43.614s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2021-11-18 08:24:30,2021-11-18 08:24:41,10.503s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Transaction/015 - Melihat notifikasi berdasarkan kategori System,,,,2021-11-18 08:24:41,2021-11-18 08:25:48,1m - 7.620s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-11-18 08:24:41,2021-11-18 08:24:55,14.134s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Transaction/Transaction""), [""page"":""notification"", ""tab"":""system"", ""action"":""detail""], CONTINUE_ON_FAILURE)",,,,2021-11-18 08:24:55,2021-11-18 08:25:38,42.441s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2021-11-18 08:25:38,2021-11-18 08:25:48,10.761s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Transaction/016 - Melihat notifikasi berdasarkan kategori Transaksi,,,,2021-11-18 08:25:48,2021-11-18 08:26:53,1m - 4.595s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-11-18 08:25:49,2021-11-18 08:26:02,12.929s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Transaction/Transaction""), [""page"":""notification"", ""tab"":""transaction"", ""action"":""detail""], CONTINUE_ON_FAILURE)",,,,2021-11-18 08:26:02,2021-11-18 08:26:42,40.856s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2021-11-18 08:26:42,2021-11-18 08:26:53,10.503s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Transaction/017 - Melihat notifikasi berdasarkan kategori Promo,,,,2021-11-18 08:26:53,2021-11-18 08:28:00,1m - 6.992s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-11-18 08:26:53,2021-11-18 08:27:06,13.209s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Transaction/Transaction""), [""page"":""notification"", ""tab"":""promo"", ""action"":""detail""], CONTINUE_ON_FAILURE)",,,,2021-11-18 08:27:06,2021-11-18 08:27:48,41.539s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2021-11-18 08:27:48,2021-11-18 08:28:00,12.010s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Transaction/018 - Melihat notifikasi berdasarkan kategori Event,,,,2021-11-18 08:28:00,2021-11-18 08:29:05,1m - 5.307s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-11-18 08:28:00,2021-11-18 08:28:13,13.320s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Transaction/Transaction""), [""page"":""notification"", ""tab"":""event"", ""action"":""detail""], CONTINUE_ON_FAILURE)",,,,2021-11-18 08:28:13,2021-11-18 08:28:54,40.997s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2021-11-18 08:28:54,2021-11-18 08:29:05,10.754s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Transaction/019 - Melihat notifikasi berdasarkan kategori Tips,,,,2021-11-18 08:29:05,2021-11-18 08:30:19,1m - 14.056s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-11-18 08:29:06,2021-11-18 08:29:22,16.129s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Transaction/Transaction""), [""page"":""notification"", ""tab"":""tips"", ""action"":""detail""], CONTINUE_ON_FAILURE)",,,,2021-11-18 08:29:22,2021-11-18 08:30:09,47.085s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2021-11-18 08:30:09,2021-11-18 08:30:19,10.536s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Transaction/020 - Beli reksa dana melalui keranjang menggunakan Rekening Data Nasabah,,,,2021-11-18 08:30:19,2021-11-18 08:32:40,2m - 20.489s,FAILED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-11-18 08:30:20,2021-11-18 08:30:34,14.767s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Transaction/Transaction""), [""page"":""cart"", ""tab"":""none"", ""action"":""buyitem"", ""buymethod"":""rdn""], STOP_ON_FAILURE)",,,,2021-11-18 08:30:34,2021-11-18 08:32:40,2m - 5.454s,FAILED
