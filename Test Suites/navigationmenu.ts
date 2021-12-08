@@ -41,4 +41,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Mobile/Scenario/NavigationMenu/005 - Settings</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>982837c8-c0e8-40be-8550-aff7e97e883a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mobile/Scenario/NavigationMenu/006 - Logout</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

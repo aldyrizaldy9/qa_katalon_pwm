@@ -32,7 +32,7 @@
       <matchCondition>equals</matchCondition>
       <name>package</name>
       <type>Main</type>
-      <value>com.miraeasset.sageclub</value>
+      <value>id.co.miraeasset.sageclub</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -116,7 +116,7 @@
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>666</value>
+      <value>719</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -137,7 +137,7 @@
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[44,666][676,750]</value>
+      <value>[44,719][676,803]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -158,8 +158,8 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.EditText[1]</value>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.ScrollView[1]/android.widget.EditText[1]</value>
    </webElementProperties>
-   <locator>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.EditText[1]</locator>
+   <locator>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.ScrollView[1]/android.widget.EditText[1]</locator>
    <locatorStrategy>XPATH</locatorStrategy>
 </MobileElementEntity>

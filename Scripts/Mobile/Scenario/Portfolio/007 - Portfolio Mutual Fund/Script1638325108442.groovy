@@ -20,6 +20,6 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('Mobile/Page/Run App/Run App byID'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Mobile/Page/Portfolio/Portfolio'), [('tab') : 'mutualfund',
-	('action') : 'none'], FailureHandling.STOP_ON_FAILURE)
+	('action') : 'none'], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Mobile/Page/Run App/Terminate App'), [:], FailureHandling.STOP_ON_FAILURE)

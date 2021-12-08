@@ -25,7 +25,7 @@
       <matchCondition>equals</matchCondition>
       <name>package</name>
       <type>Main</type>
-      <value>com.miraeasset.sageclub</value>
+      <value>id.co.miraeasset.sageclub</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -33,7 +33,7 @@
       <name>content-desc</name>
       <type>Main</type>
       <value>Risk Profile
-Agresif
+Very Conservative
 Analyze</value>
    </webElementProperties>
    <webElementProperties>

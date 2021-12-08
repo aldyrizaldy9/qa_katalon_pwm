@@ -19,17 +19,17 @@ import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 import org.openqa.selenium.Keys as Keys
 
 Mobile.delay(2)
-Mobile.tap(findTestObject('Object Repository/Mobile/Page/Login/Input - UserID'), 0)
+Mobile.tap(findTestObject('Mobile/Page/Login/Input - UserID'), 0)
 Mobile.delay(1)
-Mobile.setText(findTestObject('Object Repository/Mobile/Page/Login/Input Rdy - UserID'), 'anggaaditya', 0)
-Mobile.delay(1)
-Mobile.hideKeyboard()
-
-Mobile.tap(findTestObject('Object Repository/Mobile/Page/Login/Input - Password'), 0)
-Mobile.delay(1)
-Mobile.setText(findTestObject('Object Repository/Mobile/Page/Login/Input Rdy - Password'), 'Shalawa18', 0)
+Mobile.setText(findTestObject('Mobile/Page/Login/Input Rdy - UserID'), 'anggaaditya', 0)
 Mobile.delay(1)
 Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('Object Repository/Mobile/Page/Login/Button - Login'), 0)
+Mobile.tap(findTestObject('Mobile/Page/Login/Input - Password'), 0)
+Mobile.delay(1)
+Mobile.setText(findTestObject('Mobile/Page/Login/Input Rdy - Password'), 'Shalawa18', 0)
+Mobile.delay(1)
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Mobile/Page/Login/Button - Login'), 0)
 Mobile.delay(2)

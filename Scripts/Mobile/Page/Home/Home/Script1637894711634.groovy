@@ -17,11 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//check if button login available
-def loginCheck = Mobile.verifyElementExist(findTestObject('Object Repository/Mobile/Page/Login/Button - Login'), 4, FailureHandling.CONTINUE_ON_FAILURE)
-if (loginCheck) {
-	WebUI.callTestCase(findTestCase('Mobile/Page/Login/Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-}
+WebUI.callTestCase(findTestCase('Mobile/Page/CheckLogin'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 for (int i = 0; i<1; i++) {
 	if (action == 'seeperformance') {
@@ -48,7 +44,7 @@ for (int i = 0; i<1; i++) {
 	} else if (action == 'addwatchlist') {
 		Mobile.delay(2)
 		try {
-			TestObject itemWatchlist = findTestObject('Object Repository/Mobile/Page/Home/Item - Top Watchlist')
+			TestObject itemWatchlist = findTestObject('Mobile/Page/Home/Item - Top Watchlist')
 			
 			def itemWatchlistExist = Mobile.verifyElementExist(itemWatchlist, 2)
 			while (itemWatchlistExist) {
@@ -66,38 +62,38 @@ for (int i = 0; i<1; i++) {
 		int width = Mobile.getElementWidth(watchlist, 0)
 		int height = Mobile.getElementHeight(watchlist, 0)
 		
-		int x = left_position + width * 0.8
+		int x = left_position + width * 0.9
 		int y = top_position + 52
 		
 		Mobile.tapAtPosition(x, y)
 		Mobile.delay(2)
 		
-		//move to watchlist search page
-		TestObject search = findTestObject('Object Repository/Mobile/Page/Home/Watchlist/Input - Search')
-		int x1 = Mobile.getElementLeftPosition(search, 0) + Mobile.getElementWidth(search, 0)/2
-		int y1 = Mobile.getElementTopPosition(search, 0) + Mobile.getElementHeight(search, 0)/2
+		Mobile.tap(findTestObject('Object Repository/Mobile/Page/Home/Watchlist/Fab - Add'), 0)
+		Mobile.delay(1)
+		
+		TestObject search = findTestObject('Object Repository/Mobile/Page/Home/Watchlist/Detail Watchlist/Container - Search')
+		int x1 = Mobile.getElementLeftPosition(search, 0) + Mobile.getElementWidth(search, 0) / 2
+		int y1 = Mobile.getElementTopPosition(search, 0) + Mobile.getElementHeight(search, 0) * 0.8
 		Mobile.tapAtPosition(x1, y1)
 		
+		Mobile.setText(findTestObject('Object Repository/Mobile/Page/Home/Watchlist/Detail Watchlist/Input - Search Stock'), 'bb', 0)
 		Mobile.delay(1)
-		Mobile.setText(findTestObject('Object Repository/Mobile/Page/Home/Watchlist/Input - Search'), 'bb', 0)
-		Mobile.hideKeyboard()
-		
-		Mobile.tapAndHold(findTestObject('Object Repository/Mobile/Page/Home/Watchlist/Item - Top Search'), 1, 0)
-		Mobile.delay(2)
+		Mobile.tapAndHold(findTestObject('Object Repository/Mobile/Page/Home/Watchlist/Detail Watchlist/Item - Top Search'), 1, 0)
+		Mobile.delay(1)
 		
 		//move to detail watchlist
-		Mobile.tap(findTestObject('Object Repository/Mobile/Page/Home/Watchlist/Detail Watchlist/Input - Target Buy Sell'), 0)
-		Mobile.tap(findTestObject('Object Repository/Mobile/Page/Home/Watchlist/Detail Watchlist/Input - Target Buy Sell'), 0)
+		Mobile.tap(findTestObject('Mobile/Page/Home/Watchlist/Detail Watchlist/Input - Target Buy Sell'), 0)
+		Mobile.tap(findTestObject('Mobile/Page/Home/Watchlist/Detail Watchlist/Input - Target Buy Sell'), 0)
 		Mobile.delay(1)
 		
-		Mobile.tap(findTestObject('Object Repository/Mobile/Page/Home/Watchlist/Detail Watchlist/Input - Target Price'), 0)
+		Mobile.tap(findTestObject('Mobile/Page/Home/Watchlist/Detail Watchlist/Input - Target Price'), 0)
 		Mobile.delay(1)
-		Mobile.setText(findTestObject('Object Repository/Mobile/Page/Home/Watchlist/Detail Watchlist/Input - Target Price'), '100000', 0)
+		Mobile.setText(findTestObject('Mobile/Page/Home/Watchlist/Detail Watchlist/Input - Target Price'), '100000', 0)
 		Mobile.hideKeyboard()
 		
 		Mobile.tap(findTestObject('Object Repository/Mobile/Page/Home/Watchlist/Detail Watchlist/Input - Expiry Date'), 0)
 		
-		TestObject expiry = findTestObject('Object Repository/Mobile/Page/Home/Watchlist/Detail Watchlist/Input - Expiry Date')
+		TestObject expiry = findTestObject('Object Repository/Mobile/Page/Home/Watchlist/Detail Watchlist/Container - Expiry Date')
 		int x2 = Mobile.getElementLeftPosition(expiry, 0) + Mobile.getElementWidth(expiry, 0)/2
 		int y2 = Mobile.getElementTopPosition(expiry, 0) + Mobile.getElementHeight(expiry, 0) * 0.8
 		Mobile.tapAtPosition(x2, y2)
@@ -107,12 +103,12 @@ for (int i = 0; i<1; i++) {
 		Mobile.delay(2)
 		CustomKeywords.'scroll.scroll.scrollScreenBottomToTop'(findTestObject('Object Repository/Mobile/Page/Home/Watchlist/Detail Watchlist/Scroll - Expiry Month'))
 		Mobile.delay(2)
-//		CustomKeywords.'scroll.scroll.scrollScreenBottomToTop'(findTestObject('Object Repository/Mobile/Page/Home/Watchlist/Detail Watchlist/Scroll - Expiry Date'))
-//		Mobile.delay(2)
 		
 		Mobile.tap(findTestObject('Object Repository/Mobile/Page/Home/Watchlist/Detail Watchlist/Button - Expiry Done'), 0)
 		Mobile.delay(1)
-		Mobile.tap(findTestObject('Object Repository/Mobile/Page/Home/Watchlist/Detail Watchlist/Button - Add Watchlist'), 0)
+		
+		
+		Mobile.tap(findTestObject('Mobile/Page/Home/Watchlist/Detail Watchlist/Button - Add Watchlist'), 0)
 		Mobile.delay(1)
 		Mobile.hideKeyboard()
 		Mobile.pressBack()
@@ -123,7 +119,7 @@ for (int i = 0; i<1; i++) {
 		//temporary solution to clear watchlist before opening notification
 		Mobile.delay(2)
 		try {
-			TestObject itemWatchlist = findTestObject('Object Repository/Mobile/Page/Home/Item - Top Watchlist')
+			TestObject itemWatchlist = findTestObject('Mobile/Page/Home/Item - Top Watchlist')
 			
 			def itemWatchlistExist = Mobile.verifyElementExist(itemWatchlist, 2)
 			while (itemWatchlistExist) {

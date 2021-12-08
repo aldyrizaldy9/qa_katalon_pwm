@@ -17,11 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//check if button login available
-def loginCheck = Mobile.verifyElementExist(findTestObject('Object Repository/Mobile/Page/Login/Button - Login'), 2, FailureHandling.CONTINUE_ON_FAILURE)
-if (loginCheck) {
-	WebUI.callTestCase(findTestCase('Mobile/Page/Login/Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-}
+WebUI.callTestCase(findTestCase('Mobile/Page/CheckLogin'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Page/Home/Menubar - Analysis'), 0)
 Mobile.delay(1)

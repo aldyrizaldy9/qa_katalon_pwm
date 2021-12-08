@@ -33,7 +33,7 @@
       <name>content-desc</name>
       <type>Main</type>
       <value>Watchlist
-Add Watchlist
+View All
 Your watchlist is empty</value>
    </webElementProperties>
    <webElementProperties>

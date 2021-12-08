@@ -17,11 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//check if button login available
-def loginCheck = Mobile.verifyElementExist(findTestObject('Object Repository/Mobile/Page/Login/Button - Login'), 2, FailureHandling.CONTINUE_ON_FAILURE)
-if (loginCheck) {
-	WebUI.callTestCase(findTestCase('Mobile/Page/Login/Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-}
+WebUI.callTestCase(findTestCase('Mobile/Page/CheckLogin'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 CustomKeywords.'scroll.scroll.scrollScreenLeftToRight'()
 Mobile.delay(1)
@@ -39,7 +35,7 @@ for (int i = 0; i < 1; i++) {
 		Mobile.tap(findTestObject('Object Repository/Mobile/Page/Profile/Button - Open Just Once'), 0)
 		Mobile.delay(5)
 	} else if (action == 'analyzeprofile') {
-		TestObject risk = findTestObject('Object Repository/Mobile/Page/Profile/Container - Risk Profile 2')
+		TestObject risk = findTestObject('Mobile/Page/Profile/Container - Risk Profile')
 		
 		int top = Mobile.getElementTopPosition(risk, 0)
 		int y = Mobile.getElementHeight(risk, 0) * 0.8 + top
@@ -50,7 +46,7 @@ for (int i = 0; i < 1; i++) {
 		
 		try {
 			for (int j = 1; j <= 5; j++) {
-				def bestsuited = Mobile.verifyElementExist(findTestObject('Object Repository/Mobile/Page/Profile/Container - Risk Profile 2'), 2)
+				def bestsuited = Mobile.verifyElementExist(findTestObject('Mobile/Page/Profile/Container - Risk Profile'), 2)
 					
 				if (!bestsuited) {
 					break
@@ -157,6 +153,15 @@ for (int i = 0; i < 1; i++) {
 		Mobile.delay(1)
 		
 		Mobile.pressBack()
+		Mobile.delay(1)
+	} else if (action == 'logout') {
+		TestObject logout = findTestObject('Object Repository/Mobile/Page/Profile/Container - Logout')
+		
+		int top = Mobile.getElementTopPosition(logout, 0)
+		int y = Mobile.getElementHeight(logout, 0) * 0.8 + top
+		int x = Mobile.getDeviceWidth() * 0.2
+		
+		Mobile.tapAtPosition(x, y)
 		Mobile.delay(1)
 	}
 }

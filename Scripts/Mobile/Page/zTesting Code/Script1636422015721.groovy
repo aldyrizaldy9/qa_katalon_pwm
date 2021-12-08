@@ -42,7 +42,29 @@ WebUI.callTestCase(findTestCase('Mobile/Page/Run App/Run App byID'), [:], Failur
 //
 //Mobile.tapAtPosition(x, y)
 
-Mobile.tap(findTestObject('Object Repository/Mobile/Page/Profile/Risk Profile/Option How Long - 1 to 3'), 0)
-		
+int i = 1
+
+while (Mobile.verifyElementExist(findTestObject('Mobile/Page/Home/Container - Watchlist'), 0)) {
+	TestObject watchlist = findTestObject('Mobile/Page/Home/Container - Watchlist')
+	int left = Mobile.getElementLeftPosition(watchlist, 0)
+	int top = Mobile.getElementTopPosition(watchlist, 0)
+	int width = Mobile.getElementWidth(watchlist, 0)
+	int height = Mobile.getElementHeight(watchlist, 0)
+	
+	int x = left + width * 0.9
+		int y = top + 52
+	
+	System.out.println('top : ' + top)
+	System.out.println('left : ' + left)
+	System.out.println('width : ' + width)
+	System.out.println('height : ' + height)
+	System.out.println('x : ' + x)
+	System.out.println('y : ' + y)
+	
+	Mobile.tapAtPosition(x, y)
+	i++
+}
+
+	
 
 		

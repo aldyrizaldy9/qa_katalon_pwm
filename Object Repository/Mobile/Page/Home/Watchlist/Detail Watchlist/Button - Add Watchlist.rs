@@ -116,7 +116,7 @@
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>690</value>
+      <value>669</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -137,7 +137,7 @@
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[32,690][689,769]</value>
+      <value>[32,669][689,748]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

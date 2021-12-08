@@ -32,7 +32,7 @@
       <matchCondition>equals</matchCondition>
       <name>package</name>
       <type>Main</type>
-      <value>com.miraeasset.sageclub</value>
+      <value>id.co.miraeasset.sageclub</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -116,7 +116,7 @@
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>724</value>
+      <value>719</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -137,7 +137,7 @@
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[44,724][676,808]</value>
+      <value>[44,719][676,803]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -32,11 +32,11 @@
       <matchCondition>equals</matchCondition>
       <name>content-desc</name>
       <type>Main</type>
-      <value>AGAR
+      <value>BRIS
 Target Buy
 1
 Last Price
-344</value>
+1,880</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
