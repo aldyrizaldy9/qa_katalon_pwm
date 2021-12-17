@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+login,,,,2021-12-17 10:13:17,2021-12-17 10:14:56,1m - 38.351s,FAILED
+,,,,,,,
+Test Cases/Mobile/Bug Testing/Login/001 - Fingerprint Crash,,,,2021-12-17 10:13:18,2021-12-17 10:14:00,41.865s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-12-17 10:13:18,2021-12-17 10:13:35,16.535s,PASSED
+"callTestCase(findTestCase(""Mobile/Bug Testing/Login/login""), [""bug"":""fingerprint""], CONTINUE_ON_FAILURE)",,,,2021-12-17 10:13:35,2021-12-17 10:13:49,14.405s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2021-12-17 10:13:49,2021-12-17 10:14:00,10.561s,PASSED
+,,,,,,,
+Test Cases/Mobile/Bug Testing/Login/002 - Visible Password,,,,2021-12-17 10:14:00,2021-12-17 10:14:56,55.636s,FAILED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-12-17 10:14:00,2021-12-17 10:14:12,11.810s,PASSED
+"callTestCase(findTestCase(""Mobile/Bug Testing/Login/login""), [""bug"":""visible password""], CONTINUE_ON_FAILURE)",,,,2021-12-17 10:14:12,2021-12-17 10:14:45,33.280s,FAILED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2021-12-17 10:14:45,2021-12-17 10:14:56,10.263s,PASSED

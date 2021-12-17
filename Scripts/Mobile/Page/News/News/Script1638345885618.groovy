@@ -21,30 +21,28 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Mobile/Page/CheckLogin'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/Mobile/Page/Home/Menubar - News'), 0)
+Mobile.tap(findTestObject('Mobile/Page/Home/Menubar - News'), 0)
 Mobile.delay(1)
 
 for (int i = 0; i < 1; i++) {
 	if (tab == 'macronews') {
-		Mobile.tap(findTestObject('Object Repository/Mobile/Page/News/Tab - Macro News'), 0)
+		Mobile.tap(findTestObject('Object Repository/Mobile/Page/News/Tab - Macro'), 0)
 	} else if (tab == 'stocknews') {
-		Mobile.tap(findTestObject('Object Repository/Mobile/Page/News/Tab - Stock News'), 0)
+		Mobile.tap(findTestObject('Object Repository/Mobile/Page/News/Tab - Stock'), 0)
 	} else if (tab == 'fundnews') {
-		Mobile.tap(findTestObject('Object Repository/Mobile/Page/News/Tab - Fund News'), 0)
+		Mobile.tap(findTestObject('Object Repository/Mobile/Page/News/Tab - Fund'), 0)
 	} else if (tab == 'bondnews') {
-		CustomKeywords.'scroll.scroll.scrollScreenRightToLeft'(findTestObject('Object Repository/Mobile/Page/News/Tab - Macro News'))
-		Mobile.delay(1)
-		Mobile.tap(findTestObject('Object Repository/Mobile/Page/News/Tab - Bond News'), 0)
+		Mobile.tap(findTestObject('Object Repository/Mobile/Page/News/Tab - Bond'), 0)
 	} else if (tab == 'worldindices') {
-		CustomKeywords.'scroll.scroll.scrollScreenRightToLeft'(findTestObject('Object Repository/Mobile/Page/News/Tab - Macro News'))
+		CustomKeywords.'scroll.scroll.scrollScreenRightToLeft'(findTestObject('Object Repository/Mobile/Page/News/Tab - Macro'))
 		Mobile.delay(1)
-		Mobile.tap(findTestObject('Object Repository/Mobile/Page/News/Tab - World Indices'), 0)
+		Mobile.tap(findTestObject('Mobile/Page/News/Tab - World Indices'), 0)
 		Mobile.delay(1)
-		Mobile.tap(findTestObject('Object Repository/Mobile/Page/News/Button - Indices'), 0)
+		Mobile.tap(findTestObject('Mobile/Page/News/Button - Indices'), 0)
 		Mobile.delay(3)
-		Mobile.tap(findTestObject('Object Repository/Mobile/Page/News/Button - Currencies'), 0)
+		Mobile.tap(findTestObject('Mobile/Page/News/Button - Currencies'), 0)
 		Mobile.delay(3)
-		Mobile.tap(findTestObject('Object Repository/Mobile/Page/News/Button - Commodites'), 0)
+		Mobile.tap(findTestObject('Mobile/Page/News/Button - Commodities'), 0)
 		Mobile.delay(3)
 	}
 	
@@ -52,14 +50,10 @@ for (int i = 0; i < 1; i++) {
 	
 	if (tab != 'worldindices') {
 		try {
-			def topnews = Mobile.verifyElementExist(findTestObject('Object Repository/Mobile/Page/News/Item - Top News'), 0)
-			
-			if (topnews) {
-				Mobile.tapAndHold(findTestObject('Object Repository/Mobile/Page/News/Item - Top News'), 1, 0)
-				Mobile.delay(1)
-				CustomKeywords.'scroll.scroll.scrollScreenBottomToTop'()
-				Mobile.delay(3)
-			}
+			Mobile.tapAndHold(findTestObject('Mobile/Page/News/Item - Top News'), 1, 10)
+			Mobile.delay(1)
+			CustomKeywords.'scroll.scroll.scrollScreenBottomToTop'()
+			Mobile.delay(3)
 		} catch (Exception e) {
 			
 		}

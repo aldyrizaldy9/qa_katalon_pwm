@@ -19,38 +19,38 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Mobile/Page/CheckLogin'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/Mobile/Page/Home/Menubar - Analysis'), 0)
+Mobile.tap(findTestObject('Mobile/Page/Home/Menubar - Analysis'), 0)
 Mobile.delay(1)
 
 for (int i = 0; i < 1; i++) {
 	if (action == 'technicalsearch') {
-		Mobile.tap(findTestObject('Object Repository/Mobile/Page/Analysis/Dropdown - Technical Indicator'), 0)
+		Mobile.tap(findTestObject('Mobile/Page/Analysis/Dropdown - Technical Indicator'), 0)
 		Mobile.delay(1)
 		Mobile.tap(findTestObject('Object Repository/Mobile/Page/Analysis/Option Technical Indicator - All'), 0)
 		Mobile.delay(1)
 		
-		Mobile.tap(findTestObject('Object Repository/Mobile/Page/Analysis/Dropdown - Market Cap'), 0)
+		Mobile.tap(findTestObject('Mobile/Page/Analysis/Dropdown - Market Cap'), 0)
 		Mobile.delay(1)
 		Mobile.tap(findTestObject('Object Repository/Mobile/Page/Analysis/Option Market Cap - 1 Trillion'), 0)
 		Mobile.delay(1)
 		
-		Mobile.tap(findTestObject('Object Repository/Mobile/Page/Analysis/Dropdown - Transaction'), 0)
+		Mobile.tap(findTestObject('Mobile/Page/Analysis/Dropdown - Transaction'), 0)
 		Mobile.delay(1)
 		Mobile.tap(findTestObject('Object Repository/Mobile/Page/Analysis/Option Transaction - 1 Billion'), 0)
 		Mobile.delay(1)
 		
-		Mobile.tap(findTestObject('Object Repository/Mobile/Page/Analysis/Dropdown - Time Frame'), 0)
+		Mobile.tap(findTestObject('Mobile/Page/Analysis/Dropdown - Time Frame'), 0)
 		Mobile.delay(1)
 		Mobile.tap(findTestObject('Object Repository/Mobile/Page/Analysis/Option Time Frame - Daily'), 0)
 		Mobile.delay(1)
 		
-		Mobile.tap(findTestObject('Object Repository/Mobile/Page/Analysis/Dropdown - Index'), 0)
+		Mobile.tap(findTestObject('Mobile/Page/Analysis/Dropdown - Index'), 0)
 		Mobile.delay(1)
 		Mobile.tap(findTestObject('Object Repository/Mobile/Page/Analysis/Option Index - Idx30'), 0)
 		Mobile.delay(2)
 	
 	} else if (action == 'technicaldetail') {
-		Mobile.tap(findTestObject('Object Repository/Mobile/Page/Analysis/Item - Top Technical'), 0)
+		Mobile.tap(findTestObject('Mobile/Page/Analysis/Item - Top Technical'), 0)
 		Mobile.delay(3)
 		
 		Mobile.tap(findTestObject('Object Repository/Mobile/Page/Analysis/Detail/Button - D'), 0)
@@ -65,24 +65,24 @@ for (int i = 0; i < 1; i++) {
 		Mobile.tap(findTestObject('Object Repository/Mobile/Page/Analysis/Detail/Button - Y'), 0)
 		Mobile.delay(2)
 	} else if (action == 'researchdetail') {
-		Mobile.tap(findTestObject('Object Repository/Mobile/Page/Analysis/Tab - Research Report'), 0)
+		Mobile.tap(findTestObject('Mobile/Page/Analysis/Tab - Research Report'), 0)
 		Mobile.delay(1)
 		
-		Mobile.tapAndHold(findTestObject('Object Repository/Mobile/Page/Analysis/Item - Top Search'), 1, 0)
+		Mobile.tapAndHold(findTestObject('Mobile/Page/Analysis/Item - Top Search'), 1, 0)
 		Mobile.delay(3)
 		Mobile.tap(findTestObject('Object Repository/Mobile/Page/Analysis/Button - Open With Just Once'), 0)
 		Mobile.delay(3)
 		Mobile.pressBack()
 	} else if (action == 'researchsearch') {
-		Mobile.tap(findTestObject('Object Repository/Mobile/Page/Analysis/Tab - Research Report'), 0)
+		Mobile.tap(findTestObject('Mobile/Page/Analysis/Tab - Research Report'), 0)
 		Mobile.delay(1)
 		
-		Mobile.tap(findTestObject('Object Repository/Mobile/Page/Analysis/Input - Search'), 0)
+		Mobile.tap(findTestObject('Mobile/Page/Analysis/Input - Search'), 0)
 		Mobile.delay(1)
-		Mobile.setText(findTestObject('Object Repository/Mobile/Page/Analysis/Input - Search'), 'surya', 0)
+		Mobile.setText(findTestObject('Mobile/Page/Analysis/Input - Search'), 'surya', 0)
 		Mobile.hideKeyboard()
 		
-		Mobile.tapAndHold(findTestObject('Object Repository/Mobile/Page/Analysis/Item - Top Search'), 1, 0)
+		Mobile.tapAndHold(findTestObject('Mobile/Page/Analysis/Item - Top Search'), 1, 0)
 		Mobile.delay(3)
 		Mobile.tap(findTestObject('Object Repository/Mobile/Page/Analysis/Button - Open With Just Once'), 0)
 		Mobile.delay(3)

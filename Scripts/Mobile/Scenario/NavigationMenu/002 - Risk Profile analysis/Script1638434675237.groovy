@@ -19,6 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Mobile/Page/Run App/Run App byID'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Mobile/Page/Navigation Menu/NavigationMenu'), [('action') : 'analyzeprofile'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Mobile/Page/NavigationMenu/NavigationMenu'), [('action') : 'analyzeprofile'], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Mobile/Page/Run App/Terminate App'), [:], FailureHandling.STOP_ON_FAILURE)

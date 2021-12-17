@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="notification" time="67.082" tests="1" failures="0" skips="0" errors="0">
+   <testsuite name="notification" tests="1" failures="0" errors="0" time="67.082" skips="0" timestamp="2021-12-17 08:27:59" hostname="Owner - aldy-tft" id="Test Suites/notification">
+      <properties>
+         <property name="deviceName" value="samsung SM-A205F (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Owner\\Documents\\kerjaan\\KatalonProject\\qa_katalon_pwm\\qa_katalon_pwm\\Reports\\20211217_082753\\notification\\20211217_082753"/>
+         <property name="logFiles" value="C:\\Users\\Owner\\Documents\\kerjaan\\KatalonProject\\qa_katalon_pwm\\qa_katalon_pwm\\Reports\\20211217_082753\\notification\\20211217_082753\\appium.log, C:\\Users\\Owner\\Documents\\kerjaan\\KatalonProject\\qa_katalon_pwm\\qa_katalon_pwm\\Reports\\20211217_082753\\notification\\20211217_082753\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Owner - aldy-tft"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.0&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.0"/>
+         <property name="deviceModel" value="SM-A205F"/>
+         <property name="hostAddress" value="10.0.30.197"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="RR8M40C9AXE"/>
+         <property name="deviceName" value="samsung SM-A205F (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/Mobile/Scenario/Notification/001 - User melihat notifikasi" time="65.84" classname="Test Cases/Mobile/Scenario/Notification/001 - User melihat notifikasi" status="PASSED">
+         <system-out><![CDATA[2021-12-17 08:28:00 - [TEST_CASE][PASSED] - Test Cases/Mobile/Scenario/Notification/001 - User melihat notifikasi: Test Cases/Mobile/Scenario/Notification/001 - User melihat notifikasi
+
+2021-12-17 08:28:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Run App/Run App byID"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Run App/Run App byID' successfully
+
+2021-12-17 08:28:01 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Run App/Run App byID: Test Cases/Mobile/Page/Run App/Run App byID
+
+2021-12-17 08:28:01 - [TEST_STEP][PASSED] - startApp.OpenApp.startApplication("id.co.miraeasset.sageclub"): startApp.OpenApp.startApplication is PASSED
+
+2021-12-17 08:28:03 - [MESSAGE][INFO] - Appium server started on port 54,071
+
+2021-12-17 08:28:21 - [MESSAGE][PASSED] - Starting app with application ID: 'id.co.miraeasset.sageclub'
+
+2021-12-17 08:28:21 - [MESSAGE][PASSED] - startApp.OpenApp.startApplication is PASSED
+
+2021-12-17 08:28:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Run App/Run App byID' successfully
+
+2021-12-17 08:28:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Notification/Notification"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Notification/Notification' successfully
+
+2021-12-17 08:28:21 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Notification/Notification: Test Cases/Mobile/Page/Notification/Notification
+
+2021-12-17 08:28:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/CheckLogin"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/CheckLogin' successfully
+
+2021-12-17 08:28:22 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/CheckLogin: Test Cases/Mobile/Page/CheckLogin
+
+2021-12-17 08:28:23 - [TEST_STEP][PASSED] - loginCheck = verifyElementExist(findTestObject("Mobile/Page/Login/Button - Login"), 2, CONTINUE_ON_FAILURE): Element 'Object Repository/Mobile/Page/Login/Button - Login' is exist
+
+2021-12-17 08:28:24 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Page/Login/Button - Login' is exist
+
+2021-12-17 08:28:24 - [TEST_STEP][PASSED] - if (loginCheck): Call Test Case 'Test Cases/Mobile/Page/Login/Login' successfully
+
+2021-12-17 08:28:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Login/Login"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Login/Login' successfully
+
+2021-12-17 08:28:24 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Login/Login: Test Cases/Mobile/Page/Login/Login
+
+2021-12-17 08:28:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-17 08:28:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-17 08:28:27 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/Page/Login/Input - UserID"), 0): Tapped on element 'Object Repository/Mobile/Page/Login/Input - UserID'
+
+2021-12-17 08:28:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2021-12-17 08:28:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Login/Input - UserID'
+
+2021-12-17 08:28:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-17 08:28:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-17 08:28:29 - [TEST_STEP][PASSED] - setText(findTestObject("Mobile/Page/Login/Input Rdy - UserID"), "anggaaditya", 0): Text 'anggaaditya' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - UserID'
+
+2021-12-17 08:28:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2021-12-17 08:28:30 - [MESSAGE][PASSED] - Text 'anggaaditya' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - UserID'
+
+2021-12-17 08:28:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-17 08:28:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-17 08:28:31 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2021-12-17 08:28:34 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2021-12-17 08:28:34 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/Page/Login/Input - Password"), 0): Tapped on element 'Object Repository/Mobile/Page/Login/Input - Password'
+
+2021-12-17 08:28:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2021-12-17 08:28:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Login/Input - Password'
+
+2021-12-17 08:28:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-17 08:28:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-17 08:28:36 - [TEST_STEP][PASSED] - setText(findTestObject("Mobile/Page/Login/Input Rdy - Password"), "Shalawa18", 0): Text 'Shalawa18' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - Password'
+
+2021-12-17 08:28:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2021-12-17 08:28:37 - [MESSAGE][PASSED] - Text 'Shalawa18' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - Password'
+
+2021-12-17 08:28:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-17 08:28:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-17 08:28:38 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2021-12-17 08:28:44 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2021-12-17 08:28:44 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/Page/Login/Button - Login"), 0): Tapped on element 'Object Repository/Mobile/Page/Login/Button - Login'
+
+2021-12-17 08:28:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2021-12-17 08:28:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Login/Button - Login'
+
+2021-12-17 08:28:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-17 08:28:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-17 08:28:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Login/Login' successfully
+
+2021-12-17 08:28:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/CheckLogin' successfully
+
+2021-12-17 08:28:47 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/Page/Home/Menubar - Notification"), 10): Tapped on element 'Object Repository/Mobile/Page/Home/Menubar - Notification'
+
+2021-12-17 08:28:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Home/Menubar - Notification'
+
+2021-12-17 08:28:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-12-17 08:28:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-17 08:28:49 - [TEST_STEP][PASSED] - scroll.scroll.scrollScreenBottomToTop(): scroll.scroll.scrollScreenBottomToTop is PASSED
+
+2021-12-17 08:28:50 - [MESSAGE][PASSED] - Current device physical height is 1423
+
+2021-12-17 08:28:50 - [MESSAGE][PASSED] - Current device physical width is 720
+
+2021-12-17 08:28:51 - [MESSAGE][PASSED] - Swiped from 360,1,138 to 360,284
+
+2021-12-17 08:28:51 - [MESSAGE][PASSED] - scroll.scroll.scrollScreenBottomToTop is PASSED
+
+2021-12-17 08:28:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-12-17 08:28:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-12-17 08:28:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Notification/Notification' successfully
+
+2021-12-17 08:28:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Run App/Terminate App"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Run App/Terminate App' successfully
+
+2021-12-17 08:28:54 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Run App/Terminate App: Test Cases/Mobile/Page/Run App/Terminate App
+
+2021-12-17 08:28:55 - [TEST_STEP][PASSED] - startApp.OpenApp.terminateApplication(): startApp.OpenApp.terminateApplication is PASSED
+
+2021-12-17 08:28:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-12-17 08:28:59 - [MESSAGE][PASSED] - Current device physical width is 720
+
+2021-12-17 08:28:59 - [MESSAGE][PASSED] - Current device physical height is 1423
+
+2021-12-17 08:29:01 - [MESSAGE][PASSED] - Swiped from 360,853 to 360,142
+
+2021-12-17 08:29:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-12-17 08:29:03 - [MESSAGE][PASSED] - Swiped from 360,853 to 360,142
+
+2021-12-17 08:29:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-12-17 08:29:06 - [MESSAGE][PASSED] - startApp.OpenApp.terminateApplication is PASSED
+
+2021-12-17 08:29:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Run App/Terminate App' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-12-17 08:27:59 - [TEST_SUITE][PASSED] - notification: Test Cases/Mobile/Scenario/Notification/001 - User melihat notifikasi]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

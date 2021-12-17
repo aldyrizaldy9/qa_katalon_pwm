@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('Mobile/Page/CheckLogin'), [:], FailureHandling.
 
 for (int i = 0; i<1; i++) {
 	if (action == 'seeperformance') {
-		TestObject daily = findTestObject('Object Repository/Mobile/Page/Home/Item - Daily Performance')
+		TestObject daily = findTestObject('Mobile/Page/Home/Item - Daily Performance')
 		CustomKeywords.'scroll.scroll.scrollScreenRightToLeft'(daily)
 		
 		Mobile.delay(2)
