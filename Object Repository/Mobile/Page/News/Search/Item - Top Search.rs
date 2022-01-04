@@ -32,11 +32,11 @@
       <matchCondition>equals</matchCondition>
       <name>content-desc</name>
       <type>Main</type>
-      <value>FLASH: TLKM Siapkan Triliunan Rupiah Investasi di Startup Tahun Depan
-Ini merupakan upaya perseroan untuk bertransformasi menjadi perusahaan telekomunikasi digital		  	
+      <value>Trah Mochtar Riady Transaksikan MLPL di Harga Premium 
+Stephen Riady, anak dari pendiri Grup Lippo Mochtar Riady, melalui OUE Limited mengambil alih 17% saham PT Multipolar Tbk (MLPL) di harga Rp 400 per saham		  	
 	
 		  
-17/12/2021</value>
+21/12/2021</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -134,14 +134,14 @@ Ini merupakan upaya perseroan untuk bertransformasi menjadi perusahaan telekomun
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>163</value>
+      <value>133</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[32,298][689,461]</value>
+      <value>[32,298][689,431]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

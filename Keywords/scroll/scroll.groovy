@@ -125,4 +125,14 @@ public class scroll {
 
 		Mobile.swipe(startX, startY, endX, endY)
 	}
+	
+	@Keyword
+	def scrollNotificationBar() {
+		int startX = 50
+		int startY = 50
+		int endX = 50
+		int endY = Mobile.getDeviceHeight() * 0.8
+
+		Mobile.swipe(startX, startY, endX, endY)
+	}
 }

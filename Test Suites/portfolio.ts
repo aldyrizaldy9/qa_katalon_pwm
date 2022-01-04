@@ -12,51 +12,117 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>c30770a1-9de1-4e05-ba10-369e5d84e8f0</testSuiteGuid>
    <testCaseLink>
-      <guid>a2ab6318-f33b-4cca-bcb3-4fbcd847145e</guid>
+      <guid>b918ba1b-e3b3-44b3-a5bf-5984a6b4c26c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Mobile/Scenario/Portfolio/001 - Summary</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>2d3efd86-0578-4970-a660-3dc8c7dccaa0</guid>
+      <guid>bd71ed32-a34d-4aa6-b124-3ce87d512576</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/Scenario/Portfolio/002 - Portfolio Performance Daily</testCaseId>
+      <testCaseId>Test Cases/Mobile/Scenario/Portfolio/002 - Portfolio Performance Daily IDR</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>c8b7f3e7-94cc-4828-b394-33675244c869</guid>
+      <guid>1a0d62ab-96bb-40a2-8987-f943d9d79b60</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/Scenario/Portfolio/003 - Portfolio Performance Month</testCaseId>
+      <testCaseId>Test Cases/Mobile/Scenario/Portfolio/003 - Portfolio Performance Month to Date IDR</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>ca105bf6-5238-4984-86a4-5e39548a289c</guid>
+      <guid>42d03547-c32f-409f-ac0b-4091290743d1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/Scenario/Portfolio/004 - Portfolio Performance Quarter</testCaseId>
+      <testCaseId>Test Cases/Mobile/Scenario/Portfolio/004 - Portfolio Performance Quarter to Date IDR</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>8aef5e14-e9c0-49da-8d75-ceba1827b288</guid>
+      <guid>4fd3386a-9549-4cc0-952f-efb8f03c6c68</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/Scenario/Portfolio/005 - Portfolio Performance Year</testCaseId>
+      <testCaseId>Test Cases/Mobile/Scenario/Portfolio/005 - Portfolio Performance Year to Date IDR</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>59f8ab0a-87ac-437e-8d36-16ceacd4037a</guid>
+      <guid>276eeb32-2274-4f77-94a2-4e2b2e8af81f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/Scenario/Portfolio/006 - Portfolio Stock</testCaseId>
+      <testCaseId>Test Cases/Mobile/Scenario/Portfolio/006 - Portfolio Performance Daily Persen</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>c433671b-ecb4-4519-8043-eac4a1c6a1e6</guid>
+      <guid>1e8a8a45-7c19-4bb0-a843-789b2a31ed1b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/Scenario/Portfolio/007 - Portfolio Mutual Fund</testCaseId>
+      <testCaseId>Test Cases/Mobile/Scenario/Portfolio/007 - Portfolio Performance Month to Date Persen</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>741fcff3-0ebe-4db9-aa7f-f6988a0a8d0c</guid>
+      <guid>3610628e-2b87-4b5d-a64f-689504e089c4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/Scenario/Portfolio/008 - Portfolio Bond</testCaseId>
+      <testCaseId>Test Cases/Mobile/Scenario/Portfolio/008 - Portfolio Performance Quarter to Date Persen</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fe3045c3-355c-4e01-a283-d5817ea3b423</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mobile/Scenario/Portfolio/009 - Portfolio Performance Year to Date Persen</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>589edebd-193e-4441-98b5-978c07c092e8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mobile/Scenario/Portfolio/010 - Melihat list stock</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>77ab1712-802a-4835-9738-190451b291d4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mobile/Scenario/Portfolio/011 - Melihat list mutual fund</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>12a1c905-bd4f-4326-acce-c52ced3a3ae0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mobile/Scenario/Portfolio/012 - Melihat list bond</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e797c439-6739-41d3-aff0-54c43c388381</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mobile/Scenario/Portfolio/013 - Melihat detail mutual fund 1 month</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e68725bb-6fb9-496c-9563-2bf589e41763</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mobile/Scenario/Portfolio/014 - Melihat detail mutual fund 3 month</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>48d93202-c5ca-48db-86a0-505a362be738</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mobile/Scenario/Portfolio/015 - Melihat detail mutual fund 6 month</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b10442bf-7fb0-4813-a9b1-d009aa734834</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mobile/Scenario/Portfolio/016 - Melihat detail mutual fund 1 year</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4febb0a4-a860-4b54-888d-9a467bf6c718</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mobile/Scenario/Portfolio/017 - Melihat detail mutual fund 3 year</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cd673b66-8ff0-49c7-a4ae-fae6192c5dc3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mobile/Scenario/Portfolio/018 - Melihat detail mutual fund 5 year</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7e1a8fd1-b034-4415-8448-86db477d5239</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mobile/Scenario/Portfolio/019 - Melihat detail mutual fund 10 year</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

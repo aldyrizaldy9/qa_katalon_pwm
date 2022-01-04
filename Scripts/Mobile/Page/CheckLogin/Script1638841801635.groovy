@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //check if button login available
-def loginCheck = Mobile.verifyElementExist(findTestObject('Mobile/Page/Login/Button - Login'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+def loginCheck = Mobile.verifyElementExist(GlobalVariable.LOGN_BtnLogin, 5, FailureHandling.CONTINUE_ON_FAILURE)
 if (loginCheck) {
-	WebUI.callTestCase(findTestCase('Mobile/Page/Login/Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+	WebUI.callTestCase(findTestCase('Mobile/Page/Login/Login'), [('action') : 'username'], FailureHandling.CONTINUE_ON_FAILURE)
 }

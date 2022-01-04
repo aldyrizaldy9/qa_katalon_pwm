@@ -81,3 +81,8 @@ def static "scroll.scroll.scrollLeftToRight"(
     (new scroll.scroll()).scrollLeftToRight(
         	element)
 }
+
+
+def static "scroll.scroll.scrollNotificationBar"() {
+    (new scroll.scroll()).scrollNotificationBar()
+}

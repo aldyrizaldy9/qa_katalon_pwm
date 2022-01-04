@@ -21,88 +21,80 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Mobile/Page/CheckLogin'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tap(findTestObject('Mobile/Page/Home/Menubar - Portfolio'), 0)
+Mobile.tap(GlobalVariable.HOME_MenubarPortfolio, 0)
 Mobile.delay(1)
 
 for (int i = 0; i < 1; i++) {
 	if (tab == 'summary') {
-		TestObject idr = findTestObject('Mobile/Page/Portfolio/Button - IDR')
-		TestObject persen = findTestObject('Mobile/Page/Portfolio/Button - Persen')
+		TestObject idr = GlobalVariable.PORT_BtnIDR
+		TestObject persen = GlobalVariable.PORT_BtnPersen
 		
 		if (action == 'summary') {
 			Mobile.delay(3)
 		} else if (action == 'perf_daily') {
 			CustomKeywords.'scroll.scroll.scrollScreenBottomToTop'()
-			Mobile.delay(1)
-			Mobile.tap(idr, 0)
-			Mobile.delay(3)
-			Mobile.tap(persen, 0)
-			Mobile.delay(3)
 		} else if (action == 'perf_month') {
 			CustomKeywords.'scroll.scroll.scrollScreenBottomToTop'()
 			Mobile.delay(1)
-			Mobile.tap(findTestObject('Object Repository/Mobile/Page/Portfolio/Tab - Summary Month to Date'), 0)
-			Mobile.delay(1)
-			Mobile.tap(idr, 0)
-			Mobile.delay(3)
-			Mobile.tap(persen, 0)
-			Mobile.delay(3)
+			Mobile.tap(GlobalVariable.PORT_TabSummaryMonth, 0)
 		} else if (action == 'perf_quarter') {
 			CustomKeywords.'scroll.scroll.scrollScreenBottomToTop'()
 			Mobile.delay(1)
-			Mobile.tap(findTestObject('Object Repository/Mobile/Page/Portfolio/Tab - Summary Quarter to Date'), 0)
-			Mobile.delay(1)
-			Mobile.tap(idr, 0)
-			Mobile.delay(3)
-			Mobile.tap(persen, 0)
-			Mobile.delay(3)
+			Mobile.tap(GlobalVariable.PORT_TabSummaryQuarter, 0)
 		} else if (action == 'perf_year') {
 			CustomKeywords.'scroll.scroll.scrollScreenBottomToTop'()
 			Mobile.delay(1)
-			Mobile.tap(findTestObject('Object Repository/Mobile/Page/Portfolio/Tab - Summary Year to Date'), 0)
+			Mobile.tap(GlobalVariable.PORT_TabSummaryYear, 0)
+		}
+		
+		if (action != 'summary') {
 			Mobile.delay(1)
-			Mobile.tap(idr, 0)
+			CustomKeywords.'scroll.scroll.scrollScreenBottomToTop'()
 			Mobile.delay(3)
-			Mobile.tap(persen, 0)
-			Mobile.delay(3)
+			if (action2 == 'idr') {
+				Mobile.tap(idr, 10)
+				Mobile.delay(3)
+			} else if (action2 == 'persen') {
+				Mobile.tap(persen, 10)
+				Mobile.delay(3)
+			}
 		}
 	} else if (tab == 'stock') {
-		Mobile.tap(findTestObject('Mobile/Page/Portfolio/Tab - Stock'), 0)
+		Mobile.tap(GlobalVariable.PORT_TabStock, 0)
 		CustomKeywords.'scroll.scroll.scrollScreenBottomToTop'()
 		Mobile.delay(3)
 	} else if (tab == 'mutualfund') {
-		Mobile.tap(findTestObject('Mobile/Page/Portfolio/Tab - Mutual Fund'), 0)
+		Mobile.tap(GlobalVariable.PORT_TabMutualFund, 0)
 		Mobile.delay(1)
 		
 		try {
-			Mobile.tapAndHold(findTestObject('Object Repository/Mobile/Page/Portfolio/Item - Top Mutual Fund'), 1, 10)
+			Mobile.tapAndHold(GlobalVariable.PORT_ItemTopMutualFund, 1, 10)
 			Mobile.delay(2)
 			
-			Mobile.tapAndHold(findTestObject('Object Repository/Mobile/Page/Portfolio/Detail Mutual Funds/Button - 1 Month'), 1, 0)
-			Mobile.delay(3)
-			CustomKeywords.'scroll.scroll.scrollScreenBottomToTop'()
+			switch (action2) {
+				case '1 month':
+					Mobile.tapAndHold(GlobalVariable.PORT_DETL_Btn1Month, 1, 0)
+					break
+				case '3 month' :
+					Mobile.tapAndHold(GlobalVariable.PORT_DETL_Btn3Month, 1, 0)
+					break
+				case '6 month' :
+					Mobile.tapAndHold(GlobalVariable.PORT_DETL_Btn6Month, 1, 0)
+					break
+				case '1 year' :
+					Mobile.tapAndHold(GlobalVariable.PORT_DETL_Btn1Year, 1, 0)
+					break
+				case '3 year' :
+					Mobile.tapAndHold(GlobalVariable.PORT_DETL_Btn3Year, 1, 0)
+					break
+				case '5 year' :
+					Mobile.tapAndHold(GlobalVariable.PORT_DETL_Btn5Year, 1, 0)
+					break
+				case '10 year' :
+					Mobile.tapAndHold(GlobalVariable.PORT_DETL_Btn10Year, 1, 0)
+					break
+			}
 			
-			Mobile.tapAndHold(findTestObject('Object Repository/Mobile/Page/Portfolio/Detail Mutual Funds/Button - 3 Month'), 1, 0)
-			Mobile.delay(3)
-			CustomKeywords.'scroll.scroll.scrollScreenBottomToTop'()
-			
-			Mobile.tapAndHold(findTestObject('Object Repository/Mobile/Page/Portfolio/Detail Mutual Funds/Button - 6 Month'), 1, 0)
-			Mobile.delay(3)
-			CustomKeywords.'scroll.scroll.scrollScreenBottomToTop'()
-			
-			Mobile.tapAndHold(findTestObject('Object Repository/Mobile/Page/Portfolio/Detail Mutual Funds/Button - 1 Year'), 1, 0)
-			Mobile.delay(3)
-			CustomKeywords.'scroll.scroll.scrollScreenBottomToTop'()
-			
-			Mobile.tapAndHold(findTestObject('Object Repository/Mobile/Page/Portfolio/Detail Mutual Funds/Button - 3 Year'), 1, 0)
-			Mobile.delay(3)
-			CustomKeywords.'scroll.scroll.scrollScreenBottomToTop'()
-			
-			Mobile.tapAndHold(findTestObject('Object Repository/Mobile/Page/Portfolio/Detail Mutual Funds/Button - 5 Year'), 1, 0)
-			Mobile.delay(3)
-			CustomKeywords.'scroll.scroll.scrollScreenBottomToTop'()
-			
-			Mobile.tapAndHold(findTestObject('Object Repository/Mobile/Page/Portfolio/Detail Mutual Funds/Button - 10 Year'), 1, 0)
 			Mobile.delay(3)
 			CustomKeywords.'scroll.scroll.scrollScreenBottomToTop'()
 			
@@ -110,7 +102,7 @@ for (int i = 0; i < 1; i++) {
 			CustomKeywords.'scroll.scroll.scrollScreenBottomToTop'()
 		}
 	} else if (tab == 'bond') {
-		Mobile.tap(findTestObject('Mobile/Page/Portfolio/Tab - Bond'), 0)
+		Mobile.tap(GlobalVariable.PORT_TabBond, 0)
 		CustomKeywords.'scroll.scroll.scrollScreenBottomToTop'()
 		Mobile.delay(3)
 	}

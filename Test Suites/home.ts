@@ -47,4 +47,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Mobile/Scenario/Home/006 - Melihat daftar semua berita</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>71d91da7-d8bc-47e0-88a9-cd04f616c69f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mobile/Scenario/Home/007 - Menambahkan watchlist tanpa input</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>84a28454-8bbb-44b2-9793-9779a0424cf2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mobile/Scenario/Home/008 - Menghapus watchlist</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

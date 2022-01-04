@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+analysis,,,,2021-12-29 10:05:10,2021-12-29 10:10:43,5m - 33.042s,FAILED
+,,,,,,,
+Test Cases/Mobile/Scenario/Analysis/001 - User akses techincal analysis,,,,2021-12-29 10:05:10,2021-12-29 10:06:44,1m - 33.368s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-12-29 10:05:11,2021-12-29 10:05:29,18.767s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Analysis/Analysis""), [""action"":""technicalsearch""], CONTINUE_ON_FAILURE)",,,,2021-12-29 10:05:29,2021-12-29 10:06:32,1m - 2.941s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2021-12-29 10:06:32,2021-12-29 10:06:44,11.314s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Analysis/002 - User memilih salah satu saham (chart),,,,2021-12-29 10:06:44,2021-12-29 10:08:36,1m - 52.583s,FAILED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-12-29 10:06:44,2021-12-29 10:06:58,13.397s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Analysis/Analysis""), [""action"":""technicaldetail""], CONTINUE_ON_FAILURE)",,,,2021-12-29 10:06:58,2021-12-29 10:08:26,1m - 27.921s,FAILED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2021-12-29 10:08:26,2021-12-29 10:08:36,10.589s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Analysis/003 - User memilh Research Report,,,,2021-12-29 10:08:36,2021-12-29 10:09:37,1m - 0.859s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-12-29 10:08:37,2021-12-29 10:08:51,13.419s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Analysis/Analysis""), [""action"":""researchdetail""], CONTINUE_ON_FAILURE)",,,,2021-12-29 10:08:51,2021-12-29 10:09:26,35.410s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2021-12-29 10:09:26,2021-12-29 10:09:37,11.302s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Analysis/004 - User mencari research report,,,,2021-12-29 10:09:37,2021-12-29 10:10:43,1m - 5.512s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2021-12-29 10:09:38,2021-12-29 10:09:53,15.139s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Analysis/Analysis""), [""action"":""researchsearch""], CONTINUE_ON_FAILURE)",,,,2021-12-29 10:09:53,2021-12-29 10:10:32,38.446s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2021-12-29 10:10:32,2021-12-29 10:10:43,11.239s,PASSED

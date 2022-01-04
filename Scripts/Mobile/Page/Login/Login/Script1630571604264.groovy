@@ -19,17 +19,119 @@ import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 import org.openqa.selenium.Keys as Keys
 
 Mobile.delay(2)
-Mobile.tap(findTestObject('Mobile/Page/Login/Input - UserID'), 0)
-Mobile.delay(1)
-Mobile.setText(findTestObject('Mobile/Page/Login/Input Rdy - UserID'), 'anggaaditya', 0)
-Mobile.delay(1)
-Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('Mobile/Page/Login/Input - Password'), 0)
-Mobile.delay(1)
-Mobile.setText(findTestObject('Mobile/Page/Login/Input Rdy - Password'), 'Shalawa18', 0)
-Mobile.delay(1)
-Mobile.hideKeyboard()
-
-Mobile.tap(findTestObject('Mobile/Page/Login/Button - Login'), 0)
-Mobile.delay(2)
+for (int i = 0; i<1; i++) {
+	if (action == 'username') {
+		Mobile.tap(GlobalVariable.LOGN_EdtUserID, 0)
+		Mobile.delay(1)
+		Mobile.setText(GlobalVariable.LOGN_EdtRdyUserID, 'anggaaditya', 0)
+		Mobile.delay(1)
+		Mobile.hideKeyboard()
+		
+		Mobile.tap(GlobalVariable.LOGN_EdtPassword, 0)
+		Mobile.delay(1)
+		Mobile.setText(GlobalVariable.LOGN_EdtRdyPassword, 'Shalawa18', 0)
+		Mobile.delay(1)
+		Mobile.hideKeyboard()
+		
+		Mobile.tap(GlobalVariable.LOGN_BtnLogin, 0)
+		Mobile.delay(2)
+		
+		break
+	} else if (action == 'wrongpassword') {
+		Mobile.tap(GlobalVariable.LOGN_EdtUserID, 0)
+		Mobile.delay(1)
+		Mobile.setText(GlobalVariable.LOGN_EdtRdyUserID, 'anggaaditya', 0)
+		Mobile.delay(1)
+		Mobile.hideKeyboard()
+		
+		Mobile.tap(GlobalVariable.LOGN_EdtPassword, 0)
+		Mobile.delay(1)
+		Mobile.setText(GlobalVariable.LOGN_EdtRdyPassword, 'Shalawa181', 0)
+		Mobile.delay(1)
+		Mobile.hideKeyboard()
+		
+		Mobile.tap(GlobalVariable.LOGN_BtnLogin, 0)
+		Mobile.delay(2)
+		
+		def verify = Mobile.verifyElementExist(GlobalVariable.LOGN_AlertInvalidCredentials, 5, FailureHandling.STOP_ON_FAILURE)
+		
+		break
+	} else if (action == 'nointernet') {
+		CustomKeywords.'scroll.scroll.scrollNotificationBar'()
+		Mobile.delay(1)
+		Mobile.tap(GlobalVariable.OTHR_BtnWifi, 0)
+		Mobile.delay(1)
+		Mobile.pressBack()
+		
+		Mobile.tap(GlobalVariable.LOGN_EdtUserID, 0)
+		Mobile.delay(1)
+		Mobile.setText(GlobalVariable.LOGN_EdtRdyUserID, 'anggaaditya', 0)
+		Mobile.delay(1)
+		Mobile.hideKeyboard()
+		
+		Mobile.tap(GlobalVariable.LOGN_EdtPassword, 0)
+		Mobile.delay(1)
+		Mobile.setText(GlobalVariable.LOGN_EdtRdyPassword, 'Shalawa18', 0)
+		Mobile.delay(1)
+		Mobile.hideKeyboard()
+		
+		Mobile.tap(GlobalVariable.LOGN_BtnLogin, 0)
+		Mobile.delay(2)
+		
+		def verify = Mobile.verifyElementExist(GlobalVariable.LOGN_AlertCheckYourNetwork, 5, FailureHandling.STOP_ON_FAILURE)
+		
+		CustomKeywords.'scroll.scroll.scrollNotificationBar'()
+		Mobile.delay(1)
+		Mobile.tap(GlobalVariable.OTHR_BtnWifi, 0)
+		Mobile.delay(1)
+		Mobile.pressBack()
+		
+		break
+	} else if (action == 'visiblepassword') {
+		Mobile.tap(GlobalVariable.LOGN_EdtUserID, 0)
+		Mobile.delay(1)
+		Mobile.setText(GlobalVariable.LOGN_EdtRdyUserID, 'anggaaditya', 0)
+		Mobile.delay(1)
+		Mobile.hideKeyboard()
+		
+		int top = Mobile.getElementTopPosition(GlobalVariable.LOGN_EdtPassword, 0)
+		int left = Mobile.getElementLeftPosition(GlobalVariable.LOGN_EdtPassword, 0)
+		int x = left + Mobile.getElementWidth(GlobalVariable.LOGN_EdtPassword, 0) * 0.9
+		int y = top + Mobile.getElementHeight(GlobalVariable.LOGN_EdtPassword, 0) / 2
+		
+		Mobile.tapAtPosition(x, y)
+		Mobile.delay(1)
+		
+		Mobile.tap(GlobalVariable.LOGN_EdtPassword, 0)
+		Mobile.delay(1)
+		Mobile.setText(GlobalVariable.LOGN_EdtRdyPassword, 'Shalawa18', 0)
+		Mobile.delay(1)
+		Mobile.hideKeyboard()
+		
+		Mobile.tap(GlobalVariable.LOGN_BtnLogin, 0)
+		Mobile.delay(2)
+		
+		break
+	} else if (action == 'cancelfingerprint') {
+		Mobile.tap(GlobalVariable.LOGN_BtnFingerprint, 0)
+		Mobile.delay(1)
+		Mobile.pressBack()
+		Mobile.delay(1)
+		
+		Mobile.tap(GlobalVariable.LOGN_EdtUserID, 0)
+		Mobile.delay(1)
+		Mobile.setText(GlobalVariable.LOGN_EdtRdyUserID, 'anggaaditya', 0)
+		Mobile.delay(1)
+		Mobile.hideKeyboard()
+		
+		Mobile.tap(GlobalVariable.LOGN_EdtPassword, 0)
+		Mobile.delay(1)
+		Mobile.setText(GlobalVariable.LOGN_EdtRdyPassword, 'Shalawa18', 0)
+		Mobile.delay(1)
+		Mobile.hideKeyboard()
+		
+		Mobile.tap(GlobalVariable.LOGN_BtnLogin, 0)
+		Mobile.delay(2)
+	}
+}

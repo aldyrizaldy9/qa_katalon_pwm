@@ -42,10 +42,23 @@ WebUI.callTestCase(findTestCase('Mobile/Page/Run App/Run App byID'), [:], Failur
 //
 //Mobile.tapAtPosition(x, y)
 
-CustomKeywords.'positionclick.positionclick.clickButtonInBottom'(findTestObject('Mobile/Page/NavigationMenu/Risk Profile/Dropdown - Investment Goal'))
+Mobile.tap(GlobalVariable.LOGN_BtnFingerprint, 0)
 		Mobile.delay(1)
-		Mobile.tap(findTestObject('Mobile/Page/NavigationMenu/Risk Profile/Option Investment Goal - Additional Income'), 0)
+		Mobile.pressBack()
 		Mobile.delay(1)
 		
-		Mobile.tap(findTestObject('Mobile/Page/NavigationMenu/Risk Profile/Button - Calculate Risk Profile'), 0)
+		Mobile.tap(GlobalVariable.LOGN_EdtUserID, 0)
 		Mobile.delay(1)
+		Mobile.setText(GlobalVariable.LOGN_EdtRdyUserID, 'anggaaditya', 0)
+		Mobile.delay(1)
+		Mobile.hideKeyboard()
+		
+		Mobile.tap(GlobalVariable.LOGN_EdtPassword, 0)
+		Mobile.delay(1)
+		Mobile.setText(GlobalVariable.LOGN_EdtRdyPassword, 'Shalawa18', 0)
+		Mobile.delay(1)
+		Mobile.hideKeyboard()
+		
+		Mobile.tap(GlobalVariable.LOGN_BtnLogin, 0)
+		Mobile.delay(2)
+		

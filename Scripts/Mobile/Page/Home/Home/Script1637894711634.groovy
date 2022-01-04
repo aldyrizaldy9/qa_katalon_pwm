@@ -21,14 +21,13 @@ WebUI.callTestCase(findTestCase('Mobile/Page/CheckLogin'), [:], FailureHandling.
 
 for (int i = 0; i<1; i++) {
 	if (action == 'seeperformance') {
-		TestObject daily = findTestObject('Mobile/Page/Home/Item - Daily Performance')
-		CustomKeywords.'scroll.scroll.scrollScreenRightToLeft'(daily)
+		CustomKeywords.'scroll.scroll.scrollScreenRightToLeft'(GlobalVariable.HOME_ItemDailyPerf)
 		
 		Mobile.delay(2)
 		break
 	} else if (action == 'requestadhoc') {
 		
-		TestObject adhoc = findTestObject('Mobile/Page/Home/Button - Request Ad Hoc')
+		TestObject adhoc = GlobalVariable.HOME_BtnRequestAdHoc
 		int x = Mobile.getDeviceWidth()/2
 		int y = Mobile.getElementTopPosition(adhoc, 0) + Mobile.getElementHeight(adhoc, 0) * 0.2
 		System.out.println('x : ' + x)
@@ -36,15 +35,13 @@ for (int i = 0; i<1; i++) {
 		Mobile.tapAtPosition(x, y)
 		
 		Mobile.delay(10)
-		Mobile.tap(findTestObject('Object Repository/Mobile/Page/Home/Button - Open with Just Once'), 0)
-		Mobile.delay(5)
 		Mobile.pressBack()
 		Mobile.delay(1)
 		break
-	} else if (action == 'addwatchlist') {
+	} else if (action == 'addwatchlist' || action == 'deletewatchlist') {
 		Mobile.delay(2)
 		try {
-			TestObject itemWatchlist = findTestObject('Mobile/Page/Home/Item - Top Watchlist')
+			TestObject itemWatchlist = GlobalVariable.HOME_ItemTopWatchlist
 			
 			def itemWatchlistExist = Mobile.verifyElementExist(itemWatchlist, 2)
 			while (itemWatchlistExist) {
@@ -56,7 +53,7 @@ for (int i = 0; i<1; i++) {
 		} catch (Exception e) { }
 		
 		
-		TestObject watchlist = findTestObject('Mobile/Page/Home/Container - Watchlist')
+		TestObject watchlist = GlobalVariable.HOME_ContWatchlist
 		int left_position = Mobile.getElementLeftPosition(watchlist, 0)
 		int top_position = Mobile.getElementTopPosition(watchlist, 0)
 		int width = Mobile.getElementWidth(watchlist, 0)
@@ -68,58 +65,67 @@ for (int i = 0; i<1; i++) {
 		Mobile.tapAtPosition(x, y)
 		Mobile.delay(2)
 		
-		Mobile.tap(findTestObject('Object Repository/Mobile/Page/Home/Watchlist/Fab - Add'), 0)
+		Mobile.tap(GlobalVariable.HOME_WCTL_FabAdd, 0)
 		Mobile.delay(1)
 		
-		TestObject search = findTestObject('Object Repository/Mobile/Page/Home/Watchlist/Detail Watchlist/Container - Search')
+		TestObject search = GlobalVariable.HOME_WCTL_DETL_ContSearch
 		int x1 = Mobile.getElementLeftPosition(search, 0) + Mobile.getElementWidth(search, 0) / 2
 		int y1 = Mobile.getElementTopPosition(search, 0) + Mobile.getElementHeight(search, 0) * 0.8
 		Mobile.tapAtPosition(x1, y1)
 		
-		Mobile.setText(findTestObject('Object Repository/Mobile/Page/Home/Watchlist/Detail Watchlist/Input - Search Stock'), 'bb', 0)
+		Mobile.setText(GlobalVariable.HOME_WCTL_DETL_EdtSearchStock, 'bb', 0)
 		Mobile.delay(1)
-		Mobile.tapAndHold(findTestObject('Object Repository/Mobile/Page/Home/Watchlist/Detail Watchlist/Item - Top Search'), 1, 0)
+		Mobile.tapAndHold(GlobalVariable.HOME_WCTL_DETL_ItemTopSearch, 1, 0)
 		Mobile.delay(1)
 		
 		//move to detail watchlist
-		Mobile.tap(findTestObject('Mobile/Page/Home/Watchlist/Detail Watchlist/Input - Target Buy Sell'), 0)
-		Mobile.tap(findTestObject('Mobile/Page/Home/Watchlist/Detail Watchlist/Input - Target Buy Sell'), 0)
+		Mobile.tap(GlobalVariable.HOME_WCTL_DETL_EdtTargetBuySell, 0)
+		Mobile.tap(GlobalVariable.HOME_WCTL_DETL_EdtTargetBuySell, 0)
 		Mobile.delay(1)
 		
-		Mobile.tap(findTestObject('Mobile/Page/Home/Watchlist/Detail Watchlist/Input - Target Price'), 0)
+		Mobile.tap(GlobalVariable.HOME_WCTL_DETL_EdtTargetPrice, 0)
 		Mobile.delay(1)
-		Mobile.setText(findTestObject('Mobile/Page/Home/Watchlist/Detail Watchlist/Input - Target Price'), '100000', 0)
+		Mobile.setText(GlobalVariable.HOME_WCTL_DETL_EdtTargetPrice, '100000', 0)
 		Mobile.hideKeyboard()
 		
-		Mobile.tap(findTestObject('Object Repository/Mobile/Page/Home/Watchlist/Detail Watchlist/Input - Expiry Date'), 0)
+		Mobile.tap(GlobalVariable.HOME_WCTL_DETL_EdtExpiryDate, 0)
 		
-		TestObject expiry = findTestObject('Object Repository/Mobile/Page/Home/Watchlist/Detail Watchlist/Container - Expiry Date')
+		TestObject expiry = GlobalVariable.HOME_WCTL_DETL_ContExpiryDate
 		int x2 = Mobile.getElementLeftPosition(expiry, 0) + Mobile.getElementWidth(expiry, 0)/2
 		int y2 = Mobile.getElementTopPosition(expiry, 0) + Mobile.getElementHeight(expiry, 0) * 0.8
 		Mobile.tapAtPosition(x2, y2)
 		
 		Mobile.delay(1)
-		CustomKeywords.'scroll.scroll.scrollScreenBottomToTop'(findTestObject('Object Repository/Mobile/Page/Home/Watchlist/Detail Watchlist/Scroll - Expiry Year'))
+		CustomKeywords.'scroll.scroll.scrollScreenBottomToTop'(GlobalVariable.HOME_WCTL_DETL_ScrollExpiryYear)
 		Mobile.delay(2)
-		CustomKeywords.'scroll.scroll.scrollScreenBottomToTop'(findTestObject('Object Repository/Mobile/Page/Home/Watchlist/Detail Watchlist/Scroll - Expiry Month'))
+		CustomKeywords.'scroll.scroll.scrollScreenBottomToTop'(GlobalVariable.HOME_WCTL_DETL_ScrollExpiryMonth)
 		Mobile.delay(2)
 		
-		Mobile.tap(findTestObject('Object Repository/Mobile/Page/Home/Watchlist/Detail Watchlist/Button - Expiry Done'), 0)
+		Mobile.tap(GlobalVariable.HOME_WCTL_DETL_BtnExpiryDone, 0)
 		Mobile.delay(1)
 		
 		
-		Mobile.tap(findTestObject('Mobile/Page/Home/Watchlist/Detail Watchlist/Button - Add Watchlist'), 0)
+		Mobile.tap(GlobalVariable.HOME_WCTL_DETL_BtnAddWatchlist, 0)
 		Mobile.delay(1)
 		Mobile.hideKeyboard()
 		Mobile.pressBack()
 		Mobile.delay(1)
-	}
-	
-	if (page == 'notification') {
-		//temporary solution to clear watchlist before opening notification
+		
+		try {
+			TestObject itemWatchlist = GlobalVariable.HOME_ItemTopWatchlist
+			
+			def itemWatchlistExist = Mobile.verifyElementExist(itemWatchlist, 2)
+			while (itemWatchlistExist) {
+				CustomKeywords.'scroll.scroll.scrollRightToLeft'(itemWatchlist)
+				Mobile.delay(2)
+				itemWatchlistExist = Mobile.verifyElementExist(itemWatchlist, 2)
+				Mobile.delay(1)
+			}
+		} catch (Exception e) { }
+	} else if (action == 'addwatchlistnoinput') {
 		Mobile.delay(2)
 		try {
-			TestObject itemWatchlist = findTestObject('Mobile/Page/Home/Item - Top Watchlist')
+			TestObject itemWatchlist = GlobalVariable.HOME_ItemTopWatchlist
 			
 			def itemWatchlistExist = Mobile.verifyElementExist(itemWatchlist, 2)
 			while (itemWatchlistExist) {
@@ -130,7 +136,47 @@ for (int i = 0; i<1; i++) {
 			}
 		} catch (Exception e) { }
 		
-		TestObject notif = findTestObject('Mobile/Page/Home/Container - Notification')
+		TestObject watchlist = GlobalVariable.HOME_ContWatchlist
+		int left_position = Mobile.getElementLeftPosition(watchlist, 0)
+		int top_position = Mobile.getElementTopPosition(watchlist, 0)
+		int width = Mobile.getElementWidth(watchlist, 0)
+		int height = Mobile.getElementHeight(watchlist, 0)
+		
+		int x = left_position + width * 0.9
+		int y = top_position + 52
+		
+		Mobile.tapAtPosition(x, y)
+		Mobile.delay(2)
+		
+		Mobile.tap(GlobalVariable.HOME_WCTL_FabAdd, 0)
+		Mobile.delay(1)
+		
+		Mobile.tap(GlobalVariable.HOME_WCTL_DETL_BtnAddWatchlist, 0)
+		Mobile.delay(1)
+		
+		def verify = Mobile.verifyElementExist(GlobalVariable.HOME_WCTL_DETL_AlertFillinput, 5)
+		
+		break
+	} else if (action == 'deletewatchlist') {
+		
+	}
+	
+	if (page == 'notification') {
+		//temporary solution to clear watchlist before opening notification
+		Mobile.delay(2)
+		try {
+			TestObject itemWatchlist = GlobalVariable.HOME_ItemTopWatchlist
+			
+			def itemWatchlistExist = Mobile.verifyElementExist(itemWatchlist, 2)
+			while (itemWatchlistExist) {
+				CustomKeywords.'scroll.scroll.scrollRightToLeft'(itemWatchlist)
+				Mobile.delay(2)
+				itemWatchlistExist = Mobile.verifyElementExist(itemWatchlist, 2)
+				Mobile.delay(1)
+			}
+		} catch (Exception e) { }
+		
+		TestObject notif = GlobalVariable.HOME_ContNotification
 
 		int left_position = Mobile.getElementLeftPosition(notif, 0)
 		int top_position = Mobile.getElementTopPosition(notif, 0)
@@ -148,7 +194,7 @@ for (int i = 0; i<1; i++) {
 		CustomKeywords.'scroll.scroll.scrollScreenBottomToTop'()
 		CustomKeywords.'scroll.scroll.scrollScreenBottomToTop'()
 		
-		Mobile.tapAndHold(findTestObject('Mobile/Page/Home/Item - Top Latest News'), 1, 0)
+		Mobile.tapAndHold(GlobalVariable.HOME_ItemTopLatestNews, 1, 0)
 		Mobile.delay(2)
 		
 		CustomKeywords.'scroll.scroll.scrollScreenBottomToTop'()
@@ -156,7 +202,7 @@ for (int i = 0; i<1; i++) {
 		CustomKeywords.'scroll.scroll.scrollScreenBottomToTop'()
 		CustomKeywords.'scroll.scroll.scrollScreenBottomToTop'()
 		
-		TestObject news = findTestObject('Mobile/Page/Home/Container - Latest News')
+		TestObject news = GlobalVariable.HOME_ContLatestNews
 		
 		int left_position = Mobile.getElementLeftPosition(news, 0)
 		int top_position = Mobile.getElementTopPosition(news, 0)

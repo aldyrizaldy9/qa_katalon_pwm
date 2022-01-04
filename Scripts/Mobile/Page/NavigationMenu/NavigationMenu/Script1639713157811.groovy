@@ -25,7 +25,7 @@ Mobile.delay(1)
 
 for (int i = 0; i < 1; i++) {
 	if (action == 'downloadtaxreport') {
-		TestObject taxreport = findTestObject('Mobile/Page/NavigationMenu/Container - Yearly Tax Report')
+		TestObject taxreport = GlobalVariable.NAVM_ContYearlyTaxReport
 		
 		int top = Mobile.getElementTopPosition(taxreport, 0)
 		int y = Mobile.getElementHeight(taxreport, 0) * 0.8 + top
@@ -33,11 +33,11 @@ for (int i = 0; i < 1; i++) {
 		
 		Mobile.tapAtPosition(x, y)
 		Mobile.delay(5)
-		Mobile.tap(findTestObject('Mobile/Page/NavigationMenu/Button - Open Just Once'), 0)
-		Mobile.delay(5)
+//		Mobile.tap(findTestObject('Mobile/Page/NavigationMenu/Button - Open Just Once'), 0)
+//		Mobile.delay(5)
 		Mobile.pressBack()
 	} else if (action == 'analyzeprofile') {
-		TestObject risk = findTestObject('Mobile/Page/NavigationMenu/Container - Risk Profile')
+		TestObject risk = GlobalVariable.NAVM_ContRiskProfile
 		
 		int top = Mobile.getElementTopPosition(risk, 0)
 		int y = Mobile.getElementHeight(risk, 0) * 0.8 + top
@@ -48,7 +48,7 @@ for (int i = 0; i < 1; i++) {
 		
 		try {
 			for (int j = 1; j <= 5; j++) {
-				def bestsuited = Mobile.verifyElementExist(findTestObject('Mobile/Page/NavigationMenu/Container - Risk Profile'), 2)
+				def bestsuited = Mobile.verifyElementExist(GlobalVariable.NAVM_ContRiskProfile, 2)
 					
 				if (!bestsuited) {
 					break
@@ -64,71 +64,71 @@ for (int i = 0; i < 1; i++) {
 		Random rand = new Random()
 		
 		int random = rand.nextInt(2)
-		CustomKeywords.'positionclick.positionclick.clickButtonInBottom'(findTestObject('Mobile/Page/NavigationMenu/Risk Profile/Dropdown - How Long'))
+		CustomKeywords.'positionclick.positionclick.clickButtonInBottom'(GlobalVariable.NAVM_RISK_DropHowLong)
 		Mobile.delay(1)
 		if (random == 0)
-			Mobile.tap(findTestObject('Mobile/Page/NavigationMenu/Risk Profile/Option How Long - 1 to 3'), 0)
+			Mobile.tap(GlobalVariable.NAVM_RISK_OptHowLong1to3, 0)
 		else
-			Mobile.tap(findTestObject('Mobile/Page/NavigationMenu/Risk Profile/Option How Long - 3 to 5'), 0)
+			Mobile.tap(GlobalVariable.NAVM_RISK_OptHowLong3to5, 0)
 		Mobile.delay(1)
 		
 		random = rand.nextInt(2)
-		CustomKeywords.'positionclick.positionclick.clickButtonInBottom'(findTestObject('Mobile/Page/NavigationMenu/Risk Profile/Dropdown - Investment Goal'))
+		CustomKeywords.'positionclick.positionclick.clickButtonInBottom'(GlobalVariable.NAVM_RISK_DropInvestGoal)
 		Mobile.delay(1)
 		if (random == 0)
-			Mobile.tap(findTestObject('Mobile/Page/NavigationMenu/Risk Profile/Option Investment Goal - Additional Income'), 0)
+			Mobile.tap(GlobalVariable.NAVM_RISK_OptInvestGoalAddIncome, 0)
 		else
-			Mobile.tap(findTestObject('Mobile/Page/NavigationMenu/Risk Profile/Option Investment Goal - Profit'), 0)
+			Mobile.tap(GlobalVariable.NAVM_RISK_OptInvestGoalProfit, 0)
 		Mobile.delay(1)
 
 		random = rand.nextInt(2)
-		CustomKeywords.'positionclick.positionclick.clickButtonInBottom'(findTestObject('Mobile/Page/NavigationMenu/Risk Profile/Dropdown - General Knowledge'))
+		CustomKeywords.'positionclick.positionclick.clickButtonInBottom'(GlobalVariable.NAVM_RISK_DropGenKnowledge)
 		Mobile.delay(1)
 		if (random == 0)
-			Mobile.tap(findTestObject('Mobile/Page/NavigationMenu/Risk Profile/Option General Knowledge - Limited'), 0)
+			Mobile.tap(GlobalVariable.NAVM_RISK_OptGenKnowledgeLimited, 0)
 		else
-			Mobile.tap(findTestObject('Mobile/Page/NavigationMenu/Risk Profile/Option General Knowledge - Quite Good'), 0)
+			Mobile.tap(GlobalVariable.NAVM_RISK_OptGenKnowledgeQuiteGood, 0)
 		Mobile.delay(1)
 		
 		random = rand.nextInt(2)
-		CustomKeywords.'positionclick.positionclick.clickButtonInBottom'(findTestObject('Mobile/Page/NavigationMenu/Risk Profile/Dropdown - Total Amount'))
+		CustomKeywords.'positionclick.positionclick.clickButtonInBottom'(GlobalVariable.NAVM_RISK_DropTotalAmount)
 		Mobile.delay(1)
 		if (random == 0)
-			Mobile.tap(findTestObject('Mobile/Page/NavigationMenu/Risk Profile/Option Total Amount - Between 10 and 20'), 0)
+			Mobile.tap(GlobalVariable.NAVM_RISK_OptTotal10and20, 0)
 		else
-			Mobile.tap(findTestObject('Mobile/Page/NavigationMenu/Risk Profile/Option Total Amount - Between 20 and 30'), 0)
+			Mobile.tap(GlobalVariable.NAVM_RISK_OptTotal20and30, 0)
 		Mobile.delay(1)
 		
 		random = rand.nextInt(2)
-		CustomKeywords.'positionclick.positionclick.clickButtonInBottom'(findTestObject('Mobile/Page/NavigationMenu/Risk Profile/Dropdown - Investment Goal'))
+		CustomKeywords.'positionclick.positionclick.clickButtonInBottom'(GlobalVariable.NAVM_RISK_DropRiskLevel)
 		Mobile.delay(1)
 		if (random == 0)
-			Mobile.tap(findTestObject('Mobile/Page/NavigationMenu/Risk Profile/Option Risk Level - Low'), 0)
+			Mobile.tap(GlobalVariable.NAVM_RISK_OptRiskLevelLow, 0)
 		else
-			Mobile.tap(findTestObject('Mobile/Page/NavigationMenu/Risk Profile/Option Risk Level - None'), 0)
+			Mobile.tap(GlobalVariable.NAVM_RISK_OptRiskLevelNone, 0)
 		Mobile.delay(1)
 		
 		random = rand.nextInt(2)
-		CustomKeywords.'positionclick.positionclick.clickButtonInBottom'(findTestObject('Mobile/Page/NavigationMenu/Risk Profile/Dropdown - Best Suited'))
+		CustomKeywords.'positionclick.positionclick.clickButtonInBottom'(GlobalVariable.NAVM_RISK_DropBestSuited)
 		Mobile.delay(1)
 		if (random == 0)
-			Mobile.tap(findTestObject('Mobile/Page/NavigationMenu/Risk Profile/Option Best Suited - Bonds'), 0)
+			Mobile.tap(GlobalVariable.NAVM_RISK_OptBestSuitedBonds, 0)
 		else
-			Mobile.tap(findTestObject('Mobile/Page/NavigationMenu/Risk Profile/Option Best Suited - Security Deposit'), 0)
+			Mobile.tap(GlobalVariable.NAVM_RISK_OptBestSuitedSecDeposit, 0)
 		Mobile.delay(1)
 		
-		Mobile.tap(findTestObject('Mobile/Page/NavigationMenu/Risk Profile/Button - Calculate Risk Profile'), 0)
+		Mobile.tap(GlobalVariable.NAVM_RISK_BtnCalculate, 0)
 		Mobile.delay(1)
 		
 		Mobile.pressBack()
 	} else if (action == 'wa') {
-		Mobile.tap(findTestObject('Mobile/Page/NavigationMenu/Button - Whatsapp'), 0)
+		Mobile.tap(GlobalVariable.NAVM_BtnWhatsapp, 0)
 		Mobile.delay(2)
 	} else if (action == 'email') {
-		Mobile.tap(findTestObject('Mobile/Page/NavigationMenu/Button - Email'), 0)
+		Mobile.tap(GlobalVariable.NAVM_BtnEmail, 0)
 		Mobile.delay(2)
 	} else if (action == 'setting') {
-		TestObject setting = findTestObject('Mobile/Page/NavigationMenu/Button - Settings')
+		TestObject setting = GlobalVariable.NAVM_BtnSettings
 		
 		int top = Mobile.getElementTopPosition(setting, 0)
 		int y = Mobile.getElementHeight(setting, 0) * 0.8 + top
@@ -137,53 +137,53 @@ for (int i = 0; i < 1; i++) {
 		Mobile.tapAtPosition(x, y)
 		Mobile.delay(1)
 		
-		Mobile.tap(findTestObject('Mobile/Page/NavigationMenu/Settings/Dropdown - Gain'), 0)
+		Mobile.tap(GlobalVariable.NAVM_SETT_DropGain, 0)
 		Mobile.delay(1)
-		Mobile.tap(findTestObject('Mobile/Page/NavigationMenu/Settings/Option Gain - 5'), 0)
+		Mobile.tap(GlobalVariable.NAVM_SETT_OptGain5, 0)
 		Mobile.delay(1)
-		Mobile.tap(findTestObject('Mobile/Page/NavigationMenu/Settings/Switch - Gain'), 0)
+		Mobile.tap(GlobalVariable.NAVM_SETT_SwitchGain, 0)
 		Mobile.delay(1)
-		Mobile.tap(findTestObject('Mobile/Page/NavigationMenu/Settings/Switch - Gain'), 0)
-		Mobile.delay(1)
-		
-		Mobile.tap(findTestObject('Mobile/Page/NavigationMenu/Settings/Dropdown - Loss'), 0)
-		Mobile.delay(1)
-		Mobile.tap(findTestObject('Mobile/Page/NavigationMenu/Settings/Option Loss - 5'), 0)
-		Mobile.delay(1)
-		Mobile.tap(findTestObject('Mobile/Page/NavigationMenu/Settings/Switch - Loss'), 0)
-		Mobile.delay(1)
-		Mobile.tap(findTestObject('Mobile/Page/NavigationMenu/Settings/Switch - Loss'), 0)
+		Mobile.tap(GlobalVariable.NAVM_SETT_SwitchGain, 0)
 		Mobile.delay(1)
 		
-		Mobile.tap(findTestObject('Mobile/Page/NavigationMenu/Settings/Checkbox - Risk Tolerance'), 0)
+		Mobile.tap(GlobalVariable.NAVM_SETT_DropLoss, 0)
 		Mobile.delay(1)
-		Mobile.tap(findTestObject('Mobile/Page/NavigationMenu/Settings/Checkbox - Risk Tolerance'), 0)
+		Mobile.tap(GlobalVariable.NAVM_SETT_OptLoss5, 0)
+		Mobile.delay(1)
+		Mobile.tap(GlobalVariable.NAVM_SETT_SwitchLoss, 0)
+		Mobile.delay(1)
+		Mobile.tap(GlobalVariable.NAVM_SETT_SwitchLoss, 0)
 		Mobile.delay(1)
 		
-		Mobile.tap(findTestObject('Mobile/Page/NavigationMenu/Settings/Switch - Stock News'), 0)
+		Mobile.tap(GlobalVariable.NAVM_SETT_CbRiskTolerance, 0)
 		Mobile.delay(1)
-		Mobile.tap(findTestObject('Mobile/Page/NavigationMenu/Settings/Switch - Stock News'), 0)
+		Mobile.tap(GlobalVariable.NAVM_SETT_CbRiskTolerance, 0)
+		Mobile.delay(1)
+		
+		Mobile.tap(GlobalVariable.NAVM_SETT_SwitchStock, 0)
+		Mobile.delay(1)
+		Mobile.tap(GlobalVariable.NAVM_SETT_SwitchStock, 0)
 		Mobile.delay(1)
 
-		Mobile.tap(findTestObject('Mobile/Page/NavigationMenu/Settings/Switch - Fund News'), 0)
+		Mobile.tap(GlobalVariable.NAVM_SETT_SwitchFund, 0)
 		Mobile.delay(1)
-		Mobile.tap(findTestObject('Mobile/Page/NavigationMenu/Settings/Switch - Fund News'), 0)
-		Mobile.delay(1)
-		
-		Mobile.tap(findTestObject('Mobile/Page/NavigationMenu/Settings/Switch - Bond News'), 0)
-		Mobile.delay(1)
-		Mobile.tap(findTestObject('Mobile/Page/NavigationMenu/Settings/Switch - Bond News'), 0)
+		Mobile.tap(GlobalVariable.NAVM_SETT_SwitchFund, 0)
 		Mobile.delay(1)
 		
-		Mobile.tap(findTestObject('Mobile/Page/NavigationMenu/Settings/Switch - Macro News'), 0)
+		Mobile.tap(GlobalVariable.NAVM_SETT_SwitchBond, 0)
 		Mobile.delay(1)
-		Mobile.tap(findTestObject('Mobile/Page/NavigationMenu/Settings/Switch - Macro News'), 0)
+		Mobile.tap(GlobalVariable.NAVM_SETT_SwitchBond, 0)
+		Mobile.delay(1)
+		
+		Mobile.tap(GlobalVariable.NAVM_SETT_SwitchMacro, 0)
+		Mobile.delay(1)
+		Mobile.tap(GlobalVariable.NAVM_SETT_SwitchMacro, 0)
 		Mobile.delay(1)
 		
 		Mobile.pressBack()
 		Mobile.delay(1)
 	} else if (action == 'logout') {
-		TestObject logout = findTestObject('Mobile/Page/NavigationMenu/Container - Logout')
+		TestObject logout = GlobalVariable.NAVM_ContLogout
 		
 		int top = Mobile.getElementTopPosition(logout, 0)
 		int y = Mobile.getElementHeight(logout, 0) * 0.8 + top
