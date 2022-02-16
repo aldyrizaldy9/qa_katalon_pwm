@@ -117,7 +117,7 @@ Tab 2 of 5</value>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>262</value>
+      <value>245</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -138,7 +138,7 @@ Tab 2 of 5</value>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[229,262][432,346]</value>
+      <value>[229,245][432,329]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -166,8 +166,8 @@ Tab 2 of 5</value>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[2]</value>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[2]</value>
    </webElementProperties>
-   <locator>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[2]</locator>
+   <locator>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[2]</locator>
    <locatorStrategy>XPATH</locatorStrategy>
 </MobileElementEntity>

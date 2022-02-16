@@ -23,42 +23,14 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Mobile/Page/Run App/Run App byID'), [:], FailureHandling.STOP_ON_FAILURE)
 
-////get element position
-//TestObject object = findTestObject('null')
-//
-//int top = Mobile.getElementTopPosition(object, 0)
-//int left = Mobile.getElementLeftPosition(object, 0)
-//int width = Mobile.getElementWidth(object, 0)
-//int height = Mobile.getElementHeight(object, 0)
-//int x = width/2
-//int y = top + height/2
-//
-//System.out.println('top : ' + top)
-//System.out.println('left : ' + left)
-//System.out.println('width : ' + width)
-//System.out.println('height : ' + height)
-//System.out.println('x : ' + x)
-//System.out.println('y : ' + y)
-//
-//Mobile.tapAtPosition(x, y)
-
-Mobile.tap(GlobalVariable.LOGN_BtnFingerprint, 0)
-		Mobile.delay(1)
-		Mobile.pressBack()
-		Mobile.delay(1)
+TestObject watchlist = GlobalVariable.HOME_ContWatchlist
+		int left_position = Mobile.getElementLeftPosition(watchlist, 0)
+		int top_position = Mobile.getElementTopPosition(watchlist, 0)
+		int width = Mobile.getElementWidth(watchlist, 0)
+		int height = Mobile.getElementHeight(watchlist, 0)
 		
-		Mobile.tap(GlobalVariable.LOGN_EdtUserID, 0)
-		Mobile.delay(1)
-		Mobile.setText(GlobalVariable.LOGN_EdtRdyUserID, 'anggaaditya', 0)
-		Mobile.delay(1)
-		Mobile.hideKeyboard()
+		int x = left_position + width * 0.9
+		int y = top_position + 52
 		
-		Mobile.tap(GlobalVariable.LOGN_EdtPassword, 0)
-		Mobile.delay(1)
-		Mobile.setText(GlobalVariable.LOGN_EdtRdyPassword, 'Shalawa18', 0)
-		Mobile.delay(1)
-		Mobile.hideKeyboard()
-		
-		Mobile.tap(GlobalVariable.LOGN_BtnLogin, 0)
+		Mobile.tapAtPosition(x, y)
 		Mobile.delay(2)
-		

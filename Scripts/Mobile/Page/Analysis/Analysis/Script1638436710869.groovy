@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('Mobile/Page/CheckLogin'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(GlobalVariable.HOME_MenubarAnalysis, 0)
-Mobile.delay(1)
+Mobile.delay(3)
 
 for (int i = 0; i < 1; i++) {
 	if (action == 'technicalsearch') {
@@ -36,7 +36,7 @@ for (int i = 0; i < 1; i++) {
 		
 		Mobile.tap(GlobalVariable.ANAL_DropTransaction, 0)
 		Mobile.delay(1)
-		Mobile.tap(GlobalVariable.ANAL_OptTransaction1B, 0)
+		Mobile.tap(GlobalVariable.ANAL_OptTransaction10B, 0)
 		Mobile.delay(1)
 		
 		Mobile.tap(GlobalVariable.ANAL_DropTimeFrame, 0)
@@ -50,21 +50,25 @@ for (int i = 0; i < 1; i++) {
 		Mobile.delay(2)
 	
 	} else if (action == 'technicaldetail') {
-		Mobile.tap(GlobalVariable.ANAL_ItemTopResultTech, 0)
-		Mobile.delay(3)
+		Mobile.tapAndHold(GlobalVariable.ANAL_ItemTopResultTech, 1, 0)
+		Mobile.delay(5)
 		
 		switch (action2) {
 			case 'day' :
-				Mobile.tap(GlobalVariable.ANAL_DETL_BtnD, 0)
+//				Mobile.tap(GlobalVariable.ANAL_DETL_BtnD, 0)
+				Mobile.tapAndHold(GlobalVariable.ANAL_DETL_BtnD, 1, 0)
 				break
 			case 'week' :
-				Mobile.tap(GlobalVariable.ANAL_DETL_BtnW, 0)
+//				Mobile.tap(GlobalVariable.ANAL_DETL_BtnW, 0)
+				Mobile.tapAndHold(GlobalVariable.ANAL_DETL_BtnW, 1, 0)
 				break
 			case 'month' :
-				Mobile.tap(GlobalVariable.ANAL_DETL_BtnM, 0)
+//				Mobile.tap(GlobalVariable.ANAL_DETL_BtnM, 0)
+				Mobile.tapAndHold(GlobalVariable.ANAL_DETL_BtnM, 1, 0)
 				break
 			case 'year' :
-				Mobile.tap(GlobalVariable.ANAL_DETL_BtnY, 0)
+//				Mobile.tap(GlobalVariable.ANAL_DETL_BtnY, 0)
+				Mobile.tapAndHold(GlobalVariable.ANAL_DETL_BtnY, 1, 0)
 				break
 		}
 		
@@ -83,7 +87,7 @@ for (int i = 0; i < 1; i++) {
 		
 		Mobile.tap(GlobalVariable.ANAL_EdtSearch, 0)
 		Mobile.delay(1)
-		Mobile.setText(GlobalVariable.ANAL_EdtSearch, 'surya', 0)
+		Mobile.setText(GlobalVariable.ANAL_EdtSearch, 'embun', 0)
 		Mobile.hideKeyboard()
 		
 		Mobile.tapAndHold(GlobalVariable.ANAL_ItemTopSearch, 1, 0)

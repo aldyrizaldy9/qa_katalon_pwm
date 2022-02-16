@@ -33,8 +33,6 @@ for (int i = 0; i < 1; i++) {
 		
 		Mobile.tapAtPosition(x, y)
 		Mobile.delay(5)
-//		Mobile.tap(findTestObject('Mobile/Page/NavigationMenu/Button - Open Just Once'), 0)
-//		Mobile.delay(5)
 		Mobile.pressBack()
 	} else if (action == 'analyzeprofile') {
 		TestObject risk = GlobalVariable.NAVM_ContRiskProfile
@@ -183,13 +181,9 @@ for (int i = 0; i < 1; i++) {
 		Mobile.pressBack()
 		Mobile.delay(1)
 	} else if (action == 'logout') {
-		TestObject logout = GlobalVariable.NAVM_ContLogout
+		TestObject logout = GlobalVariable.NAVM_BtnLogout
 		
-		int top = Mobile.getElementTopPosition(logout, 0)
-		int y = Mobile.getElementHeight(logout, 0) * 0.8 + top
-		int x = Mobile.getDeviceWidth() * 0.2
-		
-		Mobile.tapAtPosition(x, y)
+		Mobile.tap(logout, 0)
 		Mobile.delay(1)
 	}
 }

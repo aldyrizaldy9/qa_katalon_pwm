@@ -27,9 +27,9 @@ for (int i = 0; i<1; i++) {
 		break
 	} else if (action == 'requestadhoc') {
 		
-		TestObject adhoc = GlobalVariable.HOME_BtnRequestAdHoc
+		TestObject adhoc = GlobalVariable.HOME_ContRequestAdHoc
 		int x = Mobile.getDeviceWidth()/2
-		int y = Mobile.getElementTopPosition(adhoc, 0) + Mobile.getElementHeight(adhoc, 0) * 0.2
+		int y = Mobile.getElementTopPosition(adhoc, 0) + Mobile.getElementHeight(adhoc, 0) * 0.82
 		System.out.println('x : ' + x)
 		System.out.println('y : ' + y)
 		Mobile.tapAtPosition(x, y)
@@ -51,7 +51,6 @@ for (int i = 0; i<1; i++) {
 				Mobile.delay(1)
 			}
 		} catch (Exception e) { }
-		
 		
 		TestObject watchlist = GlobalVariable.HOME_ContWatchlist
 		int left_position = Mobile.getElementLeftPosition(watchlist, 0)
@@ -88,7 +87,7 @@ for (int i = 0; i<1; i++) {
 		Mobile.setText(GlobalVariable.HOME_WCTL_DETL_EdtTargetPrice, '100000', 0)
 		Mobile.hideKeyboard()
 		
-		Mobile.tap(GlobalVariable.HOME_WCTL_DETL_EdtExpiryDate, 0)
+//		Mobile.tap(GlobalVariable.HOME_WCTL_DETL_EdtExpiryDate, 0)
 		
 		TestObject expiry = GlobalVariable.HOME_WCTL_DETL_ContExpiryDate
 		int x2 = Mobile.getElementLeftPosition(expiry, 0) + Mobile.getElementWidth(expiry, 0)/2
@@ -158,7 +157,18 @@ for (int i = 0; i<1; i++) {
 		
 		break
 	} else if (action == 'deletewatchlist') {
-		
+		Mobile.delay(2)
+		try {
+			TestObject itemWatchlist = GlobalVariable.HOME_ItemTopWatchlist
+			
+			def itemWatchlistExist = Mobile.verifyElementExist(itemWatchlist, 2)
+			while (itemWatchlistExist) {
+				CustomKeywords.'scroll.scroll.scrollRightToLeft'(itemWatchlist)
+				Mobile.delay(2)
+				itemWatchlistExist = Mobile.verifyElementExist(itemWatchlist, 2)
+				Mobile.delay(1)
+			}
+		} catch (Exception e) { }
 	}
 	
 	if (page == 'notification') {
@@ -174,22 +184,23 @@ for (int i = 0; i<1; i++) {
 				itemWatchlistExist = Mobile.verifyElementExist(itemWatchlist, 2)
 				Mobile.delay(1)
 			}
+			
+			TestObject notif = GlobalVariable.HOME_ContNotification
+			
+			int left_position = Mobile.getElementLeftPosition(notif, 0)
+			int top_position = Mobile.getElementTopPosition(notif, 0)
+			int width = Mobile.getElementWidth(notif, 0)
+			int height = Mobile.getElementHeight(notif, 0)
+						
+			int x = left_position + width * 0.9
+			int y = top_position + 52
+						
+			Mobile.tapAtPosition(x, y)
+			Mobile.delay(2)
+						
+			CustomKeywords.'scroll.scroll.scrollScreenBottomToTop'()
 		} catch (Exception e) { }
 		
-		TestObject notif = GlobalVariable.HOME_ContNotification
-
-		int left_position = Mobile.getElementLeftPosition(notif, 0)
-		int top_position = Mobile.getElementTopPosition(notif, 0)
-		int width = Mobile.getElementWidth(notif, 0)
-		int height = Mobile.getElementHeight(notif, 0)
-			
-		int x = left_position + width * 0.9
-		int y = top_position + 52
-			
-		Mobile.tapAtPosition(x, y)
-		Mobile.delay(2)
-			
-		CustomKeywords.'scroll.scroll.scrollScreenBottomToTop'()
 	} else if (page == 'itemnews') {
 		CustomKeywords.'scroll.scroll.scrollScreenBottomToTop'()
 		CustomKeywords.'scroll.scroll.scrollScreenBottomToTop'()

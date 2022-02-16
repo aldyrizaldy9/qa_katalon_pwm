@@ -147,17 +147,12 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object ANAL_OptTransaction1B
-     
-    /**
-     * <p></p>
-     */
     public static Object ANAL_OptTransaction10B
      
     /**
      * <p></p>
      */
-    public static Object ANAL_OptTransaction5B
+    public static Object ANAL_OptTransaction100B
      
     /**
      * <p></p>
@@ -177,7 +172,7 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object HOME_BtnRequestAdHoc
+    public static Object HOME_ContRequestAdHoc
      
     /**
      * <p></p>
@@ -512,6 +507,11 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
+    public static Object NAVM_SETT_OptGain10
+     
+    /**
+     * <p></p>
+     */
     public static Object NAVM_SETT_OptGain15
      
     /**
@@ -543,11 +543,6 @@ public class GlobalVariable {
      * <p></p>
      */
     public static Object NAVM_SETT_OptLoss5
-     
-    /**
-     * <p></p>
-     */
-    public static Object NAVM_SETT_OptGain10
      
     /**
      * <p></p>
@@ -813,13 +808,12 @@ public class GlobalVariable {
             ANAL_OptTimeFrameDaily = selectedVariables['ANAL_OptTimeFrameDaily']
             ANAL_OptTimeFrameMonthly = selectedVariables['ANAL_OptTimeFrameMonthly']
             ANAL_OptTimeFrameWeekly = selectedVariables['ANAL_OptTimeFrameWeekly']
-            ANAL_OptTransaction1B = selectedVariables['ANAL_OptTransaction1B']
             ANAL_OptTransaction10B = selectedVariables['ANAL_OptTransaction10B']
-            ANAL_OptTransaction5B = selectedVariables['ANAL_OptTransaction5B']
+            ANAL_OptTransaction100B = selectedVariables['ANAL_OptTransaction100B']
             ANAL_TabResearchReport = selectedVariables['ANAL_TabResearchReport']
             HOME_BtnAddWatchlist = selectedVariables['HOME_BtnAddWatchlist']
             HOME_BtnOpenJustOnce = selectedVariables['HOME_BtnOpenJustOnce']
-            HOME_BtnRequestAdHoc = selectedVariables['HOME_BtnRequestAdHoc']
+            HOME_ContRequestAdHoc = selectedVariables['HOME_ContRequestAdHoc']
             HOME_ContLatestNews = selectedVariables['HOME_ContLatestNews']
             HOME_ContNotification = selectedVariables['HOME_ContNotification']
             HOME_ContWatchlist = selectedVariables['HOME_ContWatchlist']
@@ -886,6 +880,7 @@ public class GlobalVariable {
             NAVM_SETT_CbRiskTolerance = selectedVariables['NAVM_SETT_CbRiskTolerance']
             NAVM_SETT_DropGain = selectedVariables['NAVM_SETT_DropGain']
             NAVM_SETT_DropLoss = selectedVariables['NAVM_SETT_DropLoss']
+            NAVM_SETT_OptGain10 = selectedVariables['NAVM_SETT_OptGain10']
             NAVM_SETT_OptGain15 = selectedVariables['NAVM_SETT_OptGain15']
             NAVM_SETT_OptGain20 = selectedVariables['NAVM_SETT_OptGain20']
             NAVM_SETT_OptGain5 = selectedVariables['NAVM_SETT_OptGain5']
@@ -893,7 +888,6 @@ public class GlobalVariable {
             NAVM_SETT_OptLoss15 = selectedVariables['NAVM_SETT_OptLoss15']
             NAVM_SETT_OptLoss20 = selectedVariables['NAVM_SETT_OptLoss20']
             NAVM_SETT_OptLoss5 = selectedVariables['NAVM_SETT_OptLoss5']
-            NAVM_SETT_OptGain10 = selectedVariables['NAVM_SETT_OptGain10']
             NAVM_SETT_SwitchBond = selectedVariables['NAVM_SETT_SwitchBond']
             NAVM_SETT_SwitchFund = selectedVariables['NAVM_SETT_SwitchFund']
             NAVM_SETT_SwitchGain = selectedVariables['NAVM_SETT_SwitchGain']

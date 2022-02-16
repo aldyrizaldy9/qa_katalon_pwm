@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+login,,,,2022-01-13 08:14:26,2022-01-13 08:19:48,5m - 22.535s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Login/001 - Login dengan username,,,,2022-01-13 08:14:27,2022-01-13 08:16:08,1m - 41.344s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2022-01-13 08:14:28,2022-01-13 08:14:52,24.101s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Login/Login""), [""action"":""username""], CONTINUE_ON_FAILURE)",,,,2022-01-13 08:14:52,2022-01-13 08:15:56,1m - 4.498s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2022-01-13 08:15:56,2022-01-13 08:16:08,11.653s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Login/002 - Login dengan password salah,,,,2022-01-13 08:16:08,2022-01-13 08:16:59,51.200s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2022-01-13 08:16:09,2022-01-13 08:16:24,15.413s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Login/Login""), [""action"":""wrongpassword""], CONTINUE_ON_FAILURE)",,,,2022-01-13 08:16:24,2022-01-13 08:16:48,24.230s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2022-01-13 08:16:48,2022-01-13 08:16:59,10.882s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Login/003 - Login tanpa internet,,,,2022-01-13 08:16:59,2022-01-13 08:18:03,1m - 4.142s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2022-01-13 08:17:00,2022-01-13 08:17:16,15.835s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Login/Login""), [""action"":""nointernet""], CONTINUE_ON_FAILURE)",,,,2022-01-13 08:17:16,2022-01-13 08:17:52,35.893s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2022-01-13 08:17:52,2022-01-13 08:18:03,11.692s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Login/004 - Login dengan mengaktifkan visible password,,,,2022-01-13 08:18:03,2022-01-13 08:18:55,51.895s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2022-01-13 08:18:04,2022-01-13 08:18:20,15.834s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Login/Login""), [""action"":""visiblepassword""], CONTINUE_ON_FAILURE)",,,,2022-01-13 08:18:20,2022-01-13 08:18:43,23.524s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2022-01-13 08:18:43,2022-01-13 08:18:55,11.727s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Login/005 - Login menggunakan username dengan membatalkan fingerprint,,,,2022-01-13 08:18:55,2022-01-13 08:19:48,52.961s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2022-01-13 08:18:56,2022-01-13 08:19:12,16.243s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Login/Login""), [""action"":""cancelfingerprint""], CONTINUE_ON_FAILURE)",,,,2022-01-13 08:19:12,2022-01-13 08:19:37,25.143s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2022-01-13 08:19:37,2022-01-13 08:19:48,10.859s,PASSED

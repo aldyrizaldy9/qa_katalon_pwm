@@ -1,0 +1,1428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="news" time="609.03" tests="5" failures="0" skips="0" errors="0">
+   <testsuite name="news" tests="5" failures="0" errors="0" time="609.03" skips="0" timestamp="2022-01-05 08:07:04" hostname="Owner - aldy-tft" id="Test Suites/news">
+      <properties>
+         <property name="deviceName" value="samsung SM-A205F (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Owner\\Documents\\kerjaan\\KatalonProject\\qa_katalon_pwm\\qa_katalon_pwm\\Reports\\20220105_074137\\news\\20220105_074147"/>
+         <property name="logFiles" value="C:\\Users\\Owner\\Documents\\kerjaan\\KatalonProject\\qa_katalon_pwm\\qa_katalon_pwm\\Reports\\20220105_074137\\news\\20220105_074147\\appium.log, C:\\Users\\Owner\\Documents\\kerjaan\\KatalonProject\\qa_katalon_pwm\\qa_katalon_pwm\\Reports\\20220105_074137\\news\\20220105_074147\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Owner\\Documents\\kerjaan\\KatalonProject\\qa_katalon_pwm\\qa_katalon_pwm\\Reports\\20220105_074137\\news\\20220105_074147\\1641345048146.png, C:\\Users\\Owner\\Documents\\kerjaan\\KatalonProject\\qa_katalon_pwm\\qa_katalon_pwm\\Reports\\20220105_074137\\news\\20220105_074147\\1641345163968.png, C:\\Users\\Owner\\Documents\\kerjaan\\KatalonProject\\qa_katalon_pwm\\qa_katalon_pwm\\Reports\\20220105_074137\\news\\20220105_074147\\1641345288714.png, C:\\Users\\Owner\\Documents\\kerjaan\\KatalonProject\\qa_katalon_pwm\\qa_katalon_pwm\\Reports\\20220105_074137\\news\\20220105_074147\\1641345421630.png"/>
+         <property name="hostName" value="Owner - aldy-tft"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.0&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.0"/>
+         <property name="deviceModel" value="SM-A205F"/>
+         <property name="hostAddress" value="10.0.30.191"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="RR8M40C9AXE"/>
+         <property name="deviceName" value="samsung SM-A205F (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/Mobile/Scenario/News/001 - News World Indices" time="116.003" classname="Test Cases/Mobile/Scenario/News/001 - News World Indices" status="PASSED">
+         <system-out><![CDATA[2022-01-05 08:07:05 - [TEST_CASE][PASSED] - Test Cases/Mobile/Scenario/News/001 - News World Indices: Test Cases/Mobile/Scenario/News/001 - News World Indices
+
+2022-01-05 08:07:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Run App/Run App byID"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Run App/Run App byID' successfully
+
+2022-01-05 08:07:06 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Run App/Run App byID: Test Cases/Mobile/Page/Run App/Run App byID
+
+2022-01-05 08:07:06 - [TEST_STEP][PASSED] - startApp.OpenApp.startApplication("id.co.miraeasset.sageclub"): startApp.OpenApp.startApplication is PASSED
+
+2022-01-05 08:07:07 - [MESSAGE][INFO] - Appium server started on port 59,557
+
+2022-01-05 08:07:24 - [MESSAGE][PASSED] - Starting app with application ID: 'id.co.miraeasset.sageclub'
+
+2022-01-05 08:07:24 - [MESSAGE][PASSED] - startApp.OpenApp.startApplication is PASSED
+
+2022-01-05 08:07:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Run App/Run App byID' successfully
+
+2022-01-05 08:07:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/News/News"), ["tab":"worldindices"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/News/News' successfully
+
+2022-01-05 08:07:24 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/News/News: Test Cases/Mobile/Page/News/News
+
+2022-01-05 08:07:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/CheckLogin"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/CheckLogin' successfully
+
+2022-01-05 08:07:26 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/CheckLogin: Test Cases/Mobile/Page/CheckLogin
+
+2022-01-05 08:07:26 - [TEST_STEP][PASSED] - loginCheck = verifyElementExist(LOGN_BtnLogin, 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Mobile/Page/Login/Button - Login' is exist
+
+2022-01-05 08:08:06 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Page/Login/Button - Login' is exist
+
+2022-01-05 08:08:06 - [TEST_STEP][PASSED] - if (loginCheck): Call Test Case 'Test Cases/Mobile/Page/Login/Login' successfully
+
+2022-01-05 08:08:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Login/Login"), ["action":"username"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Login/Login' successfully
+
+2022-01-05 08:08:06 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Login/Login: Test Cases/Mobile/Page/Login/Login
+
+2022-01-05 08:08:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-01-05 08:08:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-01-05 08:08:09 - [TEST_STEP][PASSED] - for ([i = 0, i < 1, (i++)]): null
+
+2022-01-05 08:08:09 - [TEST_STEP][PASSED] - if (action == "username"): null
+
+2022-01-05 08:08:09 - [TEST_STEP][PASSED] - tap(LOGN_EdtUserID, 0): Tapped on element 'Object Repository/Mobile/Page/Login/Input - UserID'
+
+2022-01-05 08:08:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:08:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Login/Input - UserID'
+
+2022-01-05 08:08:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-05 08:08:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-05 08:08:11 - [TEST_STEP][PASSED] - setText(LOGN_EdtRdyUserID, "anggaaditya", 0): Text 'anggaaditya' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - UserID'
+
+2022-01-05 08:08:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:08:12 - [MESSAGE][PASSED] - Text 'anggaaditya' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - UserID'
+
+2022-01-05 08:08:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-05 08:08:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-05 08:08:13 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-01-05 08:08:16 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-01-05 08:08:16 - [TEST_STEP][PASSED] - tap(LOGN_EdtPassword, 0): Tapped on element 'Object Repository/Mobile/Page/Login/Input - Password'
+
+2022-01-05 08:08:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:08:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Login/Input - Password'
+
+2022-01-05 08:08:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-05 08:08:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-05 08:08:18 - [TEST_STEP][PASSED] - setText(LOGN_EdtRdyPassword, "Shalawa18", 0): Text 'Shalawa18' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - Password'
+
+2022-01-05 08:08:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:08:19 - [MESSAGE][PASSED] - Text 'Shalawa18' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - Password'
+
+2022-01-05 08:08:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-05 08:08:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-05 08:08:20 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-01-05 08:08:26 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-01-05 08:08:26 - [TEST_STEP][PASSED] - tap(LOGN_BtnLogin, 0): Tapped on element 'Object Repository/Mobile/Page/Login/Button - Login'
+
+2022-01-05 08:08:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:08:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Login/Button - Login'
+
+2022-01-05 08:08:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-01-05 08:08:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-01-05 08:08:29 - [TEST_STEP][PASSED] - break: null
+
+2022-01-05 08:08:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Login/Login' successfully
+
+2022-01-05 08:08:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/CheckLogin' successfully
+
+2022-01-05 08:08:29 - [TEST_STEP][PASSED] - tap(HOME_MenubarNews, 0): Tapped on element 'Object Repository/Mobile/Page/Home/Menubar - News'
+
+2022-01-05 08:08:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:08:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Home/Menubar - News'
+
+2022-01-05 08:08:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-05 08:08:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-05 08:08:31 - [TEST_STEP][PASSED] - for ([i = 0, i < 1, (i++)]): null
+
+2022-01-05 08:08:31 - [TEST_STEP][PASSED] - if (tab == "macronews"): null
+
+2022-01-05 08:08:31 - [TEST_STEP][PASSED] - else if (tab == "stocknews"): null
+
+2022-01-05 08:08:31 - [TEST_STEP][PASSED] - else if (tab == "fundnews"): null
+
+2022-01-05 08:08:32 - [TEST_STEP][PASSED] - else if (tab == "bondnews"): null
+
+2022-01-05 08:08:32 - [TEST_STEP][PASSED] - else if (tab == "worldindices"): Delayed 3 second(s)
+
+2022-01-05 08:08:32 - [TEST_STEP][PASSED] - scroll.scroll.scrollScreenRightToLeft(NEWS_TabMacro): scroll.scroll.scrollScreenRightToLeft is PASSED
+
+2022-01-05 08:08:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:08:32 - [MESSAGE][PASSED] - Object 'Object Repository/Mobile/Page/News/Tab - Macro' has left position '14'
+
+2022-01-05 08:08:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:08:32 - [MESSAGE][PASSED] - Object 'Object Repository/Mobile/Page/News/Tab - Macro' has top position '262'
+
+2022-01-05 08:08:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:08:33 - [MESSAGE][PASSED] - Object 'Object Repository/Mobile/Page/News/Tab - Macro' has width: '215'
+
+2022-01-05 08:08:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:08:33 - [MESSAGE][PASSED] - Object 'Object Repository/Mobile/Page/News/Tab - Macro' has height: '84'
+
+2022-01-05 08:08:33 - [MESSAGE][PASSED] - Current device physical width is 720
+
+2022-01-05 08:08:35 - [MESSAGE][PASSED] - Swiped from 620,304 to 100,304
+
+2022-01-05 08:08:35 - [MESSAGE][PASSED] - scroll.scroll.scrollScreenRightToLeft is PASSED
+
+2022-01-05 08:08:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-05 08:08:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-05 08:08:36 - [TEST_STEP][PASSED] - tap(NEWS_TabWorldIndices, 0): Tapped on element 'Object Repository/Mobile/Page/News/Tab - World Indices'
+
+2022-01-05 08:08:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:08:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/News/Tab - World Indices'
+
+2022-01-05 08:08:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-05 08:08:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-05 08:08:37 - [TEST_STEP][PASSED] - tap(NEWS_BtnIndices, 0): Tapped on element 'Object Repository/Mobile/Page/News/Button - Indices'
+
+2022-01-05 08:08:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:08:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/News/Button - Indices'
+
+2022-01-05 08:08:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-01-05 08:08:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-01-05 08:08:41 - [TEST_STEP][PASSED] - tap(NEWS_BtnCurrencies, 0): Tapped on element 'Object Repository/Mobile/Page/News/Button - Currencies'
+
+2022-01-05 08:08:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:08:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/News/Button - Currencies'
+
+2022-01-05 08:08:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-01-05 08:08:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-01-05 08:08:45 - [TEST_STEP][PASSED] - tap(NEWS_BtnCommodities, 0): Tapped on element 'Object Repository/Mobile/Page/News/Button - Commodities'
+
+2022-01-05 08:08:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:08:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/News/Button - Commodities'
+
+2022-01-05 08:08:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-01-05 08:08:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-01-05 08:08:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-05 08:08:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-05 08:08:50 - [TEST_STEP][PASSED] - if (tab != "worldindices"): null
+
+2022-01-05 08:08:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/News/News' successfully
+
+2022-01-05 08:08:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Run App/Terminate App"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Run App/Terminate App' successfully
+
+2022-01-05 08:08:50 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Run App/Terminate App: Test Cases/Mobile/Page/Run App/Terminate App
+
+2022-01-05 08:08:51 - [TEST_STEP][PASSED] - startApp.OpenApp.terminateApplication(): startApp.OpenApp.terminateApplication is PASSED
+
+2022-01-05 08:08:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-01-05 08:08:54 - [MESSAGE][PASSED] - Current device physical width is 720
+
+2022-01-05 08:08:54 - [MESSAGE][PASSED] - Current device physical height is 1423
+
+2022-01-05 08:08:56 - [MESSAGE][PASSED] - Swiped from 360,853 to 360,142
+
+2022-01-05 08:08:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-05 08:08:58 - [MESSAGE][PASSED] - Swiped from 360,853 to 360,142
+
+2022-01-05 08:09:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-01-05 08:09:01 - [MESSAGE][PASSED] - startApp.OpenApp.terminateApplication is PASSED
+
+2022-01-05 08:09:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Run App/Terminate App' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mobile/Scenario/News/002 - News Stock" time="117.919" classname="Test Cases/Mobile/Scenario/News/002 - News Stock" status="PASSED">
+         <system-out><![CDATA[2022-01-05 08:09:01 - [TEST_CASE][PASSED] - Test Cases/Mobile/Scenario/News/002 - News Stock: Test Cases/Mobile/Scenario/News/002 - News Stock
+
+2022-01-05 08:09:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Run App/Run App byID"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Run App/Run App byID' successfully
+
+2022-01-05 08:09:02 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Run App/Run App byID: Test Cases/Mobile/Page/Run App/Run App byID
+
+2022-01-05 08:09:02 - [TEST_STEP][PASSED] - startApp.OpenApp.startApplication("id.co.miraeasset.sageclub"): startApp.OpenApp.startApplication is PASSED
+
+2022-01-05 08:09:16 - [MESSAGE][PASSED] - Starting app with application ID: 'id.co.miraeasset.sageclub'
+
+2022-01-05 08:09:16 - [MESSAGE][PASSED] - startApp.OpenApp.startApplication is PASSED
+
+2022-01-05 08:09:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Run App/Run App byID' successfully
+
+2022-01-05 08:09:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/News/News"), ["tab":"stocknews"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/News/News' successfully
+
+2022-01-05 08:09:16 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/News/News: Test Cases/Mobile/Page/News/News
+
+2022-01-05 08:09:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/CheckLogin"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/CheckLogin' successfully
+
+2022-01-05 08:09:16 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/CheckLogin: Test Cases/Mobile/Page/CheckLogin
+
+2022-01-05 08:09:16 - [TEST_STEP][PASSED] - loginCheck = verifyElementExist(LOGN_BtnLogin, 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Mobile/Page/Login/Button - Login' is exist
+
+2022-01-05 08:09:19 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Page/Login/Button - Login' is exist
+
+2022-01-05 08:09:19 - [TEST_STEP][PASSED] - if (loginCheck): Call Test Case 'Test Cases/Mobile/Page/Login/Login' successfully
+
+2022-01-05 08:09:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Login/Login"), ["action":"username"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Login/Login' successfully
+
+2022-01-05 08:09:19 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Login/Login: Test Cases/Mobile/Page/Login/Login
+
+2022-01-05 08:09:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-01-05 08:09:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-01-05 08:09:21 - [TEST_STEP][PASSED] - for ([i = 0, i < 1, (i++)]): null
+
+2022-01-05 08:09:21 - [TEST_STEP][PASSED] - if (action == "username"): null
+
+2022-01-05 08:09:21 - [TEST_STEP][PASSED] - tap(LOGN_EdtUserID, 0): Tapped on element 'Object Repository/Mobile/Page/Login/Input - UserID'
+
+2022-01-05 08:09:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:09:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Login/Input - UserID'
+
+2022-01-05 08:09:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-05 08:09:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-05 08:09:22 - [TEST_STEP][PASSED] - setText(LOGN_EdtRdyUserID, "anggaaditya", 0): Text 'anggaaditya' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - UserID'
+
+2022-01-05 08:09:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:09:23 - [MESSAGE][PASSED] - Text 'anggaaditya' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - UserID'
+
+2022-01-05 08:09:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-05 08:09:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-05 08:09:24 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-01-05 08:09:28 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-01-05 08:09:28 - [TEST_STEP][PASSED] - tap(LOGN_EdtPassword, 0): Tapped on element 'Object Repository/Mobile/Page/Login/Input - Password'
+
+2022-01-05 08:09:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:09:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Login/Input - Password'
+
+2022-01-05 08:09:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-05 08:09:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-05 08:09:30 - [TEST_STEP][PASSED] - setText(LOGN_EdtRdyPassword, "Shalawa18", 0): Text 'Shalawa18' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - Password'
+
+2022-01-05 08:09:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:09:30 - [MESSAGE][PASSED] - Text 'Shalawa18' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - Password'
+
+2022-01-05 08:09:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-05 08:09:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-05 08:09:31 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-01-05 08:09:38 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-01-05 08:09:38 - [TEST_STEP][PASSED] - tap(LOGN_BtnLogin, 0): Tapped on element 'Object Repository/Mobile/Page/Login/Button - Login'
+
+2022-01-05 08:09:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:09:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Login/Button - Login'
+
+2022-01-05 08:09:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-01-05 08:09:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-01-05 08:09:41 - [TEST_STEP][PASSED] - break: null
+
+2022-01-05 08:09:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Login/Login' successfully
+
+2022-01-05 08:09:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/CheckLogin' successfully
+
+2022-01-05 08:09:41 - [TEST_STEP][PASSED] - tap(HOME_MenubarNews, 0): Tapped on element 'Object Repository/Mobile/Page/Home/Menubar - News'
+
+2022-01-05 08:09:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:09:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Home/Menubar - News'
+
+2022-01-05 08:09:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-05 08:09:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-05 08:09:44 - [TEST_STEP][FAILED] - for ([i = 0, i < 1, (i++)]): null
+
+2022-01-05 08:09:44 - [TEST_STEP][PASSED] - if (tab == "macronews"): null
+
+2022-01-05 08:09:44 - [TEST_STEP][PASSED] - else if (tab == "stocknews"): Tapped on element 'Object Repository/Mobile/Page/News/Tab - Stock'
+
+2022-01-05 08:09:44 - [TEST_STEP][PASSED] - tap(NEWS_TabStock, 0): Tapped on element 'Object Repository/Mobile/Page/News/Tab - Stock'
+
+2022-01-05 08:09:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:09:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/News/Tab - Stock'
+
+2022-01-05 08:09:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-05 08:09:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-05 08:09:47 - [TEST_STEP][FAILED] - if (tab != "worldindices"): null
+
+2022-01-05 08:09:47 - [TEST_STEP][FAILED] - try: Failed to tap and hold on element 'Object Repository/Mobile/Page/News/Item - Top News' with duration 1 (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Mobile/Page/News/Item - Top News not found
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.findElementWithCheck(MobileElementCommonHelper.java:159)
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.tapAndHold(MobileElementCommonHelper.java:103)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword$_tapAndHold_closure1.doCall(TapAndHoldKeyword.groovy:71)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword$_tapAndHold_closure1.call(TapAndHoldKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword.tapAndHold(TapAndHoldKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword.execute(TapAndHoldKeyword.groovy:65)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tapAndHold(MobileBuiltInKeywords.groovy:1435)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tapAndHold$11.call(Unknown Source)
+	at News.run(News:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 002 - News Stock.run(002 - News Stock:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1641343307955.run(TempTestSuite1641343307955.groovy:39)
+)
+
+2022-01-05 08:09:47 - [TEST_STEP][FAILED] - tapAndHold(NEWS_ItemTopNews, 1, 10): Failed to tap and hold on element 'Object Repository/Mobile/Page/News/Item - Top News' with duration 1 (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Mobile/Page/News/Item - Top News not found
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.findElementWithCheck(MobileElementCommonHelper.java:159)
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.tapAndHold(MobileElementCommonHelper.java:103)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword$_tapAndHold_closure1.doCall(TapAndHoldKeyword.groovy:71)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword$_tapAndHold_closure1.call(TapAndHoldKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword.tapAndHold(TapAndHoldKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword.execute(TapAndHoldKeyword.groovy:65)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tapAndHold(MobileBuiltInKeywords.groovy:1435)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tapAndHold$11.call(Unknown Source)
+	at News.run(News:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 002 - News Stock.run(002 - News Stock:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1641343307955.run(TempTestSuite1641343307955.groovy:39)
+)
+
+2022-01-05 08:10:49 - [MESSAGE][FAILED] - Failed to tap and hold on element 'Object Repository/Mobile/Page/News/Item - Top News' with duration 1 (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Mobile/Page/News/Item - Top News not found
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.findElementWithCheck(MobileElementCommonHelper.java:159)
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.tapAndHold(MobileElementCommonHelper.java:103)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword$_tapAndHold_closure1.doCall(TapAndHoldKeyword.groovy:71)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword$_tapAndHold_closure1.call(TapAndHoldKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword.tapAndHold(TapAndHoldKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword.execute(TapAndHoldKeyword.groovy:65)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tapAndHold(MobileBuiltInKeywords.groovy:1435)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tapAndHold$11.call(Unknown Source)
+	at News.run(News:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 002 - News Stock.run(002 - News Stock:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1641343307955.run(TempTestSuite1641343307955.groovy:39)
+)
+[[ATTACHMENT|C:\\Users\\Owner\\Documents\\kerjaan\\KatalonProject\\qa_katalon_pwm\\qa_katalon_pwm\\Reports\\20220105_074137\\news\\20220105_074147\\1641345048146.png]]
+
+2022-01-05 08:10:49 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2022-01-05 08:10:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/News/News' successfully
+
+2022-01-05 08:10:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Run App/Terminate App"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Run App/Terminate App' successfully
+
+2022-01-05 08:10:49 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Run App/Terminate App: Test Cases/Mobile/Page/Run App/Terminate App
+
+2022-01-05 08:10:49 - [TEST_STEP][PASSED] - startApp.OpenApp.terminateApplication(): startApp.OpenApp.terminateApplication is PASSED
+
+2022-01-05 08:10:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-01-05 08:10:52 - [MESSAGE][PASSED] - Current device physical width is 720
+
+2022-01-05 08:10:52 - [MESSAGE][PASSED] - Current device physical height is 1423
+
+2022-01-05 08:10:54 - [MESSAGE][PASSED] - Swiped from 360,853 to 360,142
+
+2022-01-05 08:10:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-05 08:10:56 - [MESSAGE][PASSED] - Swiped from 360,853 to 360,142
+
+2022-01-05 08:10:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-01-05 08:10:59 - [MESSAGE][PASSED] - startApp.OpenApp.terminateApplication is PASSED
+
+2022-01-05 08:10:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Run App/Terminate App' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mobile/Scenario/News/003 - News Fund" time="116.066" classname="Test Cases/Mobile/Scenario/News/003 - News Fund" status="PASSED">
+         <system-out><![CDATA[2022-01-05 08:10:59 - [TEST_CASE][PASSED] - Test Cases/Mobile/Scenario/News/003 - News Fund: Test Cases/Mobile/Scenario/News/003 - News Fund
+
+2022-01-05 08:10:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Run App/Run App byID"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Run App/Run App byID' successfully
+
+2022-01-05 08:10:59 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Run App/Run App byID: Test Cases/Mobile/Page/Run App/Run App byID
+
+2022-01-05 08:10:59 - [TEST_STEP][PASSED] - startApp.OpenApp.startApplication("id.co.miraeasset.sageclub"): startApp.OpenApp.startApplication is PASSED
+
+2022-01-05 08:11:13 - [MESSAGE][PASSED] - Starting app with application ID: 'id.co.miraeasset.sageclub'
+
+2022-01-05 08:11:13 - [MESSAGE][PASSED] - startApp.OpenApp.startApplication is PASSED
+
+2022-01-05 08:11:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Run App/Run App byID' successfully
+
+2022-01-05 08:11:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/News/News"), ["tab":"fundnews"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/News/News' successfully
+
+2022-01-05 08:11:13 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/News/News: Test Cases/Mobile/Page/News/News
+
+2022-01-05 08:11:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/CheckLogin"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/CheckLogin' successfully
+
+2022-01-05 08:11:13 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/CheckLogin: Test Cases/Mobile/Page/CheckLogin
+
+2022-01-05 08:11:13 - [TEST_STEP][PASSED] - loginCheck = verifyElementExist(LOGN_BtnLogin, 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Mobile/Page/Login/Button - Login' is exist
+
+2022-01-05 08:11:15 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Page/Login/Button - Login' is exist
+
+2022-01-05 08:11:15 - [TEST_STEP][PASSED] - if (loginCheck): Call Test Case 'Test Cases/Mobile/Page/Login/Login' successfully
+
+2022-01-05 08:11:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Login/Login"), ["action":"username"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Login/Login' successfully
+
+2022-01-05 08:11:15 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Login/Login: Test Cases/Mobile/Page/Login/Login
+
+2022-01-05 08:11:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-01-05 08:11:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-01-05 08:11:17 - [TEST_STEP][PASSED] - for ([i = 0, i < 1, (i++)]): null
+
+2022-01-05 08:11:17 - [TEST_STEP][PASSED] - if (action == "username"): null
+
+2022-01-05 08:11:17 - [TEST_STEP][PASSED] - tap(LOGN_EdtUserID, 0): Tapped on element 'Object Repository/Mobile/Page/Login/Input - UserID'
+
+2022-01-05 08:11:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:11:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Login/Input - UserID'
+
+2022-01-05 08:11:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-05 08:11:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-05 08:11:20 - [TEST_STEP][PASSED] - setText(LOGN_EdtRdyUserID, "anggaaditya", 0): Text 'anggaaditya' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - UserID'
+
+2022-01-05 08:11:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:11:21 - [MESSAGE][PASSED] - Text 'anggaaditya' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - UserID'
+
+2022-01-05 08:11:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-05 08:11:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-05 08:11:22 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-01-05 08:11:25 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-01-05 08:11:26 - [TEST_STEP][PASSED] - tap(LOGN_EdtPassword, 0): Tapped on element 'Object Repository/Mobile/Page/Login/Input - Password'
+
+2022-01-05 08:11:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:11:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Login/Input - Password'
+
+2022-01-05 08:11:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-05 08:11:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-05 08:11:27 - [TEST_STEP][PASSED] - setText(LOGN_EdtRdyPassword, "Shalawa18", 0): Text 'Shalawa18' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - Password'
+
+2022-01-05 08:11:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:11:28 - [MESSAGE][PASSED] - Text 'Shalawa18' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - Password'
+
+2022-01-05 08:11:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-05 08:11:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-05 08:11:29 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-01-05 08:11:35 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-01-05 08:11:35 - [TEST_STEP][PASSED] - tap(LOGN_BtnLogin, 0): Tapped on element 'Object Repository/Mobile/Page/Login/Button - Login'
+
+2022-01-05 08:11:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:11:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Login/Button - Login'
+
+2022-01-05 08:11:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-01-05 08:11:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-01-05 08:11:38 - [TEST_STEP][PASSED] - break: null
+
+2022-01-05 08:11:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Login/Login' successfully
+
+2022-01-05 08:11:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/CheckLogin' successfully
+
+2022-01-05 08:11:38 - [TEST_STEP][PASSED] - tap(HOME_MenubarNews, 0): Tapped on element 'Object Repository/Mobile/Page/Home/Menubar - News'
+
+2022-01-05 08:11:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:11:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Home/Menubar - News'
+
+2022-01-05 08:11:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-05 08:11:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-05 08:11:40 - [TEST_STEP][FAILED] - for ([i = 0, i < 1, (i++)]): null
+
+2022-01-05 08:11:40 - [TEST_STEP][PASSED] - if (tab == "macronews"): null
+
+2022-01-05 08:11:40 - [TEST_STEP][PASSED] - else if (tab == "stocknews"): null
+
+2022-01-05 08:11:40 - [TEST_STEP][PASSED] - else if (tab == "fundnews"): Tapped on element 'Object Repository/Mobile/Page/News/Tab - Fund'
+
+2022-01-05 08:11:40 - [TEST_STEP][PASSED] - tap(NEWS_TabFund, 0): Tapped on element 'Object Repository/Mobile/Page/News/Tab - Fund'
+
+2022-01-05 08:11:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:11:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/News/Tab - Fund'
+
+2022-01-05 08:11:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-05 08:11:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-05 08:11:43 - [TEST_STEP][FAILED] - if (tab != "worldindices"): null
+
+2022-01-05 08:11:43 - [TEST_STEP][FAILED] - try: Failed to tap and hold on element 'Object Repository/Mobile/Page/News/Item - Top News' with duration 1 (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Mobile/Page/News/Item - Top News not found
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.findElementWithCheck(MobileElementCommonHelper.java:159)
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.tapAndHold(MobileElementCommonHelper.java:103)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword$_tapAndHold_closure1.doCall(TapAndHoldKeyword.groovy:71)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword$_tapAndHold_closure1.call(TapAndHoldKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword.tapAndHold(TapAndHoldKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword.execute(TapAndHoldKeyword.groovy:65)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tapAndHold(MobileBuiltInKeywords.groovy:1435)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tapAndHold$11.call(Unknown Source)
+	at News.run(News:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 003 - News Fund.run(003 - News Fund:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1641343307955.run(TempTestSuite1641343307955.groovy:39)
+)
+
+2022-01-05 08:11:43 - [TEST_STEP][FAILED] - tapAndHold(NEWS_ItemTopNews, 1, 10): Failed to tap and hold on element 'Object Repository/Mobile/Page/News/Item - Top News' with duration 1 (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Mobile/Page/News/Item - Top News not found
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.findElementWithCheck(MobileElementCommonHelper.java:159)
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.tapAndHold(MobileElementCommonHelper.java:103)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword$_tapAndHold_closure1.doCall(TapAndHoldKeyword.groovy:71)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword$_tapAndHold_closure1.call(TapAndHoldKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword.tapAndHold(TapAndHoldKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword.execute(TapAndHoldKeyword.groovy:65)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tapAndHold(MobileBuiltInKeywords.groovy:1435)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tapAndHold$11.call(Unknown Source)
+	at News.run(News:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 003 - News Fund.run(003 - News Fund:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1641343307955.run(TempTestSuite1641343307955.groovy:39)
+)
+
+2022-01-05 08:12:45 - [MESSAGE][FAILED] - Failed to tap and hold on element 'Object Repository/Mobile/Page/News/Item - Top News' with duration 1 (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Mobile/Page/News/Item - Top News not found
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.findElementWithCheck(MobileElementCommonHelper.java:159)
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.tapAndHold(MobileElementCommonHelper.java:103)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword$_tapAndHold_closure1.doCall(TapAndHoldKeyword.groovy:71)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword$_tapAndHold_closure1.call(TapAndHoldKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword.tapAndHold(TapAndHoldKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword.execute(TapAndHoldKeyword.groovy:65)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tapAndHold(MobileBuiltInKeywords.groovy:1435)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tapAndHold$11.call(Unknown Source)
+	at News.run(News:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 003 - News Fund.run(003 - News Fund:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1641343307955.run(TempTestSuite1641343307955.groovy:39)
+)
+[[ATTACHMENT|C:\\Users\\Owner\\Documents\\kerjaan\\KatalonProject\\qa_katalon_pwm\\qa_katalon_pwm\\Reports\\20220105_074137\\news\\20220105_074147\\1641345163968.png]]
+
+2022-01-05 08:12:45 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2022-01-05 08:12:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/News/News' successfully
+
+2022-01-05 08:12:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Run App/Terminate App"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Run App/Terminate App' successfully
+
+2022-01-05 08:12:45 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Run App/Terminate App: Test Cases/Mobile/Page/Run App/Terminate App
+
+2022-01-05 08:12:45 - [TEST_STEP][PASSED] - startApp.OpenApp.terminateApplication(): startApp.OpenApp.terminateApplication is PASSED
+
+2022-01-05 08:12:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-01-05 08:12:48 - [MESSAGE][PASSED] - Current device physical width is 720
+
+2022-01-05 08:12:48 - [MESSAGE][PASSED] - Current device physical height is 1423
+
+2022-01-05 08:12:50 - [MESSAGE][PASSED] - Swiped from 360,853 to 360,142
+
+2022-01-05 08:12:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-05 08:12:52 - [MESSAGE][PASSED] - Swiped from 360,853 to 360,142
+
+2022-01-05 08:12:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-01-05 08:12:55 - [MESSAGE][PASSED] - startApp.OpenApp.terminateApplication is PASSED
+
+2022-01-05 08:12:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Run App/Terminate App' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mobile/Scenario/News/004 - Bond News" time="124.721" classname="Test Cases/Mobile/Scenario/News/004 - Bond News" status="PASSED">
+         <system-out><![CDATA[2022-01-05 08:12:55 - [TEST_CASE][PASSED] - Test Cases/Mobile/Scenario/News/004 - Bond News: Test Cases/Mobile/Scenario/News/004 - Bond News
+
+2022-01-05 08:12:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Run App/Run App byID"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Run App/Run App byID' successfully
+
+2022-01-05 08:12:56 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Run App/Run App byID: Test Cases/Mobile/Page/Run App/Run App byID
+
+2022-01-05 08:12:56 - [TEST_STEP][PASSED] - startApp.OpenApp.startApplication("id.co.miraeasset.sageclub"): startApp.OpenApp.startApplication is PASSED
+
+2022-01-05 08:13:11 - [MESSAGE][PASSED] - Starting app with application ID: 'id.co.miraeasset.sageclub'
+
+2022-01-05 08:13:11 - [MESSAGE][PASSED] - startApp.OpenApp.startApplication is PASSED
+
+2022-01-05 08:13:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Run App/Run App byID' successfully
+
+2022-01-05 08:13:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/News/News"), ["tab":"bondnews"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/News/News' successfully
+
+2022-01-05 08:13:11 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/News/News: Test Cases/Mobile/Page/News/News
+
+2022-01-05 08:13:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/CheckLogin"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/CheckLogin' successfully
+
+2022-01-05 08:13:11 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/CheckLogin: Test Cases/Mobile/Page/CheckLogin
+
+2022-01-05 08:13:11 - [TEST_STEP][PASSED] - loginCheck = verifyElementExist(LOGN_BtnLogin, 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Mobile/Page/Login/Button - Login' is exist
+
+2022-01-05 08:13:13 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Page/Login/Button - Login' is exist
+
+2022-01-05 08:13:13 - [TEST_STEP][PASSED] - if (loginCheck): Call Test Case 'Test Cases/Mobile/Page/Login/Login' successfully
+
+2022-01-05 08:13:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Login/Login"), ["action":"username"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Login/Login' successfully
+
+2022-01-05 08:13:13 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Login/Login: Test Cases/Mobile/Page/Login/Login
+
+2022-01-05 08:13:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-01-05 08:13:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-01-05 08:13:15 - [TEST_STEP][PASSED] - for ([i = 0, i < 1, (i++)]): null
+
+2022-01-05 08:13:15 - [TEST_STEP][PASSED] - if (action == "username"): null
+
+2022-01-05 08:13:15 - [TEST_STEP][PASSED] - tap(LOGN_EdtUserID, 0): Tapped on element 'Object Repository/Mobile/Page/Login/Input - UserID'
+
+2022-01-05 08:13:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:13:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Login/Input - UserID'
+
+2022-01-05 08:13:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-05 08:13:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-05 08:13:16 - [TEST_STEP][PASSED] - setText(LOGN_EdtRdyUserID, "anggaaditya", 0): Text 'anggaaditya' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - UserID'
+
+2022-01-05 08:13:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:13:17 - [MESSAGE][PASSED] - Text 'anggaaditya' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - UserID'
+
+2022-01-05 08:13:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-05 08:13:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-05 08:13:18 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-01-05 08:13:26 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-01-05 08:13:26 - [TEST_STEP][PASSED] - tap(LOGN_EdtPassword, 0): Tapped on element 'Object Repository/Mobile/Page/Login/Input - Password'
+
+2022-01-05 08:13:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:13:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Login/Input - Password'
+
+2022-01-05 08:13:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-05 08:13:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-05 08:13:27 - [TEST_STEP][PASSED] - setText(LOGN_EdtRdyPassword, "Shalawa18", 0): Text 'Shalawa18' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - Password'
+
+2022-01-05 08:13:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:13:28 - [MESSAGE][PASSED] - Text 'Shalawa18' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - Password'
+
+2022-01-05 08:13:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-05 08:13:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-05 08:13:29 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-01-05 08:13:40 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-01-05 08:13:40 - [TEST_STEP][PASSED] - tap(LOGN_BtnLogin, 0): Tapped on element 'Object Repository/Mobile/Page/Login/Button - Login'
+
+2022-01-05 08:13:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:13:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Login/Button - Login'
+
+2022-01-05 08:13:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-01-05 08:13:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-01-05 08:13:43 - [TEST_STEP][PASSED] - break: null
+
+2022-01-05 08:13:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Login/Login' successfully
+
+2022-01-05 08:13:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/CheckLogin' successfully
+
+2022-01-05 08:13:43 - [TEST_STEP][PASSED] - tap(HOME_MenubarNews, 0): Tapped on element 'Object Repository/Mobile/Page/Home/Menubar - News'
+
+2022-01-05 08:13:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:13:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Home/Menubar - News'
+
+2022-01-05 08:13:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-05 08:13:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-05 08:13:44 - [TEST_STEP][FAILED] - for ([i = 0, i < 1, (i++)]): null
+
+2022-01-05 08:13:44 - [TEST_STEP][PASSED] - if (tab == "macronews"): null
+
+2022-01-05 08:13:44 - [TEST_STEP][PASSED] - else if (tab == "stocknews"): null
+
+2022-01-05 08:13:44 - [TEST_STEP][PASSED] - else if (tab == "fundnews"): null
+
+2022-01-05 08:13:44 - [TEST_STEP][PASSED] - else if (tab == "bondnews"): Tapped on element 'Object Repository/Mobile/Page/News/Tab - Bond'
+
+2022-01-05 08:13:44 - [TEST_STEP][PASSED] - tap(NEWS_TabBond, 0): Tapped on element 'Object Repository/Mobile/Page/News/Tab - Bond'
+
+2022-01-05 08:13:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:13:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/News/Tab - Bond'
+
+2022-01-05 08:13:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-05 08:13:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-05 08:13:48 - [TEST_STEP][FAILED] - if (tab != "worldindices"): null
+
+2022-01-05 08:13:48 - [TEST_STEP][FAILED] - try: Failed to tap and hold on element 'Object Repository/Mobile/Page/News/Item - Top News' with duration 1 (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Mobile/Page/News/Item - Top News not found
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.findElementWithCheck(MobileElementCommonHelper.java:159)
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.tapAndHold(MobileElementCommonHelper.java:103)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword$_tapAndHold_closure1.doCall(TapAndHoldKeyword.groovy:71)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword$_tapAndHold_closure1.call(TapAndHoldKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword.tapAndHold(TapAndHoldKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword.execute(TapAndHoldKeyword.groovy:65)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tapAndHold(MobileBuiltInKeywords.groovy:1435)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tapAndHold$11.call(Unknown Source)
+	at News.run(News:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 004 - Bond News.run(004 - Bond News:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1641343307955.run(TempTestSuite1641343307955.groovy:39)
+)
+
+2022-01-05 08:13:48 - [TEST_STEP][FAILED] - tapAndHold(NEWS_ItemTopNews, 1, 10): Failed to tap and hold on element 'Object Repository/Mobile/Page/News/Item - Top News' with duration 1 (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Mobile/Page/News/Item - Top News not found
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.findElementWithCheck(MobileElementCommonHelper.java:159)
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.tapAndHold(MobileElementCommonHelper.java:103)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword$_tapAndHold_closure1.doCall(TapAndHoldKeyword.groovy:71)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword$_tapAndHold_closure1.call(TapAndHoldKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword.tapAndHold(TapAndHoldKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword.execute(TapAndHoldKeyword.groovy:65)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tapAndHold(MobileBuiltInKeywords.groovy:1435)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tapAndHold$11.call(Unknown Source)
+	at News.run(News:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 004 - Bond News.run(004 - Bond News:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1641343307955.run(TempTestSuite1641343307955.groovy:39)
+)
+
+2022-01-05 08:14:49 - [MESSAGE][FAILED] - Failed to tap and hold on element 'Object Repository/Mobile/Page/News/Item - Top News' with duration 1 (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Mobile/Page/News/Item - Top News not found
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.findElementWithCheck(MobileElementCommonHelper.java:159)
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.tapAndHold(MobileElementCommonHelper.java:103)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword$_tapAndHold_closure1.doCall(TapAndHoldKeyword.groovy:71)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword$_tapAndHold_closure1.call(TapAndHoldKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword.tapAndHold(TapAndHoldKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword.execute(TapAndHoldKeyword.groovy:65)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tapAndHold(MobileBuiltInKeywords.groovy:1435)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tapAndHold$11.call(Unknown Source)
+	at News.run(News:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 004 - Bond News.run(004 - Bond News:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1641343307955.run(TempTestSuite1641343307955.groovy:39)
+)
+[[ATTACHMENT|C:\\Users\\Owner\\Documents\\kerjaan\\KatalonProject\\qa_katalon_pwm\\qa_katalon_pwm\\Reports\\20220105_074137\\news\\20220105_074147\\1641345288714.png]]
+
+2022-01-05 08:14:49 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2022-01-05 08:14:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/News/News' successfully
+
+2022-01-05 08:14:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Run App/Terminate App"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Run App/Terminate App' successfully
+
+2022-01-05 08:14:49 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Run App/Terminate App: Test Cases/Mobile/Page/Run App/Terminate App
+
+2022-01-05 08:14:49 - [TEST_STEP][PASSED] - startApp.OpenApp.terminateApplication(): startApp.OpenApp.terminateApplication is PASSED
+
+2022-01-05 08:14:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-01-05 08:14:53 - [MESSAGE][PASSED] - Current device physical width is 720
+
+2022-01-05 08:14:53 - [MESSAGE][PASSED] - Current device physical height is 1423
+
+2022-01-05 08:14:54 - [MESSAGE][PASSED] - Swiped from 360,853 to 360,142
+
+2022-01-05 08:14:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-05 08:14:57 - [MESSAGE][PASSED] - Swiped from 360,853 to 360,142
+
+2022-01-05 08:15:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-01-05 08:15:00 - [MESSAGE][PASSED] - startApp.OpenApp.terminateApplication is PASSED
+
+2022-01-05 08:15:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Run App/Terminate App' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mobile/Scenario/News/005 - Macro News" time="132.859" classname="Test Cases/Mobile/Scenario/News/005 - Macro News" status="PASSED">
+         <system-out><![CDATA[2022-01-05 08:15:00 - [TEST_CASE][PASSED] - Test Cases/Mobile/Scenario/News/005 - Macro News: Test Cases/Mobile/Scenario/News/005 - Macro News
+
+2022-01-05 08:15:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Run App/Run App byID"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Run App/Run App byID' successfully
+
+2022-01-05 08:15:01 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Run App/Run App byID: Test Cases/Mobile/Page/Run App/Run App byID
+
+2022-01-05 08:15:01 - [TEST_STEP][PASSED] - startApp.OpenApp.startApplication("id.co.miraeasset.sageclub"): startApp.OpenApp.startApplication is PASSED
+
+2022-01-05 08:15:18 - [MESSAGE][PASSED] - Starting app with application ID: 'id.co.miraeasset.sageclub'
+
+2022-01-05 08:15:18 - [MESSAGE][PASSED] - startApp.OpenApp.startApplication is PASSED
+
+2022-01-05 08:15:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Run App/Run App byID' successfully
+
+2022-01-05 08:15:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/News/News"), ["tab":"macronews"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/News/News' successfully
+
+2022-01-05 08:15:18 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/News/News: Test Cases/Mobile/Page/News/News
+
+2022-01-05 08:15:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/CheckLogin"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/CheckLogin' successfully
+
+2022-01-05 08:15:18 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/CheckLogin: Test Cases/Mobile/Page/CheckLogin
+
+2022-01-05 08:15:18 - [TEST_STEP][PASSED] - loginCheck = verifyElementExist(LOGN_BtnLogin, 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Mobile/Page/Login/Button - Login' is exist
+
+2022-01-05 08:15:21 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Page/Login/Button - Login' is exist
+
+2022-01-05 08:15:21 - [TEST_STEP][PASSED] - if (loginCheck): Call Test Case 'Test Cases/Mobile/Page/Login/Login' successfully
+
+2022-01-05 08:15:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Login/Login"), ["action":"username"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Login/Login' successfully
+
+2022-01-05 08:15:21 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Login/Login: Test Cases/Mobile/Page/Login/Login
+
+2022-01-05 08:15:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-01-05 08:15:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-01-05 08:15:23 - [TEST_STEP][PASSED] - for ([i = 0, i < 1, (i++)]): null
+
+2022-01-05 08:15:23 - [TEST_STEP][PASSED] - if (action == "username"): null
+
+2022-01-05 08:15:23 - [TEST_STEP][PASSED] - tap(LOGN_EdtUserID, 0): Tapped on element 'Object Repository/Mobile/Page/Login/Input - UserID'
+
+2022-01-05 08:15:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:15:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Login/Input - UserID'
+
+2022-01-05 08:15:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-05 08:15:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-05 08:15:25 - [TEST_STEP][PASSED] - setText(LOGN_EdtRdyUserID, "anggaaditya", 0): Text 'anggaaditya' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - UserID'
+
+2022-01-05 08:15:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:15:27 - [MESSAGE][PASSED] - Text 'anggaaditya' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - UserID'
+
+2022-01-05 08:15:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-05 08:15:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-05 08:15:28 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-01-05 08:15:37 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-01-05 08:15:37 - [TEST_STEP][PASSED] - tap(LOGN_EdtPassword, 0): Tapped on element 'Object Repository/Mobile/Page/Login/Input - Password'
+
+2022-01-05 08:15:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:15:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Login/Input - Password'
+
+2022-01-05 08:15:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-05 08:15:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-05 08:15:38 - [TEST_STEP][PASSED] - setText(LOGN_EdtRdyPassword, "Shalawa18", 0): Text 'Shalawa18' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - Password'
+
+2022-01-05 08:15:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:15:40 - [MESSAGE][PASSED] - Text 'Shalawa18' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - Password'
+
+2022-01-05 08:15:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-05 08:15:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-05 08:15:41 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-01-05 08:15:52 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-01-05 08:15:52 - [TEST_STEP][PASSED] - tap(LOGN_BtnLogin, 0): Tapped on element 'Object Repository/Mobile/Page/Login/Button - Login'
+
+2022-01-05 08:15:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:15:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Login/Button - Login'
+
+2022-01-05 08:15:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-01-05 08:15:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-01-05 08:15:55 - [TEST_STEP][PASSED] - break: null
+
+2022-01-05 08:15:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Login/Login' successfully
+
+2022-01-05 08:15:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/CheckLogin' successfully
+
+2022-01-05 08:15:55 - [TEST_STEP][PASSED] - tap(HOME_MenubarNews, 0): Tapped on element 'Object Repository/Mobile/Page/Home/Menubar - News'
+
+2022-01-05 08:15:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:15:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Home/Menubar - News'
+
+2022-01-05 08:15:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-05 08:15:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-05 08:15:58 - [TEST_STEP][FAILED] - for ([i = 0, i < 1, (i++)]): null
+
+2022-01-05 08:15:58 - [TEST_STEP][PASSED] - if (tab == "macronews"): Tapped on element 'Object Repository/Mobile/Page/News/Tab - Macro'
+
+2022-01-05 08:15:58 - [TEST_STEP][PASSED] - tap(NEWS_TabMacro, 0): Tapped on element 'Object Repository/Mobile/Page/News/Tab - Macro'
+
+2022-01-05 08:15:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-01-05 08:16:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/News/Tab - Macro'
+
+2022-01-05 08:16:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-01-05 08:16:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-05 08:16:01 - [TEST_STEP][FAILED] - if (tab != "worldindices"): null
+
+2022-01-05 08:16:01 - [TEST_STEP][FAILED] - try: Failed to tap and hold on element 'Object Repository/Mobile/Page/News/Item - Top News' with duration 1 (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Mobile/Page/News/Item - Top News not found
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.findElementWithCheck(MobileElementCommonHelper.java:159)
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.tapAndHold(MobileElementCommonHelper.java:103)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword$_tapAndHold_closure1.doCall(TapAndHoldKeyword.groovy:71)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword$_tapAndHold_closure1.call(TapAndHoldKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword.tapAndHold(TapAndHoldKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword.execute(TapAndHoldKeyword.groovy:65)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tapAndHold(MobileBuiltInKeywords.groovy:1435)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tapAndHold$11.call(Unknown Source)
+	at News.run(News:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 005 - Macro News.run(005 - Macro News:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1641343307955.run(TempTestSuite1641343307955.groovy:39)
+)
+
+2022-01-05 08:16:01 - [TEST_STEP][FAILED] - tapAndHold(NEWS_ItemTopNews, 1, 10): Failed to tap and hold on element 'Object Repository/Mobile/Page/News/Item - Top News' with duration 1 (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Mobile/Page/News/Item - Top News not found
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.findElementWithCheck(MobileElementCommonHelper.java:159)
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.tapAndHold(MobileElementCommonHelper.java:103)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword$_tapAndHold_closure1.doCall(TapAndHoldKeyword.groovy:71)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword$_tapAndHold_closure1.call(TapAndHoldKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword.tapAndHold(TapAndHoldKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword.execute(TapAndHoldKeyword.groovy:65)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tapAndHold(MobileBuiltInKeywords.groovy:1435)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tapAndHold$11.call(Unknown Source)
+	at News.run(News:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 005 - Macro News.run(005 - Macro News:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1641343307955.run(TempTestSuite1641343307955.groovy:39)
+)
+
+2022-01-05 08:17:02 - [MESSAGE][FAILED] - Failed to tap and hold on element 'Object Repository/Mobile/Page/News/Item - Top News' with duration 1 (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Mobile/Page/News/Item - Top News not found
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.findElementWithCheck(MobileElementCommonHelper.java:159)
+	at com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.tapAndHold(MobileElementCommonHelper.java:103)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword$_tapAndHold_closure1.doCall(TapAndHoldKeyword.groovy:71)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword$_tapAndHold_closure1.call(TapAndHoldKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword.tapAndHold(TapAndHoldKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapAndHoldKeyword.execute(TapAndHoldKeyword.groovy:65)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tapAndHold(MobileBuiltInKeywords.groovy:1435)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tapAndHold$11.call(Unknown Source)
+	at News.run(News:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at 005 - Macro News.run(005 - Macro News:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1641343307955.run(TempTestSuite1641343307955.groovy:39)
+)
+[[ATTACHMENT|C:\\Users\\Owner\\Documents\\kerjaan\\KatalonProject\\qa_katalon_pwm\\qa_katalon_pwm\\Reports\\20220105_074137\\news\\20220105_074147\\1641345421630.png]]
+
+2022-01-05 08:17:02 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2022-01-05 08:17:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/News/News' successfully
+
+2022-01-05 08:17:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Run App/Terminate App"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Run App/Terminate App' successfully
+
+2022-01-05 08:17:02 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Run App/Terminate App: Test Cases/Mobile/Page/Run App/Terminate App
+
+2022-01-05 08:17:02 - [TEST_STEP][PASSED] - startApp.OpenApp.terminateApplication(): startApp.OpenApp.terminateApplication is PASSED
+
+2022-01-05 08:17:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-01-05 08:17:06 - [MESSAGE][PASSED] - Current device physical width is 720
+
+2022-01-05 08:17:06 - [MESSAGE][PASSED] - Current device physical height is 1423
+
+2022-01-05 08:17:07 - [MESSAGE][PASSED] - Swiped from 360,853 to 360,142
+
+2022-01-05 08:17:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-01-05 08:17:10 - [MESSAGE][PASSED] - Swiped from 360,853 to 360,142
+
+2022-01-05 08:17:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-01-05 08:17:13 - [MESSAGE][PASSED] - startApp.OpenApp.terminateApplication is PASSED
+
+2022-01-05 08:17:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Run App/Terminate App' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-05 08:07:04 - [TEST_SUITE][PASSED] - news: Test Cases/Mobile/Scenario/News/005 - Macro News]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

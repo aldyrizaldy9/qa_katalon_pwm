@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+home,,,,2022-01-26 19:18:57,2022-01-26 19:28:53,9m - 55.672s,FAILED
+,,,,,,,
+Test Cases/Mobile/Scenario/Home/001 - Melihat performance portfolio (highlight),,,,2022-01-26 19:18:58,2022-01-26 19:20:11,1m - 12.632s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2022-01-26 19:18:59,2022-01-26 19:19:16,17.419s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Home/Home""), [""page"":""none"", ""action"":""seeperformance""], CONTINUE_ON_FAILURE)",,,,2022-01-26 19:19:16,2022-01-26 19:20:00,43.935s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2022-01-26 19:20:00,2022-01-26 19:20:11,10.928s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Home/002 - Melihat ad-hoc statement,,,,2022-01-26 19:20:11,2022-01-26 19:21:19,1m - 8.384s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2022-01-26 19:20:11,2022-01-26 19:20:26,14.948s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Home/Home""), [""page"":""none"", ""action"":""requestadhoc""], CONTINUE_ON_FAILURE)",,,,2022-01-26 19:20:26,2022-01-26 19:21:09,42.884s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2022-01-26 19:21:09,2022-01-26 19:21:19,10.321s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Home/003 - Menambahkan watchlist,,,,2022-01-26 19:21:19,2022-01-26 19:22:43,1m - 23.625s,FAILED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2022-01-26 19:21:19,2022-01-26 19:21:35,15.428s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Home/Home""), [""page"":""none"", ""action"":""addwatchlist""], CONTINUE_ON_FAILURE)",,,,2022-01-26 19:21:35,2022-01-26 19:22:32,57.587s,FAILED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2022-01-26 19:22:32,2022-01-26 19:22:43,10.387s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Home/004 - Melihat semua notifikasi,,,,2022-01-26 19:22:43,2022-01-26 19:23:37,54.275s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2022-01-26 19:22:43,2022-01-26 19:22:56,12.709s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Home/Home""), [""page"":""notification"", ""action"":""none""], CONTINUE_ON_FAILURE)",,,,2022-01-26 19:22:56,2022-01-26 19:23:27,31.044s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2022-01-26 19:23:27,2022-01-26 19:23:37,10.269s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Home/005 - Melihat salah satu berita,,,,2022-01-26 19:23:37,2022-01-26 19:24:36,58.514s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2022-01-26 19:23:37,2022-01-26 19:23:50,12.625s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Home/Home""), [""page"":""itemnews"", ""action"":""none""], CONTINUE_ON_FAILURE)",,,,2022-01-26 19:23:50,2022-01-26 19:24:25,35.307s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2022-01-26 19:24:25,2022-01-26 19:24:36,10.356s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Home/006 - Melihat daftar semua berita,,,,2022-01-26 19:24:36,2022-01-26 19:26:30,1m - 54.456s,FAILED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2022-01-26 19:24:36,2022-01-26 19:24:51,14.820s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Home/Home""), [""page"":""news"", ""action"":""none""], CONTINUE_ON_FAILURE)",,,,2022-01-26 19:24:51,2022-01-26 19:26:19,1m - 28.670s,FAILED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2022-01-26 19:26:19,2022-01-26 19:26:30,10.712s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Home/007 - Menambahkan watchlist tanpa input,,,,2022-01-26 19:26:30,2022-01-26 19:27:33,1m - 3.078s,FAILED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2022-01-26 19:26:30,2022-01-26 19:26:43,12.836s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Home/Home""), [""page"":""none"", ""action"":""addwatchlistnoinput""], CONTINUE_ON_FAILURE)",,,,2022-01-26 19:26:43,2022-01-26 19:27:23,39.374s,FAILED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2022-01-26 19:27:23,2022-01-26 19:27:33,10.626s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Home/008 - Menghapus watchlist,,,,2022-01-26 19:27:33,2022-01-26 19:28:53,1m - 19.940s,FAILED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2022-01-26 19:27:33,2022-01-26 19:27:46,12.683s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Home/Home""), [""page"":""none"", ""action"":""deletewatchlist""], CONTINUE_ON_FAILURE)",,,,2022-01-26 19:27:46,2022-01-26 19:28:43,56.663s,FAILED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2022-01-26 19:28:43,2022-01-26 19:28:53,10.344s,PASSED

@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Mobile/Page/CheckLogin'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tap(findTestObject('Mobile/Page/Home/Menubar - Notification'), 10)
+Mobile.tap(GlobalVariable.HOME_MenubarNotification, 10)
 Mobile.delay(1)
 CustomKeywords.'scroll.scroll.scrollScreenBottomToTop'()
 Mobile.delay(3)
