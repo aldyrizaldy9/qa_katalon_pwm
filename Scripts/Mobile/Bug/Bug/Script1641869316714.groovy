@@ -17,23 +17,28 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.delay(2)
+
+if (needlogin) {
+	WebUI.callTestCase(findTestCase('Mobile/Page/CheckLogin'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+}
+
 switch (bug) {
-	case 'analysis - research report tidak dapat diload' :
+	case 'home - daily pertofolio performance tidak muncul' :
+		Mobile.tap(GlobalVariable.HOME_MenubarPortfolio, 0)
+		Mobile.delay(1)
 		
-		break
-	case 'detail news - margin bawah related news terlalu besar' :
+		CustomKeywords.'scroll.scroll.scrollScreenBottomToTop'()
 		
-		break
-	case 'detail stock page - ukuran button tidak sama' :
+		def chart = Mobile.verifyElementExist(GlobalVariable.BUG_PORT_ChartDaily, 5)
 		
-		break
-	case 'home - margin kiri dan kanan tidak sama' :
+		String text = Mobile.getText(GlobalVariable.BUG_PORT_ChartDaily, 0)
 		
-		break
-	case 'login - visible password auto enable' :
+		boolean bug = text.contains("Chart will show when market open")
 		
-		break
-	case 'yearly tax report tidak dapat diload' :
-		
+		if (!bug) {
+			throw new Exception()
+		}
+	
 		break
 }

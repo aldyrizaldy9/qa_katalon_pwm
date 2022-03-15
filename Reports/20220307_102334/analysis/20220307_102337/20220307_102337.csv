@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+analysis,,,,2022-03-07 10:24:14,2022-03-07 10:34:13,9m - 59.573s,FAILED
+,,,,,,,
+Test Cases/Mobile/Scenario/Analysis/001 - Melihat list stock technical analysis,,,,2022-03-07 10:24:15,2022-03-07 10:26:45,2m - 29.282s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2022-03-07 10:24:16,2022-03-07 10:25:01,45.624s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Analysis/Analysis""), [""action"":""technicalsearch""], CONTINUE_ON_FAILURE)",,,,2022-03-07 10:25:01,2022-03-07 10:26:33,1m - 31.785s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2022-03-07 10:26:33,2022-03-07 10:26:45,11.319s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Analysis/002 - Melihat detail stock kategori day,,,,2022-03-07 10:26:45,2022-03-07 10:27:52,1m - 6.993s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2022-03-07 10:26:45,2022-03-07 10:26:59,13.452s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Analysis/Analysis""), [""action"":""technicaldetail"", ""action2"":""day""], CONTINUE_ON_FAILURE)",,,,2022-03-07 10:26:59,2022-03-07 10:27:41,42.296s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2022-03-07 10:27:41,2022-03-07 10:27:52,10.485s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Analysis/003 - Melihat detail stock kategori week,,,,2022-03-07 10:27:52,2022-03-07 10:29:41,1m - 49.770s,FAILED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2022-03-07 10:27:52,2022-03-07 10:28:06,13.285s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Analysis/Analysis""), [""action"":""technicaldetail"", ""action2"":""week""], CONTINUE_ON_FAILURE)",,,,2022-03-07 10:28:06,2022-03-07 10:29:31,1m - 25.337s,FAILED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2022-03-07 10:29:31,2022-03-07 10:29:41,10.402s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Analysis/004 - Melihat detail stock kategori month,,,,2022-03-07 10:29:41,2022-03-07 10:30:51,1m - 10.033s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2022-03-07 10:29:42,2022-03-07 10:29:55,13.003s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Analysis/Analysis""), [""action"":""technicaldetail"", ""action2"":""month""], CONTINUE_ON_FAILURE)",,,,2022-03-07 10:29:55,2022-03-07 10:30:40,45.421s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2022-03-07 10:30:40,2022-03-07 10:30:51,10.864s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Analysis/005 - Melihat detail stock kategori year,,,,2022-03-07 10:30:51,2022-03-07 10:31:58,1m - 7.048s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2022-03-07 10:30:52,2022-03-07 10:31:06,14.414s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Analysis/Analysis""), [""action"":""technicaldetail"", ""action2"":""year""], CONTINUE_ON_FAILURE)",,,,2022-03-07 10:31:06,2022-03-07 10:31:48,41.649s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2022-03-07 10:31:48,2022-03-07 10:31:58,10.289s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Analysis/006 - Melihat Research Report,,,,2022-03-07 10:31:58,2022-03-07 10:33:04,1m - 5.149s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2022-03-07 10:31:59,2022-03-07 10:32:12,13.089s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Analysis/Analysis""), [""action"":""researchdetail""], CONTINUE_ON_FAILURE)",,,,2022-03-07 10:32:12,2022-03-07 10:32:53,40.434s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2022-03-07 10:32:53,2022-03-07 10:33:04,10.868s,PASSED
+,,,,,,,
+Test Cases/Mobile/Scenario/Analysis/007 - Mencari research report,,,,2022-03-07 10:33:04,2022-03-07 10:34:13,1m - 9.728s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Run App byID""), [:], STOP_ON_FAILURE)",,,,2022-03-07 10:33:04,2022-03-07 10:33:17,13.197s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Analysis/Analysis""), [""action"":""researchsearch""], CONTINUE_ON_FAILURE)",,,,2022-03-07 10:33:17,2022-03-07 10:34:02,44.894s,PASSED
+"callTestCase(findTestCase(""Mobile/Page/Run App/Terminate App""), [:], STOP_ON_FAILURE)",,,,2022-03-07 10:34:02,2022-03-07 10:34:13,10.910s,PASSED

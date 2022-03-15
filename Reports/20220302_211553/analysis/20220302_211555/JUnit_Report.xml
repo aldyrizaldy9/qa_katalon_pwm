@@ -1,0 +1,1384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="analysis" time="503.042" tests="7" failures="0" skips="0" errors="0">
+   <testsuite name="analysis" tests="7" failures="0" errors="0" time="503.042" skips="0" timestamp="2022-03-02 21:16:12" hostname="Owner - aldy-tft" id="Test Suites/analysis">
+      <properties>
+         <property name="deviceName" value="samsung SM-A205F (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Owner\\Documents\\kerjaan\\KatalonProject\\qa_katalon_pwm\\qa_katalon_pwm\\Reports\\20220302_211553\\analysis\\20220302_211555"/>
+         <property name="logFiles" value="C:\\Users\\Owner\\Documents\\kerjaan\\KatalonProject\\qa_katalon_pwm\\qa_katalon_pwm\\Reports\\20220302_211553\\analysis\\20220302_211555\\appium.log, C:\\Users\\Owner\\Documents\\kerjaan\\KatalonProject\\qa_katalon_pwm\\qa_katalon_pwm\\Reports\\20220302_211553\\analysis\\20220302_211555\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Owner - aldy-tft"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.0&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.0"/>
+         <property name="deviceModel" value="SM-A205F"/>
+         <property name="hostAddress" value="192.168.100.14"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="RR8M40C9AXE"/>
+         <property name="deviceName" value="samsung SM-A205F (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/Mobile/Scenario/Analysis/001 - Melihat list stock technical analysis" time="105.345" classname="Test Cases/Mobile/Scenario/Analysis/001 - Melihat list stock technical analysis" status="PASSED">
+         <system-out><![CDATA[2022-03-02 21:16:13 - [TEST_CASE][PASSED] - Test Cases/Mobile/Scenario/Analysis/001 - Melihat list stock technical analysis: Test Cases/Mobile/Scenario/Analysis/001 - Melihat list stock technical analysis
+
+2022-03-02 21:16:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Run App/Run App byID"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Run App/Run App byID' successfully
+
+2022-03-02 21:16:14 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Run App/Run App byID: Test Cases/Mobile/Page/Run App/Run App byID
+
+2022-03-02 21:16:15 - [TEST_STEP][PASSED] - startApp.OpenApp.startApplication("id.co.miraeasset.sageclub"): startApp.OpenApp.startApplication is PASSED
+
+2022-03-02 21:16:17 - [MESSAGE][INFO] - Appium server started on port 61,450
+
+2022-03-02 21:16:35 - [MESSAGE][PASSED] - Starting app with application ID: 'id.co.miraeasset.sageclub'
+
+2022-03-02 21:16:35 - [MESSAGE][PASSED] - startApp.OpenApp.startApplication is PASSED
+
+2022-03-02 21:16:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Run App/Run App byID' successfully
+
+2022-03-02 21:16:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Analysis/Analysis"), ["action":"technicalsearch"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Analysis/Analysis' successfully
+
+2022-03-02 21:16:35 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Analysis/Analysis: Test Cases/Mobile/Page/Analysis/Analysis
+
+2022-03-02 21:16:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/CheckLogin"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/CheckLogin' successfully
+
+2022-03-02 21:16:35 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/CheckLogin: Test Cases/Mobile/Page/CheckLogin
+
+2022-03-02 21:16:36 - [TEST_STEP][PASSED] - loginCheck = verifyElementExist(LOGN_BtnLogin, 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Mobile/Page/Login/Button - Login' is exist
+
+2022-03-02 21:16:36 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Mobile/Page/Analysis/Button - Open With Just Once' does not exist
+
+2022-03-02 21:16:36 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Mobile/Page/Analysis/Button - Search' does not exist
+
+2022-03-02 21:16:38 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Mobile/Page/Home/Button -  Add Watchlist' does not exist
+
+2022-03-02 21:16:38 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Mobile/Page/Home/Button - Open with Just Once' does not exist
+
+2022-03-02 21:16:39 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Mobile/Page/Home/Container - Notification' does not exist
+
+2022-03-02 21:16:39 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Mobile/Page/Home/Watchlist/Input - Search' does not exist
+
+2022-03-02 21:16:39 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Mobile/Page/Home/Watchlist/Item - Top Search' does not exist
+
+2022-03-02 21:16:40 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Mobile/Page/Home/Watchlist/Detail Watchlist/Input - Expiry Date' does not exist
+
+2022-03-02 21:16:40 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Mobile/Page/Home/Watchlist/Detail Watchlist/Item - Watchlist' does not exist
+
+2022-03-02 21:16:41 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Mobile/Page/NavigationMenu/Button - Open Just Once' does not exist
+
+2022-03-02 21:16:41 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Mobile/Page/NavigationMenu/Container - Logout' does not exist
+
+2022-03-02 21:16:46 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Mobile/Page/Analysis/Button - Open With Just Once' does not exist
+
+2022-03-02 21:16:46 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Mobile/Page/Analysis/Button - Search' does not exist
+
+2022-03-02 21:16:48 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Mobile/Page/Home/Button -  Add Watchlist' does not exist
+
+2022-03-02 21:16:48 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Mobile/Page/Home/Button - Open with Just Once' does not exist
+
+2022-03-02 21:16:48 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Mobile/Page/Home/Container - Notification' does not exist
+
+2022-03-02 21:16:49 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Mobile/Page/Home/Watchlist/Input - Search' does not exist
+
+2022-03-02 21:16:49 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Mobile/Page/Home/Watchlist/Item - Top Search' does not exist
+
+2022-03-02 21:16:49 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Mobile/Page/Home/Watchlist/Detail Watchlist/Input - Expiry Date' does not exist
+
+2022-03-02 21:16:49 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Mobile/Page/Home/Watchlist/Detail Watchlist/Item - Watchlist' does not exist
+
+2022-03-02 21:16:50 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Mobile/Page/NavigationMenu/Button - Open Just Once' does not exist
+
+2022-03-02 21:16:50 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Mobile/Page/NavigationMenu/Container - Logout' does not exist
+
+2022-03-02 21:16:55 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Page/Login/Button - Login' is exist
+
+2022-03-02 21:16:55 - [TEST_STEP][PASSED] - if (loginCheck): Call Test Case 'Test Cases/Mobile/Page/Login/Login' successfully
+
+2022-03-02 21:16:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Login/Login"), ["action":"username"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Login/Login' successfully
+
+2022-03-02 21:16:55 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Login/Login: Test Cases/Mobile/Page/Login/Login
+
+2022-03-02 21:16:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-02 21:16:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-02 21:16:58 - [TEST_STEP][PASSED] - for ([i = 0, i < 1, (i++)]): null
+
+2022-03-02 21:16:58 - [TEST_STEP][PASSED] - if (action == "username"): null
+
+2022-03-02 21:16:58 - [TEST_STEP][PASSED] - tap(LOGN_EdtUserID, 0): Tapped on element 'Object Repository/Mobile/Page/Login/Input - UserID'
+
+2022-03-02 21:16:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:17:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Login/Input - UserID'
+
+2022-03-02 21:17:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-02 21:17:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:17:01 - [TEST_STEP][PASSED] - setText(LOGN_EdtRdyUserID, "anggaaditya", 0): Text 'anggaaditya' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - UserID'
+
+2022-03-02 21:17:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:17:01 - [MESSAGE][PASSED] - Text 'anggaaditya' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - UserID'
+
+2022-03-02 21:17:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-02 21:17:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:17:02 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-03-02 21:17:07 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-03-02 21:17:07 - [TEST_STEP][PASSED] - tap(LOGN_EdtPassword, 0): Tapped on element 'Object Repository/Mobile/Page/Login/Input - Password'
+
+2022-03-02 21:17:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:17:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Login/Input - Password'
+
+2022-03-02 21:17:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-02 21:17:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:17:09 - [TEST_STEP][PASSED] - setText(LOGN_EdtRdyPassword, "Shalawa18", 0): Text 'Shalawa18' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - Password'
+
+2022-03-02 21:17:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:17:09 - [MESSAGE][PASSED] - Text 'Shalawa18' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - Password'
+
+2022-03-02 21:17:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-02 21:17:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:17:10 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-03-02 21:17:16 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-03-02 21:17:16 - [TEST_STEP][PASSED] - tap(LOGN_BtnLogin, 0): Tapped on element 'Object Repository/Mobile/Page/Login/Button - Login'
+
+2022-03-02 21:17:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:17:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Login/Button - Login'
+
+2022-03-02 21:17:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-02 21:17:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-02 21:17:19 - [TEST_STEP][PASSED] - break: null
+
+2022-03-02 21:17:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Login/Login' successfully
+
+2022-03-02 21:17:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/CheckLogin' successfully
+
+2022-03-02 21:17:19 - [TEST_STEP][PASSED] - tap(HOME_MenubarAnalysis, 0): Tapped on element 'Object Repository/Mobile/Page/Home/Menubar - Analysis'
+
+2022-03-02 21:17:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:17:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Home/Menubar - Analysis'
+
+2022-03-02 21:17:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-02 21:17:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-02 21:17:25 - [TEST_STEP][PASSED] - for ([i = 0, i < 1, (i++)]): Delayed 2 second(s)
+
+2022-03-02 21:17:25 - [TEST_STEP][PASSED] - if (action == "technicalsearch"): Delayed 2 second(s)
+
+2022-03-02 21:17:25 - [TEST_STEP][PASSED] - tap(ANAL_DropTechIndicator, 0): Tapped on element 'Object Repository/Mobile/Page/Analysis/Dropdown - Technical Indicator'
+
+2022-03-02 21:17:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:17:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Analysis/Dropdown - Technical Indicator'
+
+2022-03-02 21:17:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-02 21:17:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:17:27 - [TEST_STEP][PASSED] - tap(ANAL_OptTechIndicatorAll, 0): Tapped on element 'Object Repository/Mobile/Page/Analysis/Option Technical Indicator - All'
+
+2022-03-02 21:17:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:17:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Analysis/Option Technical Indicator - All'
+
+2022-03-02 21:17:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-02 21:17:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:17:29 - [TEST_STEP][PASSED] - tap(ANAL_DropMarketCap, 0): Tapped on element 'Object Repository/Mobile/Page/Analysis/Dropdown - Market Cap'
+
+2022-03-02 21:17:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:17:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Analysis/Dropdown - Market Cap'
+
+2022-03-02 21:17:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-02 21:17:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:17:31 - [TEST_STEP][PASSED] - tap(ANAL_OptMarketCap1T, 0): Tapped on element 'Object Repository/Mobile/Page/Analysis/Option Market Cap - 1 Trillion'
+
+2022-03-02 21:17:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:17:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Analysis/Option Market Cap - 1 Trillion'
+
+2022-03-02 21:17:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-02 21:17:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:17:34 - [TEST_STEP][PASSED] - tap(ANAL_DropTransaction, 0): Tapped on element 'Object Repository/Mobile/Page/Analysis/Dropdown - Transaction'
+
+2022-03-02 21:17:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:17:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Analysis/Dropdown - Transaction'
+
+2022-03-02 21:17:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-02 21:17:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:17:36 - [TEST_STEP][PASSED] - tap(ANAL_OptTransaction10B, 0): Tapped on element 'Object Repository/Mobile/Page/Analysis/Option Transaction - 10 Billion'
+
+2022-03-02 21:17:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:17:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Analysis/Option Transaction - 10 Billion'
+
+2022-03-02 21:17:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-02 21:17:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:17:38 - [TEST_STEP][PASSED] - tap(ANAL_DropTimeFrame, 0): Tapped on element 'Object Repository/Mobile/Page/Analysis/Dropdown - Time Frame'
+
+2022-03-02 21:17:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:17:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Analysis/Dropdown - Time Frame'
+
+2022-03-02 21:17:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-02 21:17:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:17:40 - [TEST_STEP][PASSED] - tap(ANAL_OptTimeFrameDaily, 0): Tapped on element 'Object Repository/Mobile/Page/Analysis/Option Time Frame - Daily'
+
+2022-03-02 21:17:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:17:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Analysis/Option Time Frame - Daily'
+
+2022-03-02 21:17:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-02 21:17:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:17:42 - [TEST_STEP][PASSED] - tap(ANAL_DropIndex, 0): Tapped on element 'Object Repository/Mobile/Page/Analysis/Dropdown - Index'
+
+2022-03-02 21:17:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:17:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Analysis/Dropdown - Index'
+
+2022-03-02 21:17:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-02 21:17:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:17:44 - [TEST_STEP][PASSED] - tap(ANAL_OptIndexIdx30, 0): Tapped on element 'Object Repository/Mobile/Page/Analysis/Option Index - Idx30'
+
+2022-03-02 21:17:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:17:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Analysis/Option Index - Idx30'
+
+2022-03-02 21:17:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-02 21:17:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-02 21:17:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Analysis/Analysis' successfully
+
+2022-03-02 21:17:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Run App/Terminate App"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Run App/Terminate App' successfully
+
+2022-03-02 21:17:48 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Run App/Terminate App: Test Cases/Mobile/Page/Run App/Terminate App
+
+2022-03-02 21:17:48 - [TEST_STEP][PASSED] - startApp.OpenApp.terminateApplication(): startApp.OpenApp.terminateApplication is PASSED
+
+2022-03-02 21:17:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-02 21:17:52 - [MESSAGE][PASSED] - Current device physical width is 720
+
+2022-03-02 21:17:52 - [MESSAGE][PASSED] - Current device physical height is 1423
+
+2022-03-02 21:17:53 - [MESSAGE][PASSED] - Swiped from 360,853 to 360,142
+
+2022-03-02 21:17:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:17:56 - [MESSAGE][PASSED] - Swiped from 360,853 to 360,142
+
+2022-03-02 21:17:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-02 21:17:59 - [MESSAGE][PASSED] - startApp.OpenApp.terminateApplication is PASSED
+
+2022-03-02 21:17:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Run App/Terminate App' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mobile/Scenario/Analysis/002 - Melihat detail stock kategori day" time="68.848" classname="Test Cases/Mobile/Scenario/Analysis/002 - Melihat detail stock kategori day" status="PASSED">
+         <system-out><![CDATA[2022-03-02 21:17:59 - [TEST_CASE][PASSED] - Test Cases/Mobile/Scenario/Analysis/002 - Melihat detail stock kategori day: Test Cases/Mobile/Scenario/Analysis/002 - Melihat detail stock kategori day
+
+2022-03-02 21:17:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Run App/Run App byID"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Run App/Run App byID' successfully
+
+2022-03-02 21:17:59 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Run App/Run App byID: Test Cases/Mobile/Page/Run App/Run App byID
+
+2022-03-02 21:17:59 - [TEST_STEP][PASSED] - startApp.OpenApp.startApplication("id.co.miraeasset.sageclub"): startApp.OpenApp.startApplication is PASSED
+
+2022-03-02 21:18:13 - [MESSAGE][PASSED] - Starting app with application ID: 'id.co.miraeasset.sageclub'
+
+2022-03-02 21:18:13 - [MESSAGE][PASSED] - startApp.OpenApp.startApplication is PASSED
+
+2022-03-02 21:18:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Run App/Run App byID' successfully
+
+2022-03-02 21:18:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Analysis/Analysis"), ["action":"technicaldetail", "action2":"day"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Analysis/Analysis' successfully
+
+2022-03-02 21:18:13 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Analysis/Analysis: Test Cases/Mobile/Page/Analysis/Analysis
+
+2022-03-02 21:18:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/CheckLogin"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/CheckLogin' successfully
+
+2022-03-02 21:18:13 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/CheckLogin: Test Cases/Mobile/Page/CheckLogin
+
+2022-03-02 21:18:13 - [TEST_STEP][PASSED] - loginCheck = verifyElementExist(LOGN_BtnLogin, 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Mobile/Page/Login/Button - Login' is exist
+
+2022-03-02 21:18:15 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Page/Login/Button - Login' is exist
+
+2022-03-02 21:18:15 - [TEST_STEP][PASSED] - if (loginCheck): Call Test Case 'Test Cases/Mobile/Page/Login/Login' successfully
+
+2022-03-02 21:18:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Login/Login"), ["action":"username"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Login/Login' successfully
+
+2022-03-02 21:18:15 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Login/Login: Test Cases/Mobile/Page/Login/Login
+
+2022-03-02 21:18:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-02 21:18:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-02 21:18:17 - [TEST_STEP][PASSED] - for ([i = 0, i < 1, (i++)]): null
+
+2022-03-02 21:18:17 - [TEST_STEP][PASSED] - if (action == "username"): null
+
+2022-03-02 21:18:17 - [TEST_STEP][PASSED] - tap(LOGN_EdtUserID, 0): Tapped on element 'Object Repository/Mobile/Page/Login/Input - UserID'
+
+2022-03-02 21:18:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:18:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Login/Input - UserID'
+
+2022-03-02 21:18:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-02 21:18:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:18:19 - [TEST_STEP][PASSED] - setText(LOGN_EdtRdyUserID, "anggaaditya", 0): Text 'anggaaditya' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - UserID'
+
+2022-03-02 21:18:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:18:19 - [MESSAGE][PASSED] - Text 'anggaaditya' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - UserID'
+
+2022-03-02 21:18:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-02 21:18:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:18:20 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-03-02 21:18:24 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-03-02 21:18:24 - [TEST_STEP][PASSED] - tap(LOGN_EdtPassword, 0): Tapped on element 'Object Repository/Mobile/Page/Login/Input - Password'
+
+2022-03-02 21:18:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:18:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Login/Input - Password'
+
+2022-03-02 21:18:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-02 21:18:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:18:25 - [TEST_STEP][PASSED] - setText(LOGN_EdtRdyPassword, "Shalawa18", 0): Text 'Shalawa18' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - Password'
+
+2022-03-02 21:18:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:18:26 - [MESSAGE][PASSED] - Text 'Shalawa18' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - Password'
+
+2022-03-02 21:18:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-02 21:18:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:18:27 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-03-02 21:18:36 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-03-02 21:18:36 - [TEST_STEP][PASSED] - tap(LOGN_BtnLogin, 0): Tapped on element 'Object Repository/Mobile/Page/Login/Button - Login'
+
+2022-03-02 21:18:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:18:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Login/Button - Login'
+
+2022-03-02 21:18:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-02 21:18:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-02 21:18:39 - [TEST_STEP][PASSED] - break: null
+
+2022-03-02 21:18:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Login/Login' successfully
+
+2022-03-02 21:18:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/CheckLogin' successfully
+
+2022-03-02 21:18:39 - [TEST_STEP][PASSED] - tap(HOME_MenubarAnalysis, 0): Tapped on element 'Object Repository/Mobile/Page/Home/Menubar - Analysis'
+
+2022-03-02 21:18:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:18:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Home/Menubar - Analysis'
+
+2022-03-02 21:18:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-02 21:18:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-02 21:18:44 - [TEST_STEP][PASSED] - for ([i = 0, i < 1, (i++)]): Delayed 2 second(s)
+
+2022-03-02 21:18:44 - [TEST_STEP][PASSED] - if (action == "technicalsearch"): null
+
+2022-03-02 21:18:44 - [TEST_STEP][PASSED] - else if (action == "technicaldetail"): Delayed 2 second(s)
+
+2022-03-02 21:18:44 - [TEST_STEP][PASSED] - tapAndHold(ANAL_ItemTopResultTech, 1, 0): Tapped and held on element 'Object Repository/Mobile/Page/Analysis/Item - Top Technical' with duration 1
+
+2022-03-02 21:18:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:18:47 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/Mobile/Page/Analysis/Item - Top Technical' with duration 1
+
+2022-03-02 21:18:47 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-02 21:18:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-02 21:18:52 - [TEST_STEP][PASSED] - switch (action2): null
+
+2022-03-02 21:18:52 - [TEST_STEP][PASSED] - case "day":: null
+
+2022-03-02 21:18:52 - [TEST_STEP][PASSED] - tapAndHold(ANAL_DETL_BtnD, 1, 0): Tapped and held on element 'Object Repository/Mobile/Page/Analysis/Detail/Button - D' with duration 1
+
+2022-03-02 21:18:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:18:55 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/Mobile/Page/Analysis/Detail/Button - D' with duration 1
+
+2022-03-02 21:18:55 - [TEST_STEP][PASSED] - break: null
+
+2022-03-02 21:18:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-02 21:18:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-02 21:18:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Analysis/Analysis' successfully
+
+2022-03-02 21:18:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Run App/Terminate App"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Run App/Terminate App' successfully
+
+2022-03-02 21:18:57 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Run App/Terminate App: Test Cases/Mobile/Page/Run App/Terminate App
+
+2022-03-02 21:18:57 - [TEST_STEP][PASSED] - startApp.OpenApp.terminateApplication(): startApp.OpenApp.terminateApplication is PASSED
+
+2022-03-02 21:19:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-02 21:19:01 - [MESSAGE][PASSED] - Current device physical width is 720
+
+2022-03-02 21:19:01 - [MESSAGE][PASSED] - Current device physical height is 1423
+
+2022-03-02 21:19:02 - [MESSAGE][PASSED] - Swiped from 360,853 to 360,142
+
+2022-03-02 21:19:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:19:04 - [MESSAGE][PASSED] - Swiped from 360,853 to 360,142
+
+2022-03-02 21:19:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-02 21:19:07 - [MESSAGE][PASSED] - startApp.OpenApp.terminateApplication is PASSED
+
+2022-03-02 21:19:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Run App/Terminate App' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mobile/Scenario/Analysis/003 - Melihat detail stock kategori week" time="66.999" classname="Test Cases/Mobile/Scenario/Analysis/003 - Melihat detail stock kategori week" status="PASSED">
+         <system-out><![CDATA[2022-03-02 21:19:07 - [TEST_CASE][PASSED] - Test Cases/Mobile/Scenario/Analysis/003 - Melihat detail stock kategori week: Test Cases/Mobile/Scenario/Analysis/003 - Melihat detail stock kategori week
+
+2022-03-02 21:19:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Run App/Run App byID"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Run App/Run App byID' successfully
+
+2022-03-02 21:19:08 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Run App/Run App byID: Test Cases/Mobile/Page/Run App/Run App byID
+
+2022-03-02 21:19:08 - [TEST_STEP][PASSED] - startApp.OpenApp.startApplication("id.co.miraeasset.sageclub"): startApp.OpenApp.startApplication is PASSED
+
+2022-03-02 21:19:22 - [MESSAGE][PASSED] - Starting app with application ID: 'id.co.miraeasset.sageclub'
+
+2022-03-02 21:19:22 - [MESSAGE][PASSED] - startApp.OpenApp.startApplication is PASSED
+
+2022-03-02 21:19:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Run App/Run App byID' successfully
+
+2022-03-02 21:19:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Analysis/Analysis"), ["action":"technicaldetail", "action2":"week"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Analysis/Analysis' successfully
+
+2022-03-02 21:19:22 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Analysis/Analysis: Test Cases/Mobile/Page/Analysis/Analysis
+
+2022-03-02 21:19:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/CheckLogin"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/CheckLogin' successfully
+
+2022-03-02 21:19:22 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/CheckLogin: Test Cases/Mobile/Page/CheckLogin
+
+2022-03-02 21:19:22 - [TEST_STEP][PASSED] - loginCheck = verifyElementExist(LOGN_BtnLogin, 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Mobile/Page/Login/Button - Login' is exist
+
+2022-03-02 21:19:24 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Page/Login/Button - Login' is exist
+
+2022-03-02 21:19:24 - [TEST_STEP][PASSED] - if (loginCheck): Call Test Case 'Test Cases/Mobile/Page/Login/Login' successfully
+
+2022-03-02 21:19:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Login/Login"), ["action":"username"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Login/Login' successfully
+
+2022-03-02 21:19:24 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Login/Login: Test Cases/Mobile/Page/Login/Login
+
+2022-03-02 21:19:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-02 21:19:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-02 21:19:26 - [TEST_STEP][PASSED] - for ([i = 0, i < 1, (i++)]): null
+
+2022-03-02 21:19:26 - [TEST_STEP][PASSED] - if (action == "username"): null
+
+2022-03-02 21:19:26 - [TEST_STEP][PASSED] - tap(LOGN_EdtUserID, 0): Tapped on element 'Object Repository/Mobile/Page/Login/Input - UserID'
+
+2022-03-02 21:19:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:19:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Login/Input - UserID'
+
+2022-03-02 21:19:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-02 21:19:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:19:28 - [TEST_STEP][PASSED] - setText(LOGN_EdtRdyUserID, "anggaaditya", 0): Text 'anggaaditya' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - UserID'
+
+2022-03-02 21:19:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:19:29 - [MESSAGE][PASSED] - Text 'anggaaditya' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - UserID'
+
+2022-03-02 21:19:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-02 21:19:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:19:30 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-03-02 21:19:33 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-03-02 21:19:33 - [TEST_STEP][PASSED] - tap(LOGN_EdtPassword, 0): Tapped on element 'Object Repository/Mobile/Page/Login/Input - Password'
+
+2022-03-02 21:19:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:19:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Login/Input - Password'
+
+2022-03-02 21:19:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-02 21:19:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:19:35 - [TEST_STEP][PASSED] - setText(LOGN_EdtRdyPassword, "Shalawa18", 0): Text 'Shalawa18' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - Password'
+
+2022-03-02 21:19:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:19:36 - [MESSAGE][PASSED] - Text 'Shalawa18' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - Password'
+
+2022-03-02 21:19:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-02 21:19:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:19:37 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-03-02 21:19:43 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-03-02 21:19:43 - [TEST_STEP][PASSED] - tap(LOGN_BtnLogin, 0): Tapped on element 'Object Repository/Mobile/Page/Login/Button - Login'
+
+2022-03-02 21:19:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:19:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Login/Button - Login'
+
+2022-03-02 21:19:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-02 21:19:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-02 21:19:46 - [TEST_STEP][PASSED] - break: null
+
+2022-03-02 21:19:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Login/Login' successfully
+
+2022-03-02 21:19:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/CheckLogin' successfully
+
+2022-03-02 21:19:46 - [TEST_STEP][PASSED] - tap(HOME_MenubarAnalysis, 0): Tapped on element 'Object Repository/Mobile/Page/Home/Menubar - Analysis'
+
+2022-03-02 21:19:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:19:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Home/Menubar - Analysis'
+
+2022-03-02 21:19:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-02 21:19:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-02 21:19:51 - [TEST_STEP][PASSED] - for ([i = 0, i < 1, (i++)]): Delayed 2 second(s)
+
+2022-03-02 21:19:51 - [TEST_STEP][PASSED] - if (action == "technicalsearch"): null
+
+2022-03-02 21:19:51 - [TEST_STEP][PASSED] - else if (action == "technicaldetail"): Delayed 2 second(s)
+
+2022-03-02 21:19:51 - [TEST_STEP][PASSED] - tapAndHold(ANAL_ItemTopResultTech, 1, 0): Tapped and held on element 'Object Repository/Mobile/Page/Analysis/Item - Top Technical' with duration 1
+
+2022-03-02 21:19:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:19:54 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/Mobile/Page/Analysis/Item - Top Technical' with duration 1
+
+2022-03-02 21:19:54 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-02 21:19:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-02 21:19:59 - [TEST_STEP][PASSED] - switch (action2): null
+
+2022-03-02 21:19:59 - [TEST_STEP][PASSED] - case "week":: null
+
+2022-03-02 21:19:59 - [TEST_STEP][PASSED] - tapAndHold(ANAL_DETL_BtnW, 1, 0): Tapped and held on element 'Object Repository/Mobile/Page/Analysis/Detail/Button - W' with duration 1
+
+2022-03-02 21:19:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:20:02 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/Mobile/Page/Analysis/Detail/Button - W' with duration 1
+
+2022-03-02 21:20:02 - [TEST_STEP][PASSED] - break: null
+
+2022-03-02 21:20:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-02 21:20:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-02 21:20:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Analysis/Analysis' successfully
+
+2022-03-02 21:20:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Run App/Terminate App"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Run App/Terminate App' successfully
+
+2022-03-02 21:20:04 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Run App/Terminate App: Test Cases/Mobile/Page/Run App/Terminate App
+
+2022-03-02 21:20:04 - [TEST_STEP][PASSED] - startApp.OpenApp.terminateApplication(): startApp.OpenApp.terminateApplication is PASSED
+
+2022-03-02 21:20:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-02 21:20:07 - [MESSAGE][PASSED] - Current device physical width is 720
+
+2022-03-02 21:20:08 - [MESSAGE][PASSED] - Current device physical height is 1423
+
+2022-03-02 21:20:09 - [MESSAGE][PASSED] - Swiped from 360,853 to 360,142
+
+2022-03-02 21:20:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:20:11 - [MESSAGE][PASSED] - Swiped from 360,853 to 360,142
+
+2022-03-02 21:20:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-02 21:20:14 - [MESSAGE][PASSED] - startApp.OpenApp.terminateApplication is PASSED
+
+2022-03-02 21:20:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Run App/Terminate App' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mobile/Scenario/Analysis/004 - Melihat detail stock kategori month" time="66.303" classname="Test Cases/Mobile/Scenario/Analysis/004 - Melihat detail stock kategori month" status="PASSED">
+         <system-out><![CDATA[2022-03-02 21:20:14 - [TEST_CASE][PASSED] - Test Cases/Mobile/Scenario/Analysis/004 - Melihat detail stock kategori month: Test Cases/Mobile/Scenario/Analysis/004 - Melihat detail stock kategori month
+
+2022-03-02 21:20:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Run App/Run App byID"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Run App/Run App byID' successfully
+
+2022-03-02 21:20:15 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Run App/Run App byID: Test Cases/Mobile/Page/Run App/Run App byID
+
+2022-03-02 21:20:15 - [TEST_STEP][PASSED] - startApp.OpenApp.startApplication("id.co.miraeasset.sageclub"): startApp.OpenApp.startApplication is PASSED
+
+2022-03-02 21:20:27 - [MESSAGE][PASSED] - Starting app with application ID: 'id.co.miraeasset.sageclub'
+
+2022-03-02 21:20:27 - [MESSAGE][PASSED] - startApp.OpenApp.startApplication is PASSED
+
+2022-03-02 21:20:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Run App/Run App byID' successfully
+
+2022-03-02 21:20:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Analysis/Analysis"), ["action":"technicaldetail", "action2":"month"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Analysis/Analysis' successfully
+
+2022-03-02 21:20:27 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Analysis/Analysis: Test Cases/Mobile/Page/Analysis/Analysis
+
+2022-03-02 21:20:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/CheckLogin"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/CheckLogin' successfully
+
+2022-03-02 21:20:28 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/CheckLogin: Test Cases/Mobile/Page/CheckLogin
+
+2022-03-02 21:20:28 - [TEST_STEP][PASSED] - loginCheck = verifyElementExist(LOGN_BtnLogin, 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Mobile/Page/Login/Button - Login' is exist
+
+2022-03-02 21:20:30 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Page/Login/Button - Login' is exist
+
+2022-03-02 21:20:30 - [TEST_STEP][PASSED] - if (loginCheck): Call Test Case 'Test Cases/Mobile/Page/Login/Login' successfully
+
+2022-03-02 21:20:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Login/Login"), ["action":"username"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Login/Login' successfully
+
+2022-03-02 21:20:30 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Login/Login: Test Cases/Mobile/Page/Login/Login
+
+2022-03-02 21:20:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-02 21:20:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-02 21:20:32 - [TEST_STEP][PASSED] - for ([i = 0, i < 1, (i++)]): null
+
+2022-03-02 21:20:32 - [TEST_STEP][PASSED] - if (action == "username"): null
+
+2022-03-02 21:20:32 - [TEST_STEP][PASSED] - tap(LOGN_EdtUserID, 0): Tapped on element 'Object Repository/Mobile/Page/Login/Input - UserID'
+
+2022-03-02 21:20:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:20:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Login/Input - UserID'
+
+2022-03-02 21:20:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-02 21:20:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:20:34 - [TEST_STEP][PASSED] - setText(LOGN_EdtRdyUserID, "anggaaditya", 0): Text 'anggaaditya' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - UserID'
+
+2022-03-02 21:20:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:20:35 - [MESSAGE][PASSED] - Text 'anggaaditya' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - UserID'
+
+2022-03-02 21:20:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-02 21:20:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:20:36 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-03-02 21:20:40 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-03-02 21:20:40 - [TEST_STEP][PASSED] - tap(LOGN_EdtPassword, 0): Tapped on element 'Object Repository/Mobile/Page/Login/Input - Password'
+
+2022-03-02 21:20:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:20:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Login/Input - Password'
+
+2022-03-02 21:20:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-02 21:20:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:20:41 - [TEST_STEP][PASSED] - setText(LOGN_EdtRdyPassword, "Shalawa18", 0): Text 'Shalawa18' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - Password'
+
+2022-03-02 21:20:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:20:42 - [MESSAGE][PASSED] - Text 'Shalawa18' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - Password'
+
+2022-03-02 21:20:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-02 21:20:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:20:43 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-03-02 21:20:49 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-03-02 21:20:49 - [TEST_STEP][PASSED] - tap(LOGN_BtnLogin, 0): Tapped on element 'Object Repository/Mobile/Page/Login/Button - Login'
+
+2022-03-02 21:20:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:20:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Login/Button - Login'
+
+2022-03-02 21:20:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-02 21:20:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-02 21:20:52 - [TEST_STEP][PASSED] - break: null
+
+2022-03-02 21:20:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Login/Login' successfully
+
+2022-03-02 21:20:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/CheckLogin' successfully
+
+2022-03-02 21:20:52 - [TEST_STEP][PASSED] - tap(HOME_MenubarAnalysis, 0): Tapped on element 'Object Repository/Mobile/Page/Home/Menubar - Analysis'
+
+2022-03-02 21:20:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:20:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Home/Menubar - Analysis'
+
+2022-03-02 21:20:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-02 21:20:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-02 21:20:57 - [TEST_STEP][PASSED] - for ([i = 0, i < 1, (i++)]): Delayed 2 second(s)
+
+2022-03-02 21:20:57 - [TEST_STEP][PASSED] - if (action == "technicalsearch"): null
+
+2022-03-02 21:20:57 - [TEST_STEP][PASSED] - else if (action == "technicaldetail"): Delayed 2 second(s)
+
+2022-03-02 21:20:57 - [TEST_STEP][PASSED] - tapAndHold(ANAL_ItemTopResultTech, 1, 0): Tapped and held on element 'Object Repository/Mobile/Page/Analysis/Item - Top Technical' with duration 1
+
+2022-03-02 21:20:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:21:01 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/Mobile/Page/Analysis/Item - Top Technical' with duration 1
+
+2022-03-02 21:21:01 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-02 21:21:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-02 21:21:06 - [TEST_STEP][PASSED] - switch (action2): null
+
+2022-03-02 21:21:06 - [TEST_STEP][PASSED] - case "month":: null
+
+2022-03-02 21:21:06 - [TEST_STEP][PASSED] - tapAndHold(ANAL_DETL_BtnM, 1, 0): Tapped and held on element 'Object Repository/Mobile/Page/Analysis/Detail/Button - M' with duration 1
+
+2022-03-02 21:21:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:21:08 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/Mobile/Page/Analysis/Detail/Button - M' with duration 1
+
+2022-03-02 21:21:08 - [TEST_STEP][PASSED] - break: null
+
+2022-03-02 21:21:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-02 21:21:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-02 21:21:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Analysis/Analysis' successfully
+
+2022-03-02 21:21:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Run App/Terminate App"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Run App/Terminate App' successfully
+
+2022-03-02 21:21:10 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Run App/Terminate App: Test Cases/Mobile/Page/Run App/Terminate App
+
+2022-03-02 21:21:10 - [TEST_STEP][PASSED] - startApp.OpenApp.terminateApplication(): startApp.OpenApp.terminateApplication is PASSED
+
+2022-03-02 21:21:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-02 21:21:14 - [MESSAGE][PASSED] - Current device physical width is 720
+
+2022-03-02 21:21:14 - [MESSAGE][PASSED] - Current device physical height is 1423
+
+2022-03-02 21:21:15 - [MESSAGE][PASSED] - Swiped from 360,853 to 360,142
+
+2022-03-02 21:21:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:21:18 - [MESSAGE][PASSED] - Swiped from 360,853 to 360,142
+
+2022-03-02 21:21:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-02 21:21:21 - [MESSAGE][PASSED] - startApp.OpenApp.terminateApplication is PASSED
+
+2022-03-02 21:21:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Run App/Terminate App' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mobile/Scenario/Analysis/005 - Melihat detail stock kategori year" time="63.889" classname="Test Cases/Mobile/Scenario/Analysis/005 - Melihat detail stock kategori year" status="PASSED">
+         <system-out><![CDATA[2022-03-02 21:21:21 - [TEST_CASE][PASSED] - Test Cases/Mobile/Scenario/Analysis/005 - Melihat detail stock kategori year: Test Cases/Mobile/Scenario/Analysis/005 - Melihat detail stock kategori year
+
+2022-03-02 21:21:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Run App/Run App byID"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Run App/Run App byID' successfully
+
+2022-03-02 21:21:21 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Run App/Run App byID: Test Cases/Mobile/Page/Run App/Run App byID
+
+2022-03-02 21:21:21 - [TEST_STEP][PASSED] - startApp.OpenApp.startApplication("id.co.miraeasset.sageclub"): startApp.OpenApp.startApplication is PASSED
+
+2022-03-02 21:21:34 - [MESSAGE][PASSED] - Starting app with application ID: 'id.co.miraeasset.sageclub'
+
+2022-03-02 21:21:34 - [MESSAGE][PASSED] - startApp.OpenApp.startApplication is PASSED
+
+2022-03-02 21:21:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Run App/Run App byID' successfully
+
+2022-03-02 21:21:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Analysis/Analysis"), ["action":"technicaldetail", "action2":"year"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Analysis/Analysis' successfully
+
+2022-03-02 21:21:34 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Analysis/Analysis: Test Cases/Mobile/Page/Analysis/Analysis
+
+2022-03-02 21:21:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/CheckLogin"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/CheckLogin' successfully
+
+2022-03-02 21:21:34 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/CheckLogin: Test Cases/Mobile/Page/CheckLogin
+
+2022-03-02 21:21:34 - [TEST_STEP][PASSED] - loginCheck = verifyElementExist(LOGN_BtnLogin, 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Mobile/Page/Login/Button - Login' is exist
+
+2022-03-02 21:21:36 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Page/Login/Button - Login' is exist
+
+2022-03-02 21:21:36 - [TEST_STEP][PASSED] - if (loginCheck): Call Test Case 'Test Cases/Mobile/Page/Login/Login' successfully
+
+2022-03-02 21:21:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Login/Login"), ["action":"username"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Login/Login' successfully
+
+2022-03-02 21:21:36 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Login/Login: Test Cases/Mobile/Page/Login/Login
+
+2022-03-02 21:21:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-02 21:21:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-02 21:21:38 - [TEST_STEP][PASSED] - for ([i = 0, i < 1, (i++)]): null
+
+2022-03-02 21:21:38 - [TEST_STEP][PASSED] - if (action == "username"): null
+
+2022-03-02 21:21:38 - [TEST_STEP][PASSED] - tap(LOGN_EdtUserID, 0): Tapped on element 'Object Repository/Mobile/Page/Login/Input - UserID'
+
+2022-03-02 21:21:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:21:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Login/Input - UserID'
+
+2022-03-02 21:21:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-02 21:21:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:21:39 - [TEST_STEP][PASSED] - setText(LOGN_EdtRdyUserID, "anggaaditya", 0): Text 'anggaaditya' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - UserID'
+
+2022-03-02 21:21:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:21:40 - [MESSAGE][PASSED] - Text 'anggaaditya' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - UserID'
+
+2022-03-02 21:21:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-02 21:21:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:21:41 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-03-02 21:21:45 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-03-02 21:21:45 - [TEST_STEP][PASSED] - tap(LOGN_EdtPassword, 0): Tapped on element 'Object Repository/Mobile/Page/Login/Input - Password'
+
+2022-03-02 21:21:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:21:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Login/Input - Password'
+
+2022-03-02 21:21:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-02 21:21:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:21:46 - [TEST_STEP][PASSED] - setText(LOGN_EdtRdyPassword, "Shalawa18", 0): Text 'Shalawa18' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - Password'
+
+2022-03-02 21:21:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:21:47 - [MESSAGE][PASSED] - Text 'Shalawa18' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - Password'
+
+2022-03-02 21:21:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-02 21:21:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:21:48 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-03-02 21:21:54 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-03-02 21:21:54 - [TEST_STEP][PASSED] - tap(LOGN_BtnLogin, 0): Tapped on element 'Object Repository/Mobile/Page/Login/Button - Login'
+
+2022-03-02 21:21:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:21:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Login/Button - Login'
+
+2022-03-02 21:21:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-02 21:21:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-02 21:21:57 - [TEST_STEP][PASSED] - break: null
+
+2022-03-02 21:21:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Login/Login' successfully
+
+2022-03-02 21:21:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/CheckLogin' successfully
+
+2022-03-02 21:21:57 - [TEST_STEP][PASSED] - tap(HOME_MenubarAnalysis, 0): Tapped on element 'Object Repository/Mobile/Page/Home/Menubar - Analysis'
+
+2022-03-02 21:21:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:21:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Home/Menubar - Analysis'
+
+2022-03-02 21:21:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-02 21:22:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-02 21:22:01 - [TEST_STEP][PASSED] - for ([i = 0, i < 1, (i++)]): Delayed 2 second(s)
+
+2022-03-02 21:22:01 - [TEST_STEP][PASSED] - if (action == "technicalsearch"): null
+
+2022-03-02 21:22:01 - [TEST_STEP][PASSED] - else if (action == "technicaldetail"): Delayed 2 second(s)
+
+2022-03-02 21:22:01 - [TEST_STEP][PASSED] - tapAndHold(ANAL_ItemTopResultTech, 1, 0): Tapped and held on element 'Object Repository/Mobile/Page/Analysis/Item - Top Technical' with duration 1
+
+2022-03-02 21:22:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:22:04 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/Mobile/Page/Analysis/Item - Top Technical' with duration 1
+
+2022-03-02 21:22:04 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-02 21:22:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-02 21:22:09 - [TEST_STEP][PASSED] - switch (action2): null
+
+2022-03-02 21:22:09 - [TEST_STEP][PASSED] - case "year":: null
+
+2022-03-02 21:22:09 - [TEST_STEP][PASSED] - tapAndHold(ANAL_DETL_BtnY, 1, 0): Tapped and held on element 'Object Repository/Mobile/Page/Analysis/Detail/Button - Y' with duration 1
+
+2022-03-02 21:22:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:22:12 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/Mobile/Page/Analysis/Detail/Button - Y' with duration 1
+
+2022-03-02 21:22:12 - [TEST_STEP][PASSED] - break: null
+
+2022-03-02 21:22:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-02 21:22:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-02 21:22:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Analysis/Analysis' successfully
+
+2022-03-02 21:22:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Run App/Terminate App"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Run App/Terminate App' successfully
+
+2022-03-02 21:22:14 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Run App/Terminate App: Test Cases/Mobile/Page/Run App/Terminate App
+
+2022-03-02 21:22:14 - [TEST_STEP][PASSED] - startApp.OpenApp.terminateApplication(): startApp.OpenApp.terminateApplication is PASSED
+
+2022-03-02 21:22:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-02 21:22:18 - [MESSAGE][PASSED] - Current device physical width is 720
+
+2022-03-02 21:22:18 - [MESSAGE][PASSED] - Current device physical height is 1423
+
+2022-03-02 21:22:19 - [MESSAGE][PASSED] - Swiped from 360,853 to 360,142
+
+2022-03-02 21:22:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:22:22 - [MESSAGE][PASSED] - Swiped from 360,853 to 360,142
+
+2022-03-02 21:22:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-02 21:22:25 - [MESSAGE][PASSED] - startApp.OpenApp.terminateApplication is PASSED
+
+2022-03-02 21:22:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Run App/Terminate App' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mobile/Scenario/Analysis/006 - Melihat Research Report" time="62.743" classname="Test Cases/Mobile/Scenario/Analysis/006 - Melihat Research Report" status="PASSED">
+         <system-out><![CDATA[2022-03-02 21:22:25 - [TEST_CASE][PASSED] - Test Cases/Mobile/Scenario/Analysis/006 - Melihat Research Report: Test Cases/Mobile/Scenario/Analysis/006 - Melihat Research Report
+
+2022-03-02 21:22:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Run App/Run App byID"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Run App/Run App byID' successfully
+
+2022-03-02 21:22:25 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Run App/Run App byID: Test Cases/Mobile/Page/Run App/Run App byID
+
+2022-03-02 21:22:25 - [TEST_STEP][PASSED] - startApp.OpenApp.startApplication("id.co.miraeasset.sageclub"): startApp.OpenApp.startApplication is PASSED
+
+2022-03-02 21:22:37 - [MESSAGE][PASSED] - Starting app with application ID: 'id.co.miraeasset.sageclub'
+
+2022-03-02 21:22:37 - [MESSAGE][PASSED] - startApp.OpenApp.startApplication is PASSED
+
+2022-03-02 21:22:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Run App/Run App byID' successfully
+
+2022-03-02 21:22:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Analysis/Analysis"), ["action":"researchdetail"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Analysis/Analysis' successfully
+
+2022-03-02 21:22:37 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Analysis/Analysis: Test Cases/Mobile/Page/Analysis/Analysis
+
+2022-03-02 21:22:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/CheckLogin"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/CheckLogin' successfully
+
+2022-03-02 21:22:37 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/CheckLogin: Test Cases/Mobile/Page/CheckLogin
+
+2022-03-02 21:22:37 - [TEST_STEP][PASSED] - loginCheck = verifyElementExist(LOGN_BtnLogin, 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Mobile/Page/Login/Button - Login' is exist
+
+2022-03-02 21:22:39 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Page/Login/Button - Login' is exist
+
+2022-03-02 21:22:39 - [TEST_STEP][PASSED] - if (loginCheck): Call Test Case 'Test Cases/Mobile/Page/Login/Login' successfully
+
+2022-03-02 21:22:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Login/Login"), ["action":"username"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Login/Login' successfully
+
+2022-03-02 21:22:39 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Login/Login: Test Cases/Mobile/Page/Login/Login
+
+2022-03-02 21:22:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-02 21:22:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-02 21:22:41 - [TEST_STEP][PASSED] - for ([i = 0, i < 1, (i++)]): null
+
+2022-03-02 21:22:41 - [TEST_STEP][PASSED] - if (action == "username"): null
+
+2022-03-02 21:22:41 - [TEST_STEP][PASSED] - tap(LOGN_EdtUserID, 0): Tapped on element 'Object Repository/Mobile/Page/Login/Input - UserID'
+
+2022-03-02 21:22:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:22:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Login/Input - UserID'
+
+2022-03-02 21:22:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-02 21:22:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:22:43 - [TEST_STEP][PASSED] - setText(LOGN_EdtRdyUserID, "anggaaditya", 0): Text 'anggaaditya' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - UserID'
+
+2022-03-02 21:22:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:22:44 - [MESSAGE][PASSED] - Text 'anggaaditya' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - UserID'
+
+2022-03-02 21:22:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-02 21:22:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:22:45 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-03-02 21:22:48 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-03-02 21:22:48 - [TEST_STEP][PASSED] - tap(LOGN_EdtPassword, 0): Tapped on element 'Object Repository/Mobile/Page/Login/Input - Password'
+
+2022-03-02 21:22:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:22:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Login/Input - Password'
+
+2022-03-02 21:22:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-02 21:22:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:22:50 - [TEST_STEP][PASSED] - setText(LOGN_EdtRdyPassword, "Shalawa18", 0): Text 'Shalawa18' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - Password'
+
+2022-03-02 21:22:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:22:51 - [MESSAGE][PASSED] - Text 'Shalawa18' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - Password'
+
+2022-03-02 21:22:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-02 21:22:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:22:52 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-03-02 21:22:58 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-03-02 21:22:58 - [TEST_STEP][PASSED] - tap(LOGN_BtnLogin, 0): Tapped on element 'Object Repository/Mobile/Page/Login/Button - Login'
+
+2022-03-02 21:22:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:22:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Login/Button - Login'
+
+2022-03-02 21:22:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-02 21:23:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-02 21:23:01 - [TEST_STEP][PASSED] - break: null
+
+2022-03-02 21:23:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Login/Login' successfully
+
+2022-03-02 21:23:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/CheckLogin' successfully
+
+2022-03-02 21:23:01 - [TEST_STEP][PASSED] - tap(HOME_MenubarAnalysis, 0): Tapped on element 'Object Repository/Mobile/Page/Home/Menubar - Analysis'
+
+2022-03-02 21:23:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:23:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Home/Menubar - Analysis'
+
+2022-03-02 21:23:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-02 21:23:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-02 21:23:06 - [TEST_STEP][PASSED] - for ([i = 0, i < 1, (i++)]): Press back button successfully
+
+2022-03-02 21:23:06 - [TEST_STEP][PASSED] - if (action == "technicalsearch"): null
+
+2022-03-02 21:23:06 - [TEST_STEP][PASSED] - else if (action == "technicaldetail"): null
+
+2022-03-02 21:23:06 - [TEST_STEP][PASSED] - else if (action == "researchdetail"): Press back button successfully
+
+2022-03-02 21:23:06 - [TEST_STEP][PASSED] - tap(ANAL_TabResearchReport, 0): Tapped on element 'Object Repository/Mobile/Page/Analysis/Tab - Research Report'
+
+2022-03-02 21:23:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:23:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Analysis/Tab - Research Report'
+
+2022-03-02 21:23:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-02 21:23:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:23:09 - [TEST_STEP][PASSED] - tapAndHold(ANAL_ItemTopSearch, 1, 0): Tapped and held on element 'Object Repository/Mobile/Page/Analysis/Item - Top Search' with duration 1
+
+2022-03-02 21:23:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:23:11 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/Mobile/Page/Analysis/Item - Top Search' with duration 1
+
+2022-03-02 21:23:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-02 21:23:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-02 21:23:14 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-03-02 21:23:16 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-03-02 21:23:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Analysis/Analysis' successfully
+
+2022-03-02 21:23:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Run App/Terminate App"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Run App/Terminate App' successfully
+
+2022-03-02 21:23:16 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Run App/Terminate App: Test Cases/Mobile/Page/Run App/Terminate App
+
+2022-03-02 21:23:16 - [TEST_STEP][PASSED] - startApp.OpenApp.terminateApplication(): startApp.OpenApp.terminateApplication is PASSED
+
+2022-03-02 21:23:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-02 21:23:20 - [MESSAGE][PASSED] - Current device physical width is 720
+
+2022-03-02 21:23:21 - [MESSAGE][PASSED] - Current device physical height is 1423
+
+2022-03-02 21:23:22 - [MESSAGE][PASSED] - Swiped from 360,853 to 360,142
+
+2022-03-02 21:23:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:23:24 - [MESSAGE][PASSED] - Swiped from 360,853 to 360,142
+
+2022-03-02 21:23:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-02 21:23:27 - [MESSAGE][PASSED] - startApp.OpenApp.terminateApplication is PASSED
+
+2022-03-02 21:23:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Run App/Terminate App' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mobile/Scenario/Analysis/007 - Mencari research report" time="67.779" classname="Test Cases/Mobile/Scenario/Analysis/007 - Mencari research report" status="PASSED">
+         <system-out><![CDATA[2022-03-02 21:23:27 - [TEST_CASE][PASSED] - Test Cases/Mobile/Scenario/Analysis/007 - Mencari research report: Test Cases/Mobile/Scenario/Analysis/007 - Mencari research report
+
+2022-03-02 21:23:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Run App/Run App byID"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Run App/Run App byID' successfully
+
+2022-03-02 21:23:28 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Run App/Run App byID: Test Cases/Mobile/Page/Run App/Run App byID
+
+2022-03-02 21:23:28 - [TEST_STEP][PASSED] - startApp.OpenApp.startApplication("id.co.miraeasset.sageclub"): startApp.OpenApp.startApplication is PASSED
+
+2022-03-02 21:23:40 - [MESSAGE][PASSED] - Starting app with application ID: 'id.co.miraeasset.sageclub'
+
+2022-03-02 21:23:40 - [MESSAGE][PASSED] - startApp.OpenApp.startApplication is PASSED
+
+2022-03-02 21:23:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Run App/Run App byID' successfully
+
+2022-03-02 21:23:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Analysis/Analysis"), ["action":"researchsearch"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Analysis/Analysis' successfully
+
+2022-03-02 21:23:40 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Analysis/Analysis: Test Cases/Mobile/Page/Analysis/Analysis
+
+2022-03-02 21:23:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/CheckLogin"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/CheckLogin' successfully
+
+2022-03-02 21:23:40 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/CheckLogin: Test Cases/Mobile/Page/CheckLogin
+
+2022-03-02 21:23:40 - [TEST_STEP][PASSED] - loginCheck = verifyElementExist(LOGN_BtnLogin, 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Mobile/Page/Login/Button - Login' is exist
+
+2022-03-02 21:23:42 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Page/Login/Button - Login' is exist
+
+2022-03-02 21:23:42 - [TEST_STEP][PASSED] - if (loginCheck): Call Test Case 'Test Cases/Mobile/Page/Login/Login' successfully
+
+2022-03-02 21:23:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Login/Login"), ["action":"username"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Login/Login' successfully
+
+2022-03-02 21:23:42 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Login/Login: Test Cases/Mobile/Page/Login/Login
+
+2022-03-02 21:23:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-02 21:23:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-02 21:23:44 - [TEST_STEP][PASSED] - for ([i = 0, i < 1, (i++)]): null
+
+2022-03-02 21:23:44 - [TEST_STEP][PASSED] - if (action == "username"): null
+
+2022-03-02 21:23:44 - [TEST_STEP][PASSED] - tap(LOGN_EdtUserID, 0): Tapped on element 'Object Repository/Mobile/Page/Login/Input - UserID'
+
+2022-03-02 21:23:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:23:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Login/Input - UserID'
+
+2022-03-02 21:23:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-02 21:23:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:23:46 - [TEST_STEP][PASSED] - setText(LOGN_EdtRdyUserID, "anggaaditya", 0): Text 'anggaaditya' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - UserID'
+
+2022-03-02 21:23:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:23:46 - [MESSAGE][PASSED] - Text 'anggaaditya' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - UserID'
+
+2022-03-02 21:23:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-02 21:23:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:23:47 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-03-02 21:23:51 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-03-02 21:23:51 - [TEST_STEP][PASSED] - tap(LOGN_EdtPassword, 0): Tapped on element 'Object Repository/Mobile/Page/Login/Input - Password'
+
+2022-03-02 21:23:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:23:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Login/Input - Password'
+
+2022-03-02 21:23:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-02 21:23:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:23:53 - [TEST_STEP][PASSED] - setText(LOGN_EdtRdyPassword, "Shalawa18", 0): Text 'Shalawa18' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - Password'
+
+2022-03-02 21:23:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:23:53 - [MESSAGE][PASSED] - Text 'Shalawa18' has been set to element 'Object Repository/Mobile/Page/Login/Input Rdy - Password'
+
+2022-03-02 21:23:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-02 21:23:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:23:54 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-03-02 21:24:00 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-03-02 21:24:00 - [TEST_STEP][PASSED] - tap(LOGN_BtnLogin, 0): Tapped on element 'Object Repository/Mobile/Page/Login/Button - Login'
+
+2022-03-02 21:24:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:24:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Login/Button - Login'
+
+2022-03-02 21:24:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-02 21:24:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-02 21:24:03 - [TEST_STEP][PASSED] - break: null
+
+2022-03-02 21:24:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Login/Login' successfully
+
+2022-03-02 21:24:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/CheckLogin' successfully
+
+2022-03-02 21:24:03 - [TEST_STEP][PASSED] - tap(HOME_MenubarAnalysis, 0): Tapped on element 'Object Repository/Mobile/Page/Home/Menubar - Analysis'
+
+2022-03-02 21:24:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:24:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Home/Menubar - Analysis'
+
+2022-03-02 21:24:06 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-02 21:24:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-02 21:24:09 - [TEST_STEP][PASSED] - for ([i = 0, i < 1, (i++)]): Press back button successfully
+
+2022-03-02 21:24:09 - [TEST_STEP][PASSED] - if (action == "technicalsearch"): null
+
+2022-03-02 21:24:09 - [TEST_STEP][PASSED] - else if (action == "technicaldetail"): null
+
+2022-03-02 21:24:09 - [TEST_STEP][PASSED] - else if (action == "researchdetail"): null
+
+2022-03-02 21:24:09 - [TEST_STEP][PASSED] - else if (action == "researchsearch"): Press back button successfully
+
+2022-03-02 21:24:09 - [TEST_STEP][PASSED] - tap(ANAL_TabResearchReport, 0): Tapped on element 'Object Repository/Mobile/Page/Analysis/Tab - Research Report'
+
+2022-03-02 21:24:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:24:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Analysis/Tab - Research Report'
+
+2022-03-02 21:24:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-02 21:24:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:24:11 - [TEST_STEP][PASSED] - tap(ANAL_EdtSearch, 0): Tapped on element 'Object Repository/Mobile/Page/Analysis/Input - Search'
+
+2022-03-02 21:24:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:24:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Page/Analysis/Input - Search'
+
+2022-03-02 21:24:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-03-02 21:24:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:24:13 - [TEST_STEP][PASSED] - setText(ANAL_EdtSearch, "embun", 0): Text 'embun' has been set to element 'Object Repository/Mobile/Page/Analysis/Input - Search'
+
+2022-03-02 21:24:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:24:13 - [MESSAGE][PASSED] - Text 'embun' has been set to element 'Object Repository/Mobile/Page/Analysis/Input - Search'
+
+2022-03-02 21:24:13 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-03-02 21:24:17 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-03-02 21:24:17 - [TEST_STEP][PASSED] - tapAndHold(ANAL_ItemTopSearch, 1, 0): Tapped and held on element 'Object Repository/Mobile/Page/Analysis/Item - Top Search' with duration 1
+
+2022-03-02 21:24:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2022-03-02 21:24:20 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/Mobile/Page/Analysis/Item - Top Search' with duration 1
+
+2022-03-02 21:24:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-02 21:24:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-02 21:24:23 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-03-02 21:24:24 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-03-02 21:24:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Analysis/Analysis' successfully
+
+2022-03-02 21:24:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Page/Run App/Terminate App"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Page/Run App/Terminate App' successfully
+
+2022-03-02 21:24:24 - [TEST_CASE][PASSED] - Test Cases/Mobile/Page/Run App/Terminate App: Test Cases/Mobile/Page/Run App/Terminate App
+
+2022-03-02 21:24:24 - [TEST_STEP][PASSED] - startApp.OpenApp.terminateApplication(): startApp.OpenApp.terminateApplication is PASSED
+
+2022-03-02 21:24:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-02 21:24:28 - [MESSAGE][PASSED] - Current device physical width is 720
+
+2022-03-02 21:24:28 - [MESSAGE][PASSED] - Current device physical height is 1423
+
+2022-03-02 21:24:30 - [MESSAGE][PASSED] - Swiped from 360,853 to 360,142
+
+2022-03-02 21:24:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-03-02 21:24:32 - [MESSAGE][PASSED] - Swiped from 360,853 to 360,142
+
+2022-03-02 21:24:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-02 21:24:35 - [MESSAGE][PASSED] - startApp.OpenApp.terminateApplication is PASSED
+
+2022-03-02 21:24:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Page/Run App/Terminate App' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-02 21:16:12 - [TEST_SUITE][PASSED] - analysis: Test Cases/Mobile/Scenario/Analysis/007 - Mencari research report]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

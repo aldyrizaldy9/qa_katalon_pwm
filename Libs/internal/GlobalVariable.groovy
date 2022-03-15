@@ -747,6 +747,11 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
+    public static Object BUG_PORT_ChartDaily
+     
+    /**
+     * <p></p>
+     */
     public static Object locationAPK
      
     /**
@@ -928,6 +933,7 @@ public class GlobalVariable {
             LOGN_AlertInvalidCredentials = selectedVariables['LOGN_AlertInvalidCredentials']
             OTHR_BtnWifi = selectedVariables['OTHR_BtnWifi']
             HOME_WCTL_DETL_AlertFillinput = selectedVariables['HOME_WCTL_DETL_AlertFillinput']
+            BUG_PORT_ChartDaily = selectedVariables['BUG_PORT_ChartDaily']
             locationAPK = selectedVariables['locationAPK']
             username = selectedVariables['username']
             password = selectedVariables['password']

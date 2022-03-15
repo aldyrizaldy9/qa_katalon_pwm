@@ -22,7 +22,7 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('Mobile/Page/CheckLogin'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(GlobalVariable.HOME_MenubarPortfolio, 0)
-Mobile.delay(1)
+Mobile.delay(5)
 
 for (int i = 0; i < 1; i++) {
 	if (tab == 'summary') {
@@ -49,6 +49,7 @@ for (int i = 0; i < 1; i++) {
 		
 		if (action != 'summary') {
 			Mobile.delay(1)
+			CustomKeywords.'scroll.scroll.scrollScreenBottomToTop'()
 			CustomKeywords.'scroll.scroll.scrollScreenBottomToTop'()
 			Mobile.delay(3)
 			if (action2 == 'idr') {

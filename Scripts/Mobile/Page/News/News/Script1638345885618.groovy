@@ -25,7 +25,7 @@ import io.appium.java_client.android.AndroidKeyCode
 WebUI.callTestCase(findTestCase('Mobile/Page/CheckLogin'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(GlobalVariable.HOME_MenubarNews, 0)
-Mobile.delay(1)
+Mobile.delay(3)
 
 for (int i = 0; i < 1; i++) {
 	if (tab == 'macronews') {
